@@ -1,24 +1,20 @@
-# 台灣特別股分析 V1.2
+# 台灣上市櫃特別股分析 V1.3
 
-V1.2 新增「股價＋殖利率＋IRR/YTC」自動更新，並整合專屬 App Icon。
+V1.3 重點：
+- 股價：TWSE MIS / TPEx 自動更新
+- 殖利率：依最新股價自動重算
+- TWD IRS：Cbonds + GitHub Actions
+- XIRR：以官方已公告「除息日」作為股息權利取得日期，搭配精確贖回日做日期化計算
+- 若缺少未來已公告除息日期，網站明確顯示資料不足，不再以年配息近似值冒充日期化 XIRR
+- FindBillion 僅作標的清單與交叉驗證來源之一
 
-## 自動更新
-- TWD IRS：沿用 `.github/workflows/update-irs.yml`
-- 特別股市場資料：新增 `.github/workflows/update-market.yml`
-- 平日台灣時間約 14:45 執行市場更新
-- 股價來源：TWSE MIS，程式亦嘗試 TPEx market code 作為 fallback
-- 殖利率：年股息 ÷ 最新股價
-- IRR/YTC：只有在「未來可贖回日＋贖回價＋年股息」完整時自動估算；採年配息近似模型，不等同精確 XIRR
+## V1.3 新增檔案
+- `data/dividend_events.json`
+- `scripts/update_dividends.py`
+- `.github/workflows/update-dividends.yml`
 
-## Icon / PWA
-- `icons/icon-192.png`
-- `icons/icon-512.png`
-- `icons/apple-touch-icon.png`
-- `icons/favicon-64.png`
-- `manifest.webmanifest`
+GitHub Actions 的 dividend workflow 會從 TWSE 官方 OpenAPI 更新除權息事件；V1.3 只要有 `exDate` 與每股股息金額即可納入 XIRR，`paymentDate` 僅保留作參考，不參與計算。
 
-iPhone Safari 加到主畫面後會使用新的台灣特別股圖示。
 
-## 上傳 GitHub
-把本資料夾內所有檔案覆蓋/新增至 repository 根目錄。請保留 `.github` 隱藏資料夾。
-上傳後可到 Actions 手動執行一次 `Update preferred stock market data` 驗證。
+## V1.3 XIRR 定義
+本版依使用需求採「除息日基準 XIRR」：投資人只要在除息前持有並取得股息權利，即把該筆股息視為在除息日確定取得的經濟利益。此定義與以實際現金入帳日計算的傳統 XIRR 會有些微差異。
