@@ -2,232 +2,155 @@ from __future__ import annotations
 import json, math, time
 from datetime import datetime, timezone, timedelta, date
 from pathlib import Path
+from calendar import monthrange
 import requests
 
-ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "data" / "preferred_stocks.json"
-MIS_URL = "https://mis.twse.com.tw/stock/api/getStockInfo.jsp"
-TW = timezone(timedelta(hours=8))
-
+ROOT=Path(__file__).resolve().parents[1]
+OUT=ROOT/'data'/'preferred_stocks.json'
+MIS_URL='https://mis.twse.com.tw/stock/api/getStockInfo.jsp'
+TW=timezone(timedelta(hours=8))
 
 def fnum(v):
     try:
-        if v in (None, "", "-", "--"):
-            return None
-        s = str(v).replace(",", "").strip()
-        x = float(s)
-        return x if math.isfinite(x) else None
-    except Exception:
-        return None
+        if v in (None,'','-','--'): return None
+        x=float(str(v).replace(',','').strip()); return x if math.isfinite(x) else None
+    except: return None
 
-
-def quote_one(session, code):
-    # Most preferred shares are listed. Try TWSE first, then TPEx.
-    for market in ("tse", "otc"):
-        params = {"ex_ch": f"{market}_{code}.tw", "json": "1", "delay": "0"}
-        r = session.get(MIS_URL, params=params, timeout=20)
-        r.raise_for_status()
-        j = r.json()
-        arr = j.get("msgArray") or []
-        if not arr:
-            continue
-        q = arr[0]
-        price = fnum(q.get("z"))
-        if price is None:
-            # During non-trading periods z can be '-'. Prefer previous close over bid/ask guesses.
-            price = fnum(q.get("y"))
-        if price is None:
-            continue
-        return {
-            "price": price,
-            "market": market,
-            "name": q.get("n") or q.get("nf"),
-            "quoteDate": q.get("d"),
-            "quoteTime": q.get("t"),
-            "previousClose": fnum(q.get("y")),
-            "open": fnum(q.get("o")),
-            "high": fnum(q.get("h")),
-            "low": fnum(q.get("l")),
-            "volume": fnum(q.get("v")),
-        }
+def quote_one(session,code):
+    for market in ('tse','otc'):
+        r=session.get(MIS_URL,params={'ex_ch':f'{market}_{code}.tw','json':'1','delay':'0'},timeout=20)
+        r.raise_for_status(); arr=(r.json().get('msgArray') or [])
+        if not arr: continue
+        q=arr[0]; price=fnum(q.get('z')) or fnum(q.get('y'))
+        if price is None: continue
+        return {'price':price,'market':market,'quoteDate':q.get('d'),'quoteTime':q.get('t'),'previousClose':fnum(q.get('y')),
+                'open':fnum(q.get('o')),'high':fnum(q.get('h')),'low':fnum(q.get('l')),'volume':fnum(q.get('v'))}
     return None
 
+def add_months(dt,months):
+    y=dt.year+(dt.month-1+months)//12; m=(dt.month-1+months)%12+1
+    return date(y,m,min(dt.day,monthrange(y,m)[1]))
 
-def approx_ytc(price, annual_div, call_price, call_date, asof=None):
-    """可贖回日 IRR/YTC：年配息近似，但期限使用實際可贖回日。"""
-    if not all(isinstance(x, (int,float)) and x > 0 for x in (price, annual_div, call_price)):
-        return None
-    try:
-        d = date.fromisoformat(str(call_date))
-    except Exception:
-        return None
-    base = asof or datetime.now(TW).date()
-    days = (d - base).days
-    if days <= 7:
-        return None
-    years = days / 365.25
-    def pv(r):
-        if r <= -0.9999:
-            return float("inf")
-        if abs(r) < 1e-9:
-            coupons = annual_div * years
-        else:
-            coupons = annual_div * (1 - (1+r) ** (-years)) / r
-        return coupons + call_price / ((1+r) ** years)
-    lo, hi = -0.95, 3.0
-    if pv(lo) < price or pv(hi) > price:
-        return None
-    for _ in range(140):
-        mid=(lo+hi)/2
-        if pv(mid) > price: lo=mid
-        else: hi=mid
-    return round((lo+hi)/2*100, 2)
+def next_reset_date(stock,asof):
+    fc=stock.get('firstCallDate'); cyc=stock.get('resetCycleYears')
+    if not fc or not cyc: return None
+    try: dt=date.fromisoformat(fc); months=round(float(cyc)*12)
+    except: return None
+    while dt<=asof: dt=add_months(dt,months)
+    return dt
 
+def official_events_for(code,events):
+    out=[]
+    for e in events:
+        if str(e.get('code'))!=str(code) or not e.get('exDate'): continue
+        try: out.append((date.fromisoformat(e['exDate']),fnum(e.get('amount'))))
+        except: pass
+    return sorted(out)
 
-def xnpv(rate, cashflows):
-    if rate <= -0.999999: return float('inf')
-    d0=cashflows[0][0]
-    return sum(amount / ((1+rate)**((d-d0).days/365.0)) for d,amount in cashflows)
+def project_ex_dates(stock,asof,horizon,events):
+    ev=official_events_for(stock.get('code'),events)
+    future=[(dt,amt,'official') for dt,amt in ev if asof<dt<=horizon and (amt or stock.get('div'))]
+    if future: return future
+    # no future official announcement: infer seasonal month/day from newest official event, then from static hint
+    anchor=ev[-1][0] if ev else None
+    if anchor is None and stock.get('lastExDateHint'):
+        try: anchor=date.fromisoformat(stock['lastExDateHint'])
+        except: anchor=None
+    if anchor is None: return []
+    amount=fnum(stock.get('div'))
+    if not amount or amount<=0:return []
+    out=[]
+    for y in range(asof.year,horizon.year+1):
+        try: dt=date(y,anchor.month,anchor.day)
+        except: dt=date(y,anchor.month,min(anchor.day,monthrange(y,anchor.month)[1]))
+        if asof<dt<=horizon: out.append((dt,amount,'projected'))
+    return out
 
+def xnpv(rate,flows):
+    if rate<=-0.999999:return float('inf')
+    d0=flows[0][0]
+    return sum(a/((1+rate)**((d-d0).days/365.0)) for d,a in flows)
 
-def xirr(cashflows):
-    cashflows=sorted(cashflows,key=lambda x:x[0])
-    if len(cashflows)<2 or not any(a<0 for _,a in cashflows) or not any(a>0 for _,a in cashflows): return None
-    lo,hi=-0.95,5.0
-    flo,fhi=xnpv(lo,cashflows),xnpv(hi,cashflows)
-    if flo*fhi>0: return None
-    for _ in range(160):
-        mid=(lo+hi)/2; fm=xnpv(mid,cashflows)
-        if abs(fm)<1e-10: break
-        if flo*fm<=0: hi=mid; fhi=fm
-        else: lo=mid; flo=fm
+def xirr(flows):
+    flows=sorted(flows,key=lambda x:x[0])
+    if len(flows)<2 or not any(a<0 for _,a in flows) or not any(a>0 for _,a in flows):return None
+    lo,hi=-.95,10.0; flo,fhi=xnpv(lo,flows),xnpv(hi,flows)
+    if flo*fhi>0:return None
+    for _ in range(180):
+        mid=(lo+hi)/2; fm=xnpv(mid,flows)
+        if abs(fm)<1e-10:break
+        if flo*fm<=0:hi=mid;fhi=fm
+        else:lo=mid;flo=fm
     return round((lo+hi)/2*100,2)
 
+def lifecycle(stock,asof):
+    if not stock.get('call'): return 'not_callable','不可贖回',None
+    fc=stock.get('firstCallDate') or (stock.get('callDate') if stock.get('callDate') not in (None,'-','待核對') else None)
+    if not fc:return 'callable_unknown_date','可贖回（首次日期待核對）',None
+    try:d=date.fromisoformat(fc)
+    except:return 'callable_unknown_date','可贖回（首次日期待核對）',None
+    if d>asof:return 'future_first_call','尚未到首次可贖回日',d
+    return 'callable_now','已進入可贖回期間',d
 
-def date_aware_xirr(stock, price, asof, events):
-    try: call_date=date.fromisoformat(str(stock.get('callDate')))
-    except Exception: return None,'缺少未來可贖回日',0
-    call_price=stock.get('callPrice')
-    if not isinstance(call_price,(int,float)) or call_price<=0 or call_date<=asof: return None,'缺少有效贖回價/日期',0
-    ev=[]
-    for e in events:
-        if str(e.get('code'))!=str(stock.get('code')): continue
-        try:
-            ex=date.fromisoformat(e['exDate']) if e.get('exDate') else None
-            amt=float(e.get('amount'))
-        except Exception: continue
-        # V1.3 policy: use ex-dividend date as the dividend entitlement date for XIRR.
-        if ex and amt>0 and ex<=call_date and ex>asof: ev.append((ex,amt))
-    if not ev: return None,'尚無未來已公告除息日期；不以年化近似冒充 XIRR',0
-    flows=[(asof,-price)]+ev+[(call_date,float(call_price))]
-    return xirr(flows),'除息日基準 XIRR（官方除息日 + 精確贖回日）',len(ev)
+def recalc_returns(stock,asof,events):
+    state,label,fc=lifecycle(stock,asof)
+    stock['callability']=state;stock['callabilityLabel']=label
+    nr=next_reset_date(stock,asof);stock['nextResetDate']=nr.isoformat() if nr else None
+    price=fnum(stock.get('price')); div=fnum(stock.get('div')); callp=fnum(stock.get('callPrice')) or fnum(stock.get('par'))
+    stock['callIrr']=None; stock['irr']=None
+    horizon=None; mode=None
+    if state=='future_first_call':horizon=fc;mode='first-call'
+    elif state=='callable_now' and nr:horizon=nr;mode='continuation'
+    if not horizon or not price or not div or not callp:
+        stock['xirr']=None;stock['xirrStatus']='unavailable';stock['cashflowCoverage']='資料不足'
+        stock['callIrrMethod']='不可贖回或缺少明確未來首次可贖回日' if state!='callable_now' else '已進入可隨時贖回期間，無單一未來贖回日'
+        stock['xirrMethod']='缺少可定義情境終點或股息資料';return
+    exs=project_ex_dates(stock,asof,horizon,events)
+    flows=[(asof,-price)]+[(dt,float(amt or div)) for dt,amt,_ in exs]
+    # At redemption, preferred-share terms commonly settle redemption principal; V1.4 does not invent a separate accrued coupon unless contract-specific data is available.
+    flows.append((horizon,callp))
+    val=xirr(flows)
+    stock['xirr']=val;stock['xirrCashflowCount']=len(flows)-1
+    any_projected=any(src=='projected' for _,_,src in exs)
+    if mode=='first-call':
+        # Avoid misleading astronomical annualization when the first-call date is extremely close.
+        days=(horizon-asof).days
+        if days>=60:
+            stock['callIrr']=val;stock['irr']=val;stock['callIrrStatus']='estimated' if any_projected else 'official-dates'
+        else:
+            stock['callIrr']=None;stock['irr']=None;stock['callIrrStatus']='too-short'
+        stock['callIrrMethod']='首次可贖回情境 IRR：除息日股息 + 贖回本金，Actual/365；距可贖回日過短時不顯示年化值'
+        stock['xirrMethod']='除息日基準 XIRR（未公告未來除息日採最近季節性估算）'
+    else:
+        stock['callIrrStatus']='callable-now';stock['callIrrMethod']='已進入可隨時贖回期間，無單一未來贖回日，不硬算單一 YTC'
+        stock['xirrMethod']='續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）'
+    stock['xirrStatus']='estimated' if any_projected else 'official-dates'
+    stock['cashflowCoverage']='估算（含未公告未來除息日）' if any_projected else '官方除息日覆蓋'
 
 def main():
-    data = json.loads(OUT.read_text(encoding="utf-8"))
-    stocks = data.get("stocks", [])
-    div_path = ROOT / "data" / "dividend_events.json"
-    try:
-        div_data = json.loads(div_path.read_text(encoding="utf-8"))
-        dividend_events = div_data.get("events", [])
-    except Exception:
-        dividend_events = []
-    session = requests.Session()
-    session.headers.update({
-        "User-Agent": "Mozilla/5.0 (compatible; TaiwanPreferredStockDashboard/1.3.2; +https://github.com/)",
-        "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.7",
-        "Referer": "https://mis.twse.com.tw/stock/fibest.jsp",
-    })
-    now = datetime.now(TW)
-    ok, fail = 0, []
+    data=json.loads(OUT.read_text(encoding='utf-8'));stocks=data.get('stocks',[])
+    try: events=json.loads((ROOT/'data'/'dividend_events.json').read_text(encoding='utf-8')).get('events',[])
+    except: events=[]
+    sess=requests.Session();sess.headers.update({'User-Agent':'Mozilla/5.0 TaiwanPreferredStockDashboard/1.4','Referer':'https://mis.twse.com.tw/stock/fibest.jsp'})
+    now=datetime.now(TW);ok=0;fail=[]
     for s in stocks:
-        code = str(s.get("code", "")).strip()
+        code=str(s.get('code','')).strip()
         try:
-            q = quote_one(session, code)
-            if not q:
-                fail.append(code)
-                continue
-            old_price = s.get("price")
-            s["price"] = q["price"]
-            s["market"] = q["market"]
-            s["quoteDate"] = q.get("quoteDate")
-            s["quoteTime"] = q.get("quoteTime")
-            s["previousClose"] = q.get("previousClose")
-            s["open"] = q.get("open")
-            s["high"] = q.get("high")
-            s["low"] = q.get("low")
-            s["volume"] = q.get("volume")
-            if q.get("previousClose"):
-                s["changePct"] = round((q["price"] / q["previousClose"] - 1) * 100, 2)
-            if isinstance(s.get("div"), (int,float)) and q["price"] > 0:
-                s["yield"] = round(s["div"] / q["price"] * 100, 2)
-            asof = now.date()
-
-            # 1) 可贖回日 IRR / YTC：獨立存在，絕不受除息日資料影響。
-            prev_call_irr = s.get("callIrr")
-            call_irr = approx_ytc(q["price"], s.get("div"), s.get("callPrice"), s.get("callDate"), asof)
-            if call_irr is not None:
-                s["callIrr"] = call_irr
-                s["irr"] = call_irr  # backward-compatible alias
-                s["callIrrMethod"] = "可贖回日 IRR/YTC（最新市價＋年配息近似＋實際贖回日）"
-                s["callIrrStatus"] = "refreshed"
-            else:
-                # 已過可贖回日或條件不足時，不因 XIRR 更新而清除既有 IRR。
-                if isinstance(prev_call_irr,(int,float)):
-                    s["callIrr"] = prev_call_irr
-                    s["irr"] = prev_call_irr
-                    s["callIrrMethod"] = s.get("callIrrMethod") or "沿用既有可贖回日 IRR"
-                    s["callIrrStatus"] = "carried-forward"
-                else:
-                    s["callIrr"] = None
-                    s["irr"] = None
-                    s["callIrrMethod"] = "缺少未來可贖回日／贖回價／年股息，無法估算"
-                    s["callIrrStatus"] = "unavailable"
-
-            # 2) 除息日基準 XIRR：完全獨立欄位。除息資料只刷新 XIRR，不碰 IRR。
-            prev_xirr = s.get("xirr")
-            prev_method = s.get("xirrMethod") or s.get("irrMethod")
-            prev_count = s.get("xirrCashflowCount")
-            xv, method, event_count = date_aware_xirr(s, q["price"], asof, dividend_events)
-            if xv is not None:
-                s["xirr"] = xv
-                s["xirrMethod"] = method
-                s["irrMethod"] = method  # legacy display compatibility only
-                s["xirrCashflowCount"] = event_count
-                s["cashflowCoverage"] = "可計算（除息日資料完整）"
-                s["xirrStatus"] = "refreshed"
-            else:
-                if isinstance(prev_xirr,(int,float)):
-                    s["xirr"] = prev_xirr
-                    s["xirrMethod"] = (prev_method or "前次有效 XIRR") + "；除息日資料不足，本次不覆蓋"
-                    s["irrMethod"] = s["xirrMethod"]
-                    s["xirrCashflowCount"] = prev_count
-                    s["cashflowCoverage"] = "沿用前次有效 XIRR"
-                    s["xirrStatus"] = "carried-forward"
-                else:
-                    s["xirr"] = None
-                    s["xirrMethod"] = method
-                    s["irrMethod"] = method
-                    s["xirrCashflowCount"] = event_count
-                    s["cashflowCoverage"] = "尚無可用 XIRR"
-                    s["xirrStatus"] = "unavailable"
-            s["lastPriceBeforeUpdate"] = old_price
-            s["marketUpdatedAt"] = now.isoformat(timespec="seconds")
-            ok += 1
-            time.sleep(0.12)
-        except Exception as e:
-            fail.append(code)
-            s["marketUpdateError"] = str(e)[:240]
-    data["version"] = "1.3.2"
-    data["marketDataAsOf"] = now.date().isoformat()
-    data["marketUpdatedAt"] = now.isoformat(timespec="seconds")
-    data["marketUpdateStatus"] = "ok" if ok else "stale"
-    data["marketUpdateSuccessCount"] = ok
-    data["marketUpdateFailCodes"] = fail
-    data["marketSourceLabel"] = "TWSE MIS / TPEx quote fallback"
-    data["marketSourceUrl"] = MIS_URL
-    data["irrPolicy"] = "V1.3.2：可贖回日 IRR/YTC 與除息日基準 XIRR 完全分離；除息資料不足不會影響 IRR。"
-    OUT.write_text(json.dumps(data, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
-    print(json.dumps({"updated": ok, "failed": fail, "asof": data["marketDataAsOf"]}, ensure_ascii=False))
-
-if __name__ == "__main__":
-    main()
+            q=quote_one(sess,code)
+            if q:
+                old=s.get('price');s.update(q);s['lastPriceBeforeUpdate']=old
+                if fnum(s.get('div')) and q['price']>0:s['yield']=round(float(s['div'])/q['price']*100,2)
+                if q.get('previousClose'):s['changePct']=round((q['price']/q['previousClose']-1)*100,2)
+                ok+=1
+            else:fail.append(code)
+            recalc_returns(s,now.date(),events)
+            s['marketUpdatedAt']=now.isoformat(timespec='seconds');time.sleep(.1)
+        except Exception as exc:
+            fail.append(code);s['marketUpdateError']=str(exc)[:240]
+    data['version']='1.4';data['marketDataAsOf']=now.date().isoformat();data['marketUpdatedAt']=now.isoformat(timespec='seconds')
+    data['marketUpdateStatus']='ok' if ok else 'stale';data['marketUpdateSuccessCount']=ok;data['marketUpdateFailCodes']=fail
+    data['marketSourceLabel']='TWSE MIS / TPEx quote fallback';data['marketSourceUrl']=MIS_URL
+    data['irrPolicy']='V1.4：首次可贖回日在未來才顯示可贖回情境 IRR；已進入可隨時贖回期間不強行指定唯一 YTC。XIRR 採除息日；未公告未來除息日採最近季節性估算並明確標示。'
+    OUT.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    print(json.dumps({'updated':ok,'failed':fail,'asof':data['marketDataAsOf']},ensure_ascii=False))
+if __name__=='__main__':main()
