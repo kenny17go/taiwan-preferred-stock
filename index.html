@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<title>台灣特別股分析 V1.5.5</title>
+<title>台灣特別股分析 V1.5.7</title>
 <link rel="manifest" href="./manifest.webmanifest">
 <meta name="theme-color" content="#0c2746">
 <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
@@ -14,7 +14,7 @@
 header{position:sticky;top:0;z-index:20;background:linear-gradient(135deg,#0c2746,#153f70);color:#fff;padding:14px 20px;box-shadow:0 4px 18px #0c274622}header .top{max-width:1500px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:12px}.brand{font-weight:800;font-size:20px}.sub{font-size:12px;opacity:.75;margin-top:3px}.badge{background:#ffffff18;border:1px solid #ffffff33;padding:7px 10px;border-radius:999px;font-size:12px}
 nav{max-width:1500px;margin:12px auto 0;display:flex;gap:8px;overflow:auto;padding-bottom:2px}nav button{border:0;background:#ffffff12;color:#fff;padding:9px 12px;border-radius:10px;white-space:nowrap;cursor:pointer}nav button.active{background:#fff;color:#12385f;font-weight:700}
 main{max-width:1500px;margin:18px auto;padding:0 14px 40px}.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;box-shadow:0 4px 18px #1520330a}.kpi .label{color:var(--muted);font-size:13px}.kpi .value{font-size:28px;font-weight:800;margin-top:4px}.kpi .hint{font-size:12px;color:var(--muted);margin-top:5px}.up{color:var(--green)}.warn{color:var(--amber)}
-h2{margin:0 0 12px;font-size:18px}.section{display:none}.section.active{display:block}.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}.toolbar input,.toolbar select,.toolbar button,.field input,.field select{border:1px solid #d9e0e8;border-radius:10px;padding:10px 11px;background:#fff;color:var(--ink)}.toolbar input{min-width:230px}.btn{background:var(--blue)!important;color:white!important;border-color:var(--blue)!important;cursor:pointer}.btn2{cursor:pointer;background:#fff}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:13px}table{border-collapse:collapse;width:100%;min-width:1850px;background:#fff}th,td{padding:10px 9px;border-bottom:1px solid #edf0f4;text-align:left;font-size:12.5px;white-space:nowrap}th{position:sticky;top:0;background:#f8fafc;z-index:1;color:#475467;font-weight:700}tr:hover td{background:#f8fbff}.code{font-weight:800;color:#174d84}.pill{display:inline-block;padding:4px 7px;border-radius:999px;background:var(--chip);font-size:11px}.pill.ok{background:#e8f6ee;color:#167449}.pill.wait{background:#fff4dc;color:#946200}.pill.red{background:#fdecec;color:#b42318}.star{cursor:pointer;font-size:18px;color:#aab2bd}.star.on{color:#f1b600}.formula{font-weight:700;color:#2c5282}.tiny{font-size:11px;color:var(--muted)}
+h2{margin:0 0 12px;font-size:18px}.section{display:none}.section.active{display:block}.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}.toolbar input,.toolbar select,.toolbar button,.field input,.field select{border:1px solid #d9e0e8;border-radius:10px;padding:10px 11px;background:#fff;color:var(--ink)}.toolbar input{min-width:230px}.btn{background:var(--blue)!important;color:white!important;border-color:var(--blue)!important;cursor:pointer}.btn2{cursor:pointer;background:#fff}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:13px}table{border-collapse:collapse;width:100%;min-width:1980px;background:#fff}th,td{padding:10px 9px;border-bottom:1px solid #edf0f4;text-align:left;font-size:12.5px;white-space:nowrap}th{position:sticky;top:0;background:#f8fafc;z-index:1;color:#475467;font-weight:700}tr:hover td{background:#f8fbff}.code{font-weight:800;color:#174d84}.pill{display:inline-block;padding:4px 7px;border-radius:999px;background:var(--chip);font-size:11px}.pill.ok{background:#e8f6ee;color:#167449}.pill.wait{background:#fff4dc;color:#946200}.pill.red{background:#fdecec;color:#b42318}.star{cursor:pointer;font-size:18px;color:#aab2bd}.star.on{color:#f1b600}.formula{font-weight:700;color:#2c5282}.tiny{font-size:11px;color:var(--muted)}
 .rank{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}.rank ol{margin:0;padding-left:25px}.rank li{padding:8px 0;border-bottom:1px dashed #e6eaf0}.score{font-weight:800;color:var(--green);float:right}.compare-slot{display:grid;grid-template-columns:1fr 1fr;gap:12px}.metric{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid #edf0f4}.field{display:grid;grid-template-columns:190px 1fr;gap:10px;align-items:center;margin:9px 0}.result{background:#f7fbff;border:1px solid #dfeaf7;border-radius:12px;padding:14px;margin-top:12px}.big{font-size:24px;font-weight:800}.notice{padding:11px 13px;border-left:4px solid #d69e2e;background:#fff9e9;border-radius:10px;font-size:13px;color:#6a4b00}.danger{border-left-color:#c92a2a;background:#fff1f1;color:#8a1c1c}.legend{font-size:12px;color:var(--muted);line-height:1.7}.footer-note{font-size:11px;color:#7b8491;margin-top:16px;line-height:1.7}.modal{position:fixed;inset:0;background:#0008;display:none;align-items:center;justify-content:center;z-index:50;padding:20px}.modal.show{display:flex}.modal-body{background:#fff;border-radius:18px;max-width:760px;width:100%;max-height:88vh;overflow:auto;padding:20px}.close{float:right;border:0;background:#eee;border-radius:9px;padding:7px 10px;cursor:pointer}
 @media(max-width:900px){.grid4,.grid2,.rank,.compare-slot{grid-template-columns:1fr}.field{grid-template-columns:1fr}.brand{font-size:17px}.kpi .value{font-size:23px}main{padding:0 10px 30px}.card{padding:13px}}
 </style>
@@ -23,9 +23,145 @@ h2{margin:0 0 12px;font-size:18px}.section{display:none}.section.active{display:
 .source-note-list{margin:8px 0 14px;padding-left:20px;font-size:12px;line-height:1.55;color:var(--muted,#64748b)}
 .source-note-list li{margin:2px 0}
 </style>
+
+<style>
+.doclink{display:inline-block;padding:5px 8px;border:1px solid #cfd8e3;border-radius:8px;background:#fff;color:#174d84;text-decoration:none;font-weight:700;font-size:11px}
+.doclink:hover{background:#f5f9ff}
+.docpending{font-size:11px;color:#8a6670}
+</style>
+
+<style>
+/* V1.5.7 — 專業資料表固定表頭 / 固定識別欄 */
+:root{
+  --tbl-star-w:44px;
+  --tbl-code-w:88px;
+  --tbl-name-w:128px;
+}
+
+/* 表格改成獨立可捲動區域，確保上下/左右滑動時表頭皆可固定 */
+.table-wrap{
+  overflow:auto;
+  max-height:min(68vh,720px);
+  overscroll-behavior:contain;
+  -webkit-overflow-scrolling:touch;
+  position:relative;
+  background:#fff;
+}
+
+/* 上方表頭固定 */
+.table-wrap thead th{
+  position:sticky;
+  top:0;
+  z-index:30;
+  background:#f8fafc;
+  box-shadow:0 1px 0 #dde4ec;
+}
+
+/* 固定左側：★ / 代號 / 名稱 */
+.table-wrap th:nth-child(1),
+.table-wrap td:nth-child(1){
+  position:sticky;
+  left:0;
+  width:var(--tbl-star-w);
+  min-width:var(--tbl-star-w);
+  max-width:var(--tbl-star-w);
+}
+.table-wrap th:nth-child(2),
+.table-wrap td:nth-child(2){
+  position:sticky;
+  left:var(--tbl-star-w);
+  width:var(--tbl-code-w);
+  min-width:var(--tbl-code-w);
+  max-width:var(--tbl-code-w);
+}
+.table-wrap th:nth-child(3),
+.table-wrap td:nth-child(3){
+  position:sticky;
+  left:calc(var(--tbl-star-w) + var(--tbl-code-w));
+  width:var(--tbl-name-w);
+  min-width:var(--tbl-name-w);
+  max-width:var(--tbl-name-w);
+}
+
+/* 固定資料欄底色與層級 */
+.table-wrap tbody td:nth-child(1),
+.table-wrap tbody td:nth-child(2),
+.table-wrap tbody td:nth-child(3){
+  z-index:18;
+  background:#fff;
+}
+.table-wrap tbody tr:hover td:nth-child(1),
+.table-wrap tbody tr:hover td:nth-child(2),
+.table-wrap tbody tr:hover td:nth-child(3){
+  background:#f8fbff;
+}
+
+/* 固定表頭與固定左欄交界必須在最上層 */
+.table-wrap thead th:nth-child(1),
+.table-wrap thead th:nth-child(2),
+.table-wrap thead th:nth-child(3){
+  z-index:42;
+  background:#f8fafc;
+}
+
+/* 名稱欄右側做視覺分隔，方便辨識凍結區 */
+.table-wrap th:nth-child(3),
+.table-wrap td:nth-child(3){
+  box-shadow:7px 0 10px -9px rgba(20,32,51,.6);
+  border-right:1px solid #e3e8ef;
+}
+
+/* 名稱過長時不把固定區撐寬 */
+.table-wrap td:nth-child(3){
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+/* 捲動提示 */
+.table-scroll-hint{
+  display:flex;
+  align-items:center;
+  gap:7px;
+  margin:0 0 8px;
+  color:#667085;
+  font-size:11px;
+}
+.table-scroll-hint::before{
+  content:"↔";
+  display:inline-grid;
+  place-items:center;
+  width:22px;height:22px;
+  border-radius:7px;
+  background:#eef4ff;
+  color:#174d84;
+  font-weight:800;
+}
+
+@media(max-width:900px){
+  :root{
+    --tbl-star-w:38px;
+    --tbl-code-w:78px;
+    --tbl-name-w:112px;
+  }
+  .table-wrap{
+    max-height:62vh;
+    border-radius:12px;
+  }
+  .table-wrap th,
+  .table-wrap td{
+    padding:9px 7px;
+    font-size:12px;
+  }
+  .table-wrap td:nth-child(3){
+    font-size:11.5px;
+  }
+}
+</style>
+
 </head>
 <body>
-<header><div class="top"><div><div class="brand" style="display:flex;align-items:center;gap:9px"><img src="./icons/icon-192.png" alt="台灣特別股" style="width:36px;height:36px;border-radius:9px;box-shadow:0 2px 8px #0004"><span>台灣上市櫃特別股分析 V1.5.5</span></div><div class="sub">殖利率 × 贖回情境 IRR × 除息日 XIRR × 契約生命週期 × Cbonds IRS</div></div><div style="display:flex;gap:7px;flex-wrap:wrap;justify-content:flex-end"><div class="badge" id="marketBadge">股價：載入中…</div><div class="badge" id="updateBadge">IRS：載入中…</div></div></div>
+<header><div class="top"><div><div class="brand" style="display:flex;align-items:center;gap:9px"><img src="./icons/icon-192.png" alt="台灣特別股" style="width:36px;height:36px;border-radius:9px;box-shadow:0 2px 8px #0004"><span>台灣上市櫃特別股分析 V1.5.7</span></div><div class="sub">殖利率 × 贖回情境 IRR × 除息日 XIRR × 契約生命週期 × Cbonds IRS</div></div><div style="display:flex;gap:7px;flex-wrap:wrap;justify-content:flex-end"><div class="badge" id="marketBadge">股價：載入中…</div><div class="badge" id="updateBadge">IRS：載入中…</div></div></div>
 <nav id="nav">
 <button class="active" data-page="overview">市場總覽</button><button data-page="list">完整列表</button><button data-page="ranking">排行榜</button><button data-page="compare">特別股 PK</button><button data-page="calc">重設/XIRR 試算</button><button data-page="calendar">贖回日曆</button><button data-page="watch">觀察清單</button>
 </nav></header>
@@ -39,7 +175,7 @@ h2{margin:0 0 12px;font-size:18px}.section{display:none}.section.active{display:
 <li>除息日期：優先使用 TWSE/TPEx 官方除權息資料。</li>
 <li>發行／重設條件：公開說明書、重大訊息、交易所公告與發行公司公開資料。</li>
 <li>除息日基準 XIRR：用來反映取得股息權利的時間點，而非實際現金入帳時間。</li>
-</ul><div class="toolbar"><input id="search" placeholder="搜尋代號 / 名稱 / 公式" oninput="renderTable()"><select id="filter"><option value="all">全部</option><option value="call">可贖回</option><option value="cum">累積型</option><option value="verified">公式已核對</option><option value="xirrReady">XIRR 可計算</option><option value="watch">我的觀察</option></select><select id="sortMode" onchange="renderTable()"><option value="default">預設排序</option><option value="nextEx">下一除息日最近</option><option value="yield">殖利率高→低</option><option value="irr">可贖回日 IRR 高→低</option><option value="xirr">XIRR 高→低</option><option value="resetYield">重設後殖利率高→低</option><option value="perpetual">不贖回永久收益率高→低</option><option value="stress0">IRS=0 壓力收益率高→低</option><option value="score">綜合評分高→低</option><option value="callGap">贖回價差高→低</option><option value="price">現價高→低</option></select><button class="btn2" onclick="renderTable()">套用</button><button class="btn2" onclick="exportCSV()">匯出 CSV</button><label class="btn2" style="padding:10px 11px">匯入 CSV<input type="file" accept=".csv" onchange="importCSV(event)" style="display:none"></label></div><div class="table-wrap"><table><thead><tr><th>★</th><th>代號</th><th>名稱</th><th>現價</th><th>年股息</th><th>殖利率</th><th>最近除息日</th><th>下一除息日</th><th>不贖回永久收益率</th><th>贖回情境 IRR</th><th>除息日基準 XIRR</th><th>XIRR狀態</th><th>發行日</th><th>首次可贖回日</th><th>贖回狀態</th><th>下一重設日</th><th>贖回價</th><th>發行價</th><th>累積</th><th>原始/重設定價公式</th><th>公式狀態</th><th>目前 IRS</th><th>推估重設率</th><th>推估重設股息</th><th>重設後殖利率</th><th>IRS=0 壓力收益率</th><th>贖回價差</th><th>評分</th></tr></thead><tbody id="tbody"></tbody></table></div></div></section>
+</ul><div class="toolbar"><input id="search" placeholder="搜尋代號 / 名稱 / 公式" oninput="renderTable()"><select id="filter"><option value="all">全部</option><option value="call">可贖回</option><option value="cum">累積型</option><option value="verified">公式已核對</option><option value="xirrReady">XIRR 可計算</option><option value="watch">我的觀察</option></select><select id="sortMode" onchange="renderTable()"><option value="default">預設排序</option><option value="nextEx">下一除息日最近</option><option value="yield">殖利率高→低</option><option value="irr">可贖回日 IRR 高→低</option><option value="xirr">XIRR 高→低</option><option value="resetYield">重設後殖利率高→低</option><option value="perpetual">不贖回永久收益率高→低</option><option value="stress0">IRS=0 壓力收益率高→低</option><option value="score">綜合評分高→低</option><option value="callGap">贖回價差高→低</option><option value="price">現價高→低</option></select><button class="btn2" onclick="renderTable()">套用</button><button class="btn2" onclick="exportCSV()">匯出 CSV</button><label class="btn2" style="padding:10px 11px">匯入 CSV<input type="file" accept=".csv" onchange="importCSV(event)" style="display:none"></label></div><div class="table-scroll-hint">上下滑動固定表頭；左右滑動固定 ★／代號／名稱</div><div class="table-wrap"><table><thead><tr><th>★</th><th>代號</th><th>名稱</th><th>現價</th><th>年股息</th><th>殖利率</th><th>最近除息日</th><th>下一除息日</th><th>不贖回永久收益率</th><th>贖回情境 IRR</th><th>除息日基準 XIRR</th><th>XIRR狀態</th><th>發行日</th><th>首次可贖回日</th><th>贖回狀態</th><th>下一重設日</th><th>贖回價</th><th>發行價</th><th>累積</th><th>原始/重設定價公式</th><th>公式狀態</th><th>目前 IRS</th><th>推估重設率</th><th>推估重設股息</th><th>重設後殖利率</th><th>IRS=0 壓力收益率</th><th>贖回價差</th><th>評分</th><th>發行文件</th></tr></thead><tbody id="tbody"></tbody></table></div></div></section>
 <section id="ranking" class="section"><div class="rank"><div class="card"><h2>殖利率排行</h2><ol id="rankYield"></ol></div><div class="card"><h2>可贖回日 IRR 排行</h2><ol id="rankIrr"></ol></div><div class="card"><h2>XIRR 排行</h2><ol id="rankXirr"></ol></div><div class="card"><h2>永久收益率排行</h2><ol id="rankPerpetual"></ol></div><div class="card"><h2>綜合評分</h2><ol id="rankScore"></ol></div></div></section>
 <section id="compare" class="section"><div class="card"><h2>特別股 PK</h2><div class="toolbar"><select id="cmpA" onchange="renderCompare()"></select><select id="cmpB" onchange="renderCompare()"></select></div><div class="compare-slot" id="compareBox"></div></div></section>
 <section id="calc" class="section"><div class="grid2"><div class="card"><h2>重設利率試算器</h2><div class="field"><label>發行價格</label><input id="cPar" value="60" type="number" step="0.01"></div><div class="field"><label>目前市價</label><input id="cPrice" value="55" type="number" step="0.01"></div><div class="field"><label>IRS 基準年期</label><select id="cTenor" onchange="syncCalcBase()"><option>1Y</option><option>2Y</option><option>3Y</option><option>4Y</option><option>5Y</option><option selected>7Y</option><option>10Y</option><option>12Y</option><option>15Y</option></select></div><div class="field"><label>Cbonds IRS（%）</label><input id="cBase" value="" type="number" step="0.0001" readonly placeholder="由 data/irs.json 自動帶入"></div><div class="field"><label>加碼利差（%）</label><input id="cSpread" value="3.25" type="number" step="0.01"></div><div class="field"><label>契約利率上限（%）</label><input id="cCap" placeholder="沒有可留空" type="number" step="0.01"></div><button class="btn" onclick="calcReset()">計算</button><div class="result" id="resetResult"></div></div><div class="card"><h2>XIRR 精確日期試算</h2><div class="notice" style="margin-bottom:10px">V1.3 依每筆現金流的實際日期計算。買入價填負現金流；股息與贖回款填正現金流。</div><div class="field"><label>買入日期</label><input id="xDate0" type="date"></div><div class="field"><label>買入價格</label><input id="xPrice" value="55" type="number" step="0.01"></div><div id="xRows"></div><div class="toolbar" style="margin-top:10px"><button class="btn2" onclick="addXRow()">＋新增股息/贖回現金流</button><button class="btn" onclick="calcXIRRManual()">計算 XIRR</button></div><div class="result" id="irrResult"></div></div></div></section>
@@ -127,6 +263,8 @@ function renderKPIs(){let ys=data.filter(x=>x.yield);let avg=ys.reduce((a,b)=>a+
 function renderAlerts(){let high=data.filter(x=>callGap(x)!=null&&callGap(x)<-2).sort((a,b)=>callGap(a)-callGap(b)).slice(0,4);let html=high.length?high.map(x=>`<div class="notice danger" style="margin:8px 0"><b>${x.code} ${x.name}</b>：現價高於贖回價約 ${fmt(-callGap(x),1)}%，需特別看日期化 XIRR。</div>`).join(''):'<div class="notice">目前沒有明顯的高於贖回價警示。</div>';document.getElementById('alerts').innerHTML=html}
 function renderTop(){let arr=[...data].sort((a,b)=>score(b)-score(a)).slice(0,5);document.getElementById('top5').innerHTML=arr.map((x,i)=>`<div class="metric"><span><b>${i+1}. ${x.code} ${x.name}</b><div class="tiny">殖利率 ${fmt(x.yield,1)}% · IRR ${x.callIrr==null?(x.irr==null?'-':fmt(x.irr,2)+'%'):fmt(x.callIrr,2)+'%'} · XIRR ${x.xirr==null?'-':fmt(x.xirr,2)+'%'} · ${x.formula}</div></span><span class="big">${score(x)}</span></div>`).join('')}
 function toggleWatch(c){watch.has(c)?watch.delete(c):watch.add(c);localStorage.setItem('prefWatch',JSON.stringify([...watch]));renderAll()}
+const issueDocs={"1101B":{"label":"公開說明書索引","url":"https://concords.moneydj.com/Z/ZC/ZC0/ZC01/ZC010_1101.djhtm"},"1312A":{"label":"歷史資料","url":"https://5850web.moneydj.com/z/zc/zc0/zc01/zc010_1312.djhtm"},"1522A":{"label":"公開說明書索引","url":"https://concords.moneydj.com/Z/ZC/ZC0/ZC01/ZC010_1522.djhtm"},"2002A":{"label":"歷史資料","url":"https://concords.moneydj.com/z/zc/zc0/zc01/zc010_2002.djhtm"},"2348A":{"label":"公開說明書索引","url":"https://fubon-ebrokerdj.fbs.com.tw/Z/ZC/ZC0/ZC01/ZC010_2348_C.djhtm"},"2836A":{"label":"公開說明書索引","url":"https://5850web.moneydj.com/z/zc/zc0/zc01/zc010_2836.djhtm"},"2838A":{"label":"官方發行條件","url":"https://www.ubot.com.tw/file/113%E4%B8%8A%E5%8D%8A%E5%B9%B4%E8%B3%87%E6%9C%AC%E9%81%A9%E8%B6%B3%E6%80%A7%E8%88%87%E9%A2%A8%E9%9A%AA%E7%AE%A1%E7%90%86.pdf"},"2881A":{"label":"官方發行條件","url":"https://fubon.irpro.co/tw/quickfacts.php"},"2881B":{"label":"官方發行條件","url":"https://fubon.irpro.co/tw/quickfacts.php"},"2881C":{"label":"官方發行條件","url":"https://fubon.irpro.co/tw/quickfacts.php"},"2882A":{"label":"公開說明書索引","url":"https://5850web.moneydj.com/z/zc/zc0/zc01/zc010_2882.djhtm"},"2882B":{"label":"公開說明書索引","url":"https://5850web.moneydj.com/z/zc/zc0/zc01/zc010_2882.djhtm"},"2883B":{"label":"公開說明書索引","url":"https://5850web.moneydj.com/z/zc/zc0/zc01/zc010_2883.djhtm"},"2887E":{"label":"公開說明書索引","url":"https://5850web.moneydj.com/z/zc/zc0/zc01/zc010_2887.djhtm"},"2887F":{"label":"公開說明書索引","url":"https://5850web.moneydj.com/z/zc/zc0/zc01/zc010_2887.djhtm"},"2887G":{"label":"官方發行條件","url":"https://www.twse.com.tw/rwd/zh/announcement/announcement_detail?id=47CFA14B66E411F0AC832D9568472C08&response=html"},"2887H":{"label":"官方發行條件","url":"https://www.twse.com.tw/rwd/zh/announcement/announcement_detail?id=47CFA14B66E411F0AC832D9568472C08&response=html"},"2887I":{"label":"官方發行條件","url":"https://www.twse.com.tw/rwd/zh/announcement/announcement_detail?id=47CFA14B66E411F0AC832D9568472C08&response=html"},"2891B":{"label":"公開說明書索引","url":"https://5850web.moneydj.com/z/zc/zc0/zc01/zc010_2891.djhtm"},"2891C":{"label":"公開說明書索引","url":"https://5850web.moneydj.com/z/zc/zc0/zc01/zc010_2891.djhtm"},"2897B":{"label":"公開說明書索引","url":"https://5850web.moneydj.com/z/zc/zc0/zc01/zc010_2897.djhtm"},"3036A":{"label":"公開說明書索引","url":"https://5850web.moneydj.com/z/zc/zc0/zc01/zc010_3036.djhtm"},"5871A":{"label":"公開說明書索引","url":"https://concords.moneydj.com/z/zc/zc0/zc01/zc010_5871.djhtm"},"6592A":{"label":"公開說明書索引","url":"https://fubon-ebrokerdj.fbs.com.tw/Z/ZC/ZC0/ZC01/ZC010_6592_G.djhtm"},"6592B":{"label":"公開說明書索引","url":"https://fubon-ebrokerdj.fbs.com.tw/Z/ZC/ZC0/ZC01/ZC010_6592_G.djhtm"},"6958A":{"label":"公開說明書索引","url":"https://fubon-ebrokerdj.fbs.com.tw/Z/ZC/ZC0/ZC01/ZC010_6958_F.djhtm"},"8112A":{"label":"公開說明書索引","url":"https://5850web.moneydj.com/z/zc/zc0/zc01/zc010_8112.djhtm"},"8349A":{"label":"官方發行條件","url":"https://www.tpex.org.tw/storage/eb_data/10902/10900010961.html"},"9941A":{"label":"公開說明書索引","url":"https://5850web.moneydj.com/z/zc/zc0/zc01/zc010_9941.djhtm"}};
+function issueDocHtml(code){const d=issueDocs[code];if(!d)return '<span class="docpending">歷史資料待補</span>';return `<a class="doclink" href="${d.url}" target="_blank" rel="noopener noreferrer">📄 ${d.label}</a>`;}
 function yearsUntilDate(dateStr){
   if(!dateStr||dateStr==='-'||dateStr==='待核對') return null;
   const target=new Date(dateStr+'T00:00:00');
@@ -143,7 +281,7 @@ function callabilityDisplay(x){
   }
   return x.callabilityLabel||'-';
 }
-function renderTable(){let q=(document.getElementById('search')?.value||'').toLowerCase();let f=document.getElementById('filter')?.value||'all';let sort=document.getElementById('sortMode')?.value||'default';let rows=data.filter(r=>JSON.stringify(r).toLowerCase().includes(q)).filter(r=>f==='all'||(f==='call'&&r.call)||(f==='cum'&&r.cum)||(f==='verified'&&r.verified)||(f==='xirrReady'&&r.xirr!=null)||(f==='watch'&&watch.has(r.code)));if(sort==='nextEx')rows.sort((a,b)=>nextExLabel(a.code).localeCompare(nextExLabel(b.code)));if(sort==='yield')rows.sort((a,b)=>(b.yield??-999)-(a.yield??-999));if(sort==='irr')rows.sort((a,b)=>((b.callIrr??b.irr)??-999)-((a.callIrr??a.irr)??-999));if(sort==='xirr')rows.sort((a,b)=>(b.xirr??-999)-(a.xirr??-999));if(sort==='resetYield')rows.sort((a,b)=>(estResetYield(b)??-999)-(estResetYield(a)??-999));if(sort==='perpetual')rows.sort((a,b)=>(perpetualYield(b)??-999)-(perpetualYield(a)??-999));if(sort==='stress0')rows.sort((a,b)=>(stressYield(b,'zero')??-999)-(stressYield(a,'zero')??-999));if(sort==='score')rows.sort((a,b)=>score(b)-score(a));if(sort==='callGap')rows.sort((a,b)=>(callGap(b)??-999)-(callGap(a)??-999));if(sort==='price')rows.sort((a,b)=>(b.price??-999)-(a.price??-999));document.getElementById('tbody').innerHTML=rows.map(r=>{let rr=estRate(r),rd=estDiv(r),gap=callGap(r),ex=exInfo(r.code),xc=xirrCompleteness(r);let callTxt=(r.callIrr??r.irr)==null?(r.callability==='callable_now'?'<span class="pill wait">已可隨時贖回</span>':'-'):fmt((r.callIrr??r.irr),2)+'%';return `<tr><td><span class="star ${watch.has(r.code)?'on':''}" onclick="toggleWatch('${r.code}')">★</span></td><td class="code" onclick="openDetail('${r.code}')" style="cursor:pointer">${r.code}</td><td>${r.name}</td><td>${fmt(r.price)}</td><td>${fmt(r.div)}</td><td>${fmt(r.yield,1)}%</td><td>${ex.latest?.exDate||'-'}</td><td>${nextExLabel(r.code)}</td><td><b>${perpetualYield(r)==null?'-':fmt(perpetualYield(r),2)+'%'}</b></td><td>${callTxt}</td><td>${r.xirr==null?'-':fmt(r.xirr,2)+'%'}</td><td title="${xc.detail}"><span class="pill ${xc.cls}">${xc.label}</span></td><td>${r.issueDate||'-'}</td><td>${r.firstCallDate||'-'}</td><td><span class="pill ${r.callability==='future_first_call'?'ok':r.callability==='callable_now'?'wait':'red'}">${callabilityDisplay(r)}</span></td><td>${r.nextResetDate||'-'}</td><td>${r.callPrice==null?'-':fmt(r.callPrice)}</td><td>${fmt(r.par)}</td><td>${r.cum?'是':'否'}</td><td class="formula">${r.formula}</td><td><span class="pill ${r.verified?'ok':'wait'}">${r.verified?'已核對':'待核對'}</span></td><td>${benchmark(r)==null?'-':fmt(benchmark(r),4)+'%'}</td><td>${rr==null?'-':fmt(rr)+'%'}</td><td>${rd==null?'-':fmt(rd)}</td><td>${estResetYield(r)==null?'-':fmt(estResetYield(r),2)+'%'}</td><td class="warn">${stressYield(r,'zero')==null?'-':fmt(stressYield(r,'zero'),2)+'%'}</td><td class="${gap!=null&&gap<0?'warn':'up'}">${gap==null?'-':fmt(gap,1)+'%'}</td><td><b>${score(r)}</b></td></tr>`}).join('')}
+function renderTable(){let q=(document.getElementById('search')?.value||'').toLowerCase();let f=document.getElementById('filter')?.value||'all';let sort=document.getElementById('sortMode')?.value||'default';let rows=data.filter(r=>JSON.stringify(r).toLowerCase().includes(q)).filter(r=>f==='all'||(f==='call'&&r.call)||(f==='cum'&&r.cum)||(f==='verified'&&r.verified)||(f==='xirrReady'&&r.xirr!=null)||(f==='watch'&&watch.has(r.code)));if(sort==='nextEx')rows.sort((a,b)=>nextExLabel(a.code).localeCompare(nextExLabel(b.code)));if(sort==='yield')rows.sort((a,b)=>(b.yield??-999)-(a.yield??-999));if(sort==='irr')rows.sort((a,b)=>((b.callIrr??b.irr)??-999)-((a.callIrr??a.irr)??-999));if(sort==='xirr')rows.sort((a,b)=>(b.xirr??-999)-(a.xirr??-999));if(sort==='resetYield')rows.sort((a,b)=>(estResetYield(b)??-999)-(estResetYield(a)??-999));if(sort==='perpetual')rows.sort((a,b)=>(perpetualYield(b)??-999)-(perpetualYield(a)??-999));if(sort==='stress0')rows.sort((a,b)=>(stressYield(b,'zero')??-999)-(stressYield(a,'zero')??-999));if(sort==='score')rows.sort((a,b)=>score(b)-score(a));if(sort==='callGap')rows.sort((a,b)=>(callGap(b)??-999)-(callGap(a)??-999));if(sort==='price')rows.sort((a,b)=>(b.price??-999)-(a.price??-999));document.getElementById('tbody').innerHTML=rows.map(r=>{let rr=estRate(r),rd=estDiv(r),gap=callGap(r),ex=exInfo(r.code),xc=xirrCompleteness(r);let callTxt=(r.callIrr??r.irr)==null?(r.callability==='callable_now'?'<span class="pill wait">已可隨時贖回</span>':'-'):fmt((r.callIrr??r.irr),2)+'%';return `<tr><td><span class="star ${watch.has(r.code)?'on':''}" onclick="toggleWatch('${r.code}')">★</span></td><td class="code" onclick="openDetail('${r.code}')" style="cursor:pointer">${r.code}</td><td>${r.name}</td><td>${fmt(r.price)}</td><td>${fmt(r.div)}</td><td>${fmt(r.yield,1)}%</td><td>${ex.latest?.exDate||'-'}</td><td>${nextExLabel(r.code)}</td><td><b>${perpetualYield(r)==null?'-':fmt(perpetualYield(r),2)+'%'}</b></td><td>${callTxt}</td><td>${r.xirr==null?'-':fmt(r.xirr,2)+'%'}</td><td title="${xc.detail}"><span class="pill ${xc.cls}">${xc.label}</span></td><td>${r.issueDate||'-'}</td><td>${r.firstCallDate||'-'}</td><td><span class="pill ${r.callability==='future_first_call'?'ok':r.callability==='callable_now'?'wait':'red'}">${callabilityDisplay(r)}</span></td><td>${r.nextResetDate||'-'}</td><td>${r.callPrice==null?'-':fmt(r.callPrice)}</td><td>${fmt(r.par)}</td><td>${r.cum?'是':'否'}</td><td class="formula">${r.formula}</td><td><span class="pill ${r.verified?'ok':'wait'}">${r.verified?'已核對':'待核對'}</span></td><td>${benchmark(r)==null?'-':fmt(benchmark(r),4)+'%'}</td><td>${rr==null?'-':fmt(rr)+'%'}</td><td>${rd==null?'-':fmt(rd)}</td><td>${estResetYield(r)==null?'-':fmt(estResetYield(r),2)+'%'}</td><td class="warn">${stressYield(r,'zero')==null?'-':fmt(stressYield(r,'zero'),2)+'%'}</td><td class="${gap!=null&&gap<0?'warn':'up'}">${gap==null?'-':fmt(gap,1)+'%'}</td><td><b>${score(r)}</b></td><td>${issueDocHtml(r.code)}</td></tr>`}).join('')}
 function rankHtml(key){let arr=[...data].filter(x=>x[key]!=null).sort((a,b)=>b[key]-a[key]).slice(0,8);return arr.map(x=>`<li>${x.code} ${x.name}<span class="score">${key==='score'?score(x):fmt(x[key],1)+'%'}</span></li>`).join('')}
 function rankComputed(getter,digits=2){let arr=[...data].map(x=>({x,v:getter(x)})).filter(o=>o.v!=null&&Number.isFinite(o.v)).sort((a,b)=>b.v-a.v).slice(0,8);return arr.map(o=>`<li>${o.x.code} ${o.x.name}<span class="score">${fmt(o.v,digits)}%</span></li>`).join('')||'<li class="tiny">目前尚無可排名資料</li>'}
 function renderRanks(){document.getElementById('rankYield').innerHTML=rankHtml('yield');document.getElementById('rankIrr').innerHTML=rankComputed(x=>(x.callIrr??x.irr),2);document.getElementById('rankXirr').innerHTML=rankComputed(x=>x.xirr,2);document.getElementById('rankPerpetual').innerHTML=rankComputed(x=>perpetualYield(x),2);let arr=[...data].sort((a,b)=>score(b)-score(a)).slice(0,8);document.getElementById('rankScore').innerHTML=arr.map(x=>`<li>${x.code} ${x.name}<span class="score">${score(x)}</span></li>`).join('')}
