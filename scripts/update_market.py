@@ -130,12 +130,36 @@ def main():
             if isinstance(s.get("div"), (int,float)) and q["price"] > 0:
                 s["yield"] = round(s["div"] / q["price"] * 100, 2)
             asof = now.date()
+            # XIRR continuity policy: dividend/ex-date data may refresh an XIRR,
+            # but missing future ex-dates must NEVER erase a previously valid XIRR.
+            prev_irr = s.get("irr")
+            prev_xirr = s.get("xirr")
+            prev_method = s.get("irrMethod")
+            prev_count = s.get("xirrCashflowCount")
             xv, method, event_count = date_aware_xirr(s, q["price"], asof, dividend_events)
-            s["xirr"] = xv
-            s["irr"] = xv  # V1.3 ranking uses date-aware XIRR only; no annual-coupon approximation.
-            s["irrMethod"] = method
-            s["xirrCashflowCount"] = event_count
-            s["cashflowCoverage"] = "可計算" if xv is not None else "資料不足"
+            if xv is not None:
+                s["xirr"] = xv
+                s["irr"] = xv
+                s["irrMethod"] = method
+                s["xirrCashflowCount"] = event_count
+                s["cashflowCoverage"] = "可計算（除息日資料完整）"
+                s["xirrStatus"] = "refreshed"
+            else:
+                # Keep the last usable value. Ex-date is a display/refresh input,
+                # not a gate that can blank an existing XIRR.
+                keep = prev_irr if isinstance(prev_irr,(int,float)) else prev_xirr
+                s["irr"] = keep
+                s["xirr"] = prev_xirr if isinstance(prev_xirr,(int,float)) else keep
+                if keep is not None:
+                    s["irrMethod"] = (prev_method or "前次有效 XIRR") + "；除息日資料不足，本次不覆蓋"
+                    s["xirrCashflowCount"] = prev_count
+                    s["cashflowCoverage"] = "沿用前次有效值"
+                    s["xirrStatus"] = "carried-forward"
+                else:
+                    s["irrMethod"] = method
+                    s["xirrCashflowCount"] = event_count
+                    s["cashflowCoverage"] = "尚無可用 XIRR"
+                    s["xirrStatus"] = "unavailable"
             s["lastPriceBeforeUpdate"] = old_price
             s["marketUpdatedAt"] = now.isoformat(timespec="seconds")
             ok += 1
@@ -143,7 +167,7 @@ def main():
         except Exception as e:
             fail.append(code)
             s["marketUpdateError"] = str(e)[:240]
-    data["version"] = "1.3.1"
+    data["version"] = "1.3.1-xirr-fix"
     data["marketDataAsOf"] = now.date().isoformat()
     data["marketUpdatedAt"] = now.isoformat(timespec="seconds")
     data["marketUpdateStatus"] = "ok" if ok else "stale"
@@ -151,7 +175,7 @@ def main():
     data["marketUpdateFailCodes"] = fail
     data["marketSourceLabel"] = "TWSE MIS / TPEx quote fallback"
     data["marketSourceUrl"] = MIS_URL
-    data["irrPolicy"] = "V1.3 採除息日基準：以官方已公告 exDate 作為股息權利取得日期，搭配精確贖回日計算 XIRR；不再等待實際股息發放日。"
+    data["irrPolicy"] = "V1.3.1 修正版：除息日只用於刷新/提升 XIRR 精度；若未來除息日尚未公告，保留前次有效 XIRR，絕不因除息資料缺漏而清空。"
     OUT.write_text(json.dumps(data, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
     print(json.dumps({"updated": ok, "failed": fail, "asof": data["marketDataAsOf"]}, ensure_ascii=False))
 
