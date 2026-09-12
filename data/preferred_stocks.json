@@ -1,5 +1,5 @@
 {
-  "version": "1.1",
+  "version": "1.2",
   "marketDataAsOf": "2026-08-08",
   "generatedAt": "2026-09-12",
   "sourceLabel": "FindBillion 特別股詳細列表",
@@ -770,5 +770,8 @@
       "issueRate": 4.0
     }
   ],
-  "verifiedFormulaCount": 29
+  "verifiedFormulaCount": 29,
+  "marketUpdateStatus": "awaiting-first-run",
+  "marketSourceLabel": "TWSE MIS / TPEx quote fallback",
+  "irrPolicy": "V1.2 首次 GitHub Action 執行後，對具有未來可贖回日、贖回價與年股息的標的自動估算 YTC/IRR。"
 }
