@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<title>台灣特別股分析 V1.5.7</title>
+<title>台灣特別股分析 V1.5.8</title>
 <link rel="manifest" href="./manifest.webmanifest">
 <meta name="theme-color" content="#0c2746">
 <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
@@ -31,7 +31,7 @@ h2{margin:0 0 12px;font-size:18px}.section{display:none}.section.active{display:
 </style>
 
 <style>
-/* V1.5.7 — 專業資料表固定表頭 / 固定識別欄 */
+/* V1.5.8 — 專業資料表固定表頭 / 固定識別欄 */
 :root{
   --tbl-star-w:44px;
   --tbl-code-w:88px;
@@ -140,9 +140,9 @@ h2{margin:0 0 12px;font-size:18px}.section{display:none}.section.active{display:
 
 @media(max-width:900px){
   :root{
-    --tbl-star-w:38px;
-    --tbl-code-w:78px;
-    --tbl-name-w:112px;
+    --tbl-star-w:34px;
+    --tbl-code-w:64px;
+    --tbl-name-w:92px;
   }
   .table-wrap{
     max-height:62vh;
@@ -159,9 +159,18 @@ h2{margin:0 0 12px;font-size:18px}.section{display:none}.section.active{display:
 }
 </style>
 
+
+<style>
+@media(max-width:900px){
+  .table-wrap th:nth-child(1), .table-wrap td:nth-child(1){padding-left:4px;padding-right:4px}
+  .table-wrap th:nth-child(2), .table-wrap td:nth-child(2){padding-left:5px;padding-right:5px}
+  .table-wrap th:nth-child(3), .table-wrap td:nth-child(3){padding-left:6px;padding-right:6px}
+}
+</style>
+
 </head>
 <body>
-<header><div class="top"><div><div class="brand" style="display:flex;align-items:center;gap:9px"><img src="./icons/icon-192.png" alt="台灣特別股" style="width:36px;height:36px;border-radius:9px;box-shadow:0 2px 8px #0004"><span>台灣上市櫃特別股分析 V1.5.7</span></div><div class="sub">殖利率 × 贖回情境 IRR × 除息日 XIRR × 契約生命週期 × Cbonds IRS</div></div><div style="display:flex;gap:7px;flex-wrap:wrap;justify-content:flex-end"><div class="badge" id="marketBadge">股價：載入中…</div><div class="badge" id="updateBadge">IRS：載入中…</div></div></div>
+<header><div class="top"><div><div class="brand" style="display:flex;align-items:center;gap:9px"><img src="./icons/icon-192.png" alt="台灣特別股" style="width:36px;height:36px;border-radius:9px;box-shadow:0 2px 8px #0004"><span>台灣上市櫃特別股分析 V1.5.8</span></div><div class="sub">殖利率 × 贖回情境 IRR × 除息日 XIRR × 契約生命週期 × Cbonds IRS</div></div><div style="display:flex;gap:7px;flex-wrap:wrap;justify-content:flex-end"><div class="badge" id="marketBadge">股價：載入中…</div><div class="badge" id="updateBadge">IRS：載入中…</div></div></div>
 <nav id="nav">
 <button class="active" data-page="overview">市場總覽</button><button data-page="list">完整列表</button><button data-page="ranking">排行榜</button><button data-page="compare">特別股 PK</button><button data-page="calc">重設/XIRR 試算</button><button data-page="calendar">贖回日曆</button><button data-page="watch">觀察清單</button>
 </nav></header>
