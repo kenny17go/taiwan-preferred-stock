@@ -50,7 +50,7 @@ def main():
     # retain manually verified ex-date events
     keep=[e for e in old.get('events',[]) if e.get('exDate') and e.get('sourceType')=='manual-verified']
     got=[]; errors=[]
-    sess=requests.Session(); sess.headers.update({'User-Agent':'Mozilla/5.0 TaiwanPreferredStockDashboard/1.3-exdate'})
+    sess=requests.Session(); sess.headers.update({'User-Agent':'Mozilla/5.0 TaiwanPreferredStockDashboard/1.3.1'})
     for label,url in URLS:
         try:
             r=sess.get(url,timeout=30); r.raise_for_status(); rows=r.json()
@@ -71,7 +71,7 @@ def main():
             cov[e['code']]['officialExDates']+=1
             cov[e['code']]['status']='已有官方/已公告除息日'
     payload={
-      'version':'1.3-exdate','updatedAt':datetime.now(TW).isoformat(timespec='seconds'),
+      'version':'1.3.1','updatedAt':datetime.now(TW).isoformat(timespec='seconds'),
       'sourcePolicy':'XIRR 一律以官方已公告除息日（exDate）作為股息權利取得日期；paymentDate 僅保留作參考，不參與 XIRR。',
       'sources':[{'label':x,'url':y} for x,y in URLS]+[{'label':'公開資訊觀測站/發行公司公告','url':'https://mops.twse.com.tw/'}],
       'events':events,'coverage':cov,'errors':errors

@@ -102,7 +102,7 @@ def main():
         dividend_events = []
     session = requests.Session()
     session.headers.update({
-        "User-Agent": "Mozilla/5.0 (compatible; TaiwanPreferredStockDashboard/1.3-exdate; +https://github.com/)",
+        "User-Agent": "Mozilla/5.0 (compatible; TaiwanPreferredStockDashboard/1.3.1; +https://github.com/)",
         "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.7",
         "Referer": "https://mis.twse.com.tw/stock/fibest.jsp",
     })
@@ -143,7 +143,7 @@ def main():
         except Exception as e:
             fail.append(code)
             s["marketUpdateError"] = str(e)[:240]
-    data["version"] = "1.3-exdate"
+    data["version"] = "1.3.1"
     data["marketDataAsOf"] = now.date().isoformat()
     data["marketUpdatedAt"] = now.isoformat(timespec="seconds")
     data["marketUpdateStatus"] = "ok" if ok else "stale"
