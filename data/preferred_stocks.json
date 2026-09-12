@@ -46,8 +46,8 @@
       "changePct": -0.12,
       "irrMethod": "缺少未來可贖回日",
       "xirrCashflowCount": 0,
-      "lastPriceBeforeUpdate": 43.4,
-      "marketUpdatedAt": "2026-09-12T15:36:15+08:00"
+      "lastPriceBeforeUpdate": 43.1,
+      "marketUpdatedAt": "2026-09-12T15:36:51+08:00"
     },
     {
       "code": "1312A",
@@ -86,8 +86,8 @@
       "changePct": 0.0,
       "irrMethod": "缺少未來可贖回日",
       "xirrCashflowCount": 0,
-      "lastPriceBeforeUpdate": 20.8,
-      "marketUpdatedAt": "2026-09-12T15:36:15+08:00"
+      "lastPriceBeforeUpdate": 22.8,
+      "marketUpdatedAt": "2026-09-12T15:36:51+08:00"
     },
     {
       "code": "1522A",
@@ -128,8 +128,8 @@
       "changePct": 0.0,
       "irrMethod": "缺少有效贖回價/日期",
       "xirrCashflowCount": 0,
-      "lastPriceBeforeUpdate": 49.0,
-      "marketUpdatedAt": "2026-09-12T15:36:15+08:00"
+      "lastPriceBeforeUpdate": 50.8,
+      "marketUpdatedAt": "2026-09-12T15:36:51+08:00"
     },
     {
       "code": "2002A",
@@ -169,8 +169,8 @@
       "changePct": -0.54,
       "irrMethod": "缺少未來可贖回日",
       "xirrCashflowCount": 0,
-      "lastPriceBeforeUpdate": 37.45,
-      "marketUpdatedAt": "2026-09-12T15:36:15+08:00"
+      "lastPriceBeforeUpdate": 37.1,
+      "marketUpdatedAt": "2026-09-12T15:36:51+08:00"
     },
     {
       "code": "2348A",
@@ -211,8 +211,8 @@
       "changePct": 0.0,
       "irrMethod": "尚無未來已公告除息日期；不以年化近似冒充 XIRR",
       "xirrCashflowCount": 0,
-      "lastPriceBeforeUpdate": 37.15,
-      "marketUpdatedAt": "2026-09-12T15:36:15+08:00"
+      "lastPriceBeforeUpdate": 38.55,
+      "marketUpdatedAt": "2026-09-12T15:36:51+08:00"
     },
     {
       "code": "2836A",
@@ -253,8 +253,8 @@
       "changePct": -0.21,
       "irrMethod": "缺少未來可贖回日",
       "xirrCashflowCount": 0,
-      "lastPriceBeforeUpdate": 24.25,
-      "marketUpdatedAt": "2026-09-12T15:36:15+08:00"
+      "lastPriceBeforeUpdate": 24.0,
+      "marketUpdatedAt": "2026-09-12T15:36:51+08:00"
     },
     {
       "code": "2838A",
@@ -296,7 +296,7 @@
       "irrMethod": "缺少未來可贖回日",
       "xirrCashflowCount": 0,
       "lastPriceBeforeUpdate": 51.9,
-      "marketUpdatedAt": "2026-09-12T15:36:15+08:00"
+      "marketUpdatedAt": "2026-09-12T15:36:51+08:00"
     },
     {
       "code": "2881A",
@@ -338,8 +338,8 @@
       "changePct": 0.0,
       "irrMethod": "缺少有效贖回價/日期",
       "xirrCashflowCount": 0,
-      "lastPriceBeforeUpdate": 61.8,
-      "marketUpdatedAt": "2026-09-12T15:36:15+08:00"
+      "lastPriceBeforeUpdate": 61.7,
+      "marketUpdatedAt": "2026-09-12T15:36:51+08:00"
     },
     {
       "code": "2881B",
@@ -381,8 +381,8 @@
       "changePct": 0.0,
       "irrMethod": "缺少有效贖回價/日期",
       "xirrCashflowCount": 0,
-      "lastPriceBeforeUpdate": 60.6,
-      "marketUpdatedAt": "2026-09-12T15:36:15+08:00"
+      "lastPriceBeforeUpdate": 60.9,
+      "marketUpdatedAt": "2026-09-12T15:36:51+08:00"
     },
     {
       "code": "2881C",
@@ -425,8 +425,8 @@
       "changePct": 0.0,
       "irrMethod": "尚無未來已公告除息日期；不以年化近似冒充 XIRR",
       "xirrCashflowCount": 0,
-      "lastPriceBeforeUpdate": 51.5,
-      "marketUpdatedAt": "2026-09-12T15:36:15+08:00"
+      "lastPriceBeforeUpdate": 51.4,
+      "marketUpdatedAt": "2026-09-12T15:36:51+08:00"
     },
     {
       "code": "2882A",
@@ -468,8 +468,8 @@
       "changePct": 0.0,
       "irrMethod": "缺少有效贖回價/日期",
       "xirrCashflowCount": 0,
-      "lastPriceBeforeUpdate": 60.2,
-      "marketUpdatedAt": "2026-09-12T15:36:15+08:00"
+      "lastPriceBeforeUpdate": 60.3,
+      "marketUpdatedAt": "2026-09-12T15:36:51+08:00"
     },
     {
       "code": "2882B",
@@ -511,8 +511,8 @@
       "changePct": 0.0,
       "irrMethod": "缺少有效贖回價/日期",
       "xirrCashflowCount": 0,
-      "lastPriceBeforeUpdate": 58.9,
-      "marketUpdatedAt": "2026-09-12T15:36:15+08:00"
+      "lastPriceBeforeUpdate": 58.8,
+      "marketUpdatedAt": "2026-09-12T15:36:51+08:00"
     },
     {
       "code": "2883B",
@@ -555,8 +555,8 @@
       "changePct": 0.24,
       "irrMethod": "尚無未來已公告除息日期；不以年化近似冒充 XIRR",
       "xirrCashflowCount": 0,
-      "lastPriceBeforeUpdate": 8.14,
-      "marketUpdatedAt": "2026-09-12T15:36:15+08:00"
+      "lastPriceBeforeUpdate": 8.23,
+      "marketUpdatedAt": "2026-09-12T15:36:51+08:00"
     },
     {
       "code": "2887E",
@@ -598,8 +598,8 @@
       "changePct": 0.0,
       "irrMethod": "缺少有效贖回價/日期",
       "xirrCashflowCount": 0,
-      "lastPriceBeforeUpdate": 48.75,
-      "marketUpdatedAt": "2026-09-12T15:36:15+08:00"
+      "lastPriceBeforeUpdate": 48.55,
+      "marketUpdatedAt": "2026-09-12T15:36:51+08:00"
     },
     {
       "code": "2887F",
@@ -641,8 +641,8 @@
       "changePct": 0.0,
       "irrMethod": "缺少有效贖回價/日期",
       "xirrCashflowCount": 0,
-      "lastPriceBeforeUpdate": 45.8,
-      "marketUpdatedAt": "2026-09-12T15:36:15+08:00"
+      "lastPriceBeforeUpdate": 45.75,
+      "marketUpdatedAt": "2026-09-12T15:36:51+08:00"
     },
     {
       "code": "2887G",
@@ -683,8 +683,8 @@
       "changePct": 0.0,
       "irrMethod": "尚無未來已公告除息日期；不以年化近似冒充 XIRR",
       "xirrCashflowCount": 0,
-      "lastPriceBeforeUpdate": 43.75,
-      "marketUpdatedAt": "2026-09-12T15:36:15+08:00"
+      "lastPriceBeforeUpdate": 44.15,
+      "marketUpdatedAt": "2026-09-12T15:36:51+08:00"
     },
     {
       "code": "2887H",
@@ -726,8 +726,8 @@
       "changePct": 0.0,
       "irrMethod": "尚無未來已公告除息日期；不以年化近似冒充 XIRR",
       "xirrCashflowCount": 0,
-      "lastPriceBeforeUpdate": 41.85,
-      "marketUpdatedAt": "2026-09-12T15:36:15+08:00"
+      "lastPriceBeforeUpdate": 42.1,
+      "marketUpdatedAt": "2026-09-12T15:36:51+08:00"
     },
     {
       "code": "2887I",
@@ -767,8 +767,8 @@
       "changePct": 0.0,
       "irrMethod": "尚無未來已公告除息日期；不以年化近似冒充 XIRR",
       "xirrCashflowCount": 0,
-      "lastPriceBeforeUpdate": 9.51,
-      "marketUpdatedAt": "2026-09-12T15:36:15+08:00"
+      "lastPriceBeforeUpdate": 9.52,
+      "marketUpdatedAt": "2026-09-12T15:36:51+08:00"
     },
     {
       "code": "2891B",
@@ -810,8 +810,8 @@
       "changePct": 0.0,
       "irrMethod": "缺少有效贖回價/日期",
       "xirrCashflowCount": 0,
-      "lastPriceBeforeUpdate": 62.7,
-      "marketUpdatedAt": "2026-09-12T15:36:15+08:00"
+      "lastPriceBeforeUpdate": 61.9,
+      "marketUpdatedAt": "2026-09-12T15:36:51+08:00"
     },
     {
       "code": "2891C",
@@ -853,8 +853,8 @@
       "changePct": 0.33,
       "irrMethod": "缺少有效贖回價/日期",
       "xirrCashflowCount": 0,
-      "lastPriceBeforeUpdate": 61.9,
-      "marketUpdatedAt": "2026-09-12T15:36:15+08:00"
+      "lastPriceBeforeUpdate": 61.1,
+      "marketUpdatedAt": "2026-09-12T15:36:51+08:00"
     },
     {
       "code": "2897B",
@@ -897,8 +897,8 @@
       "changePct": 0.0,
       "irrMethod": "尚無未來已公告除息日期；不以年化近似冒充 XIRR",
       "xirrCashflowCount": 0,
-      "lastPriceBeforeUpdate": 11.45,
-      "marketUpdatedAt": "2026-09-12T15:36:15+08:00"
+      "lastPriceBeforeUpdate": 11.8,
+      "marketUpdatedAt": "2026-09-12T15:36:51+08:00"
     },
     {
       "code": "3036A",
@@ -970,7 +970,7 @@
       "irrMethod": "缺少未來可贖回日",
       "xirrCashflowCount": 0,
       "lastPriceBeforeUpdate": 100.0,
-      "marketUpdatedAt": "2026-09-12T15:36:15+08:00"
+      "marketUpdatedAt": "2026-09-12T15:36:51+08:00"
     },
     {
       "code": "6592A",
@@ -1013,8 +1013,8 @@
       "changePct": 0.0,
       "irrMethod": "尚無未來已公告除息日期；不以年化近似冒充 XIRR",
       "xirrCashflowCount": 0,
-      "lastPriceBeforeUpdate": 95.3,
-      "marketUpdatedAt": "2026-09-12T15:36:15+08:00"
+      "lastPriceBeforeUpdate": 96.0,
+      "marketUpdatedAt": "2026-09-12T15:36:51+08:00"
     },
     {
       "code": "6592B",
@@ -1056,8 +1056,8 @@
       "changePct": 0.0,
       "irrMethod": "尚無未來已公告除息日期；不以年化近似冒充 XIRR",
       "xirrCashflowCount": 0,
-      "lastPriceBeforeUpdate": 94.7,
-      "marketUpdatedAt": "2026-09-12T15:36:15+08:00"
+      "lastPriceBeforeUpdate": 94.9,
+      "marketUpdatedAt": "2026-09-12T15:36:51+08:00"
     },
     {
       "code": "6958A",
@@ -1099,8 +1099,8 @@
       "changePct": 0.0,
       "irrMethod": "尚無未來已公告除息日期；不以年化近似冒充 XIRR",
       "xirrCashflowCount": 0,
-      "lastPriceBeforeUpdate": 19.0,
-      "marketUpdatedAt": "2026-09-12T15:36:15+08:00"
+      "lastPriceBeforeUpdate": 20.3,
+      "marketUpdatedAt": "2026-09-12T15:36:51+08:00"
     },
     {
       "code": "8112A",
@@ -1142,8 +1142,8 @@
       "changePct": 0.0,
       "irrMethod": "尚無未來已公告除息日期；不以年化近似冒充 XIRR",
       "xirrCashflowCount": 0,
-      "lastPriceBeforeUpdate": 45.0,
-      "marketUpdatedAt": "2026-09-12T15:36:15+08:00"
+      "lastPriceBeforeUpdate": 45.2,
+      "marketUpdatedAt": "2026-09-12T15:36:51+08:00"
     },
     {
       "code": "8349A",
@@ -1184,8 +1184,8 @@
       "changePct": 0.0,
       "irrMethod": "缺少未來可贖回日",
       "xirrCashflowCount": 0,
-      "lastPriceBeforeUpdate": 45.3,
-      "marketUpdatedAt": "2026-09-12T15:36:15+08:00"
+      "lastPriceBeforeUpdate": 45.4,
+      "marketUpdatedAt": "2026-09-12T15:36:51+08:00"
     },
     {
       "code": "9941A",
@@ -1226,8 +1226,8 @@
       "changePct": 0.0,
       "irrMethod": "缺少未來可贖回日",
       "xirrCashflowCount": 0,
-      "lastPriceBeforeUpdate": 51.1,
-      "marketUpdatedAt": "2026-09-12T15:36:15+08:00"
+      "lastPriceBeforeUpdate": 48.8,
+      "marketUpdatedAt": "2026-09-12T15:36:51+08:00"
     }
   ],
   "verifiedFormulaCount": 29,
@@ -1242,7 +1242,7 @@
     "XIRR 資料完整度",
     "下一除息日排序"
   ],
-  "marketUpdatedAt": "2026-09-12T15:36:15+08:00",
+  "marketUpdatedAt": "2026-09-12T15:36:51+08:00",
   "marketUpdateSuccessCount": 28,
   "marketUpdateFailCodes": [
     "3036A"
