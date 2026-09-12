@@ -53,6 +53,37 @@ def quote_one(session, code):
     return None
 
 
+def approx_ytc(price, annual_div, call_price, call_date, asof=None):
+    """可贖回日 IRR/YTC：年配息近似，但期限使用實際可贖回日。"""
+    if not all(isinstance(x, (int,float)) and x > 0 for x in (price, annual_div, call_price)):
+        return None
+    try:
+        d = date.fromisoformat(str(call_date))
+    except Exception:
+        return None
+    base = asof or datetime.now(TW).date()
+    days = (d - base).days
+    if days <= 7:
+        return None
+    years = days / 365.25
+    def pv(r):
+        if r <= -0.9999:
+            return float("inf")
+        if abs(r) < 1e-9:
+            coupons = annual_div * years
+        else:
+            coupons = annual_div * (1 - (1+r) ** (-years)) / r
+        return coupons + call_price / ((1+r) ** years)
+    lo, hi = -0.95, 3.0
+    if pv(lo) < price or pv(hi) > price:
+        return None
+    for _ in range(140):
+        mid=(lo+hi)/2
+        if pv(mid) > price: lo=mid
+        else: hi=mid
+    return round((lo+hi)/2*100, 2)
+
+
 def xnpv(rate, cashflows):
     if rate <= -0.999999: return float('inf')
     d0=cashflows[0][0]
@@ -102,7 +133,7 @@ def main():
         dividend_events = []
     session = requests.Session()
     session.headers.update({
-        "User-Agent": "Mozilla/5.0 (compatible; TaiwanPreferredStockDashboard/1.3.1; +https://github.com/)",
+        "User-Agent": "Mozilla/5.0 (compatible; TaiwanPreferredStockDashboard/1.3.2; +https://github.com/)",
         "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.7",
         "Referer": "https://mis.twse.com.tw/stock/fibest.jsp",
     })
@@ -130,32 +161,51 @@ def main():
             if isinstance(s.get("div"), (int,float)) and q["price"] > 0:
                 s["yield"] = round(s["div"] / q["price"] * 100, 2)
             asof = now.date()
-            # XIRR continuity policy: dividend/ex-date data may refresh an XIRR,
-            # but missing future ex-dates must NEVER erase a previously valid XIRR.
-            prev_irr = s.get("irr")
+
+            # 1) 可贖回日 IRR / YTC：獨立存在，絕不受除息日資料影響。
+            prev_call_irr = s.get("callIrr")
+            call_irr = approx_ytc(q["price"], s.get("div"), s.get("callPrice"), s.get("callDate"), asof)
+            if call_irr is not None:
+                s["callIrr"] = call_irr
+                s["irr"] = call_irr  # backward-compatible alias
+                s["callIrrMethod"] = "可贖回日 IRR/YTC（最新市價＋年配息近似＋實際贖回日）"
+                s["callIrrStatus"] = "refreshed"
+            else:
+                # 已過可贖回日或條件不足時，不因 XIRR 更新而清除既有 IRR。
+                if isinstance(prev_call_irr,(int,float)):
+                    s["callIrr"] = prev_call_irr
+                    s["irr"] = prev_call_irr
+                    s["callIrrMethod"] = s.get("callIrrMethod") or "沿用既有可贖回日 IRR"
+                    s["callIrrStatus"] = "carried-forward"
+                else:
+                    s["callIrr"] = None
+                    s["irr"] = None
+                    s["callIrrMethod"] = "缺少未來可贖回日／贖回價／年股息，無法估算"
+                    s["callIrrStatus"] = "unavailable"
+
+            # 2) 除息日基準 XIRR：完全獨立欄位。除息資料只刷新 XIRR，不碰 IRR。
             prev_xirr = s.get("xirr")
-            prev_method = s.get("irrMethod")
+            prev_method = s.get("xirrMethod") or s.get("irrMethod")
             prev_count = s.get("xirrCashflowCount")
             xv, method, event_count = date_aware_xirr(s, q["price"], asof, dividend_events)
             if xv is not None:
                 s["xirr"] = xv
-                s["irr"] = xv
-                s["irrMethod"] = method
+                s["xirrMethod"] = method
+                s["irrMethod"] = method  # legacy display compatibility only
                 s["xirrCashflowCount"] = event_count
                 s["cashflowCoverage"] = "可計算（除息日資料完整）"
                 s["xirrStatus"] = "refreshed"
             else:
-                # Keep the last usable value. Ex-date is a display/refresh input,
-                # not a gate that can blank an existing XIRR.
-                keep = prev_irr if isinstance(prev_irr,(int,float)) else prev_xirr
-                s["irr"] = keep
-                s["xirr"] = prev_xirr if isinstance(prev_xirr,(int,float)) else keep
-                if keep is not None:
-                    s["irrMethod"] = (prev_method or "前次有效 XIRR") + "；除息日資料不足，本次不覆蓋"
+                if isinstance(prev_xirr,(int,float)):
+                    s["xirr"] = prev_xirr
+                    s["xirrMethod"] = (prev_method or "前次有效 XIRR") + "；除息日資料不足，本次不覆蓋"
+                    s["irrMethod"] = s["xirrMethod"]
                     s["xirrCashflowCount"] = prev_count
-                    s["cashflowCoverage"] = "沿用前次有效值"
+                    s["cashflowCoverage"] = "沿用前次有效 XIRR"
                     s["xirrStatus"] = "carried-forward"
                 else:
+                    s["xirr"] = None
+                    s["xirrMethod"] = method
                     s["irrMethod"] = method
                     s["xirrCashflowCount"] = event_count
                     s["cashflowCoverage"] = "尚無可用 XIRR"
@@ -167,7 +217,7 @@ def main():
         except Exception as e:
             fail.append(code)
             s["marketUpdateError"] = str(e)[:240]
-    data["version"] = "1.3.1-xirr-fix"
+    data["version"] = "1.3.2"
     data["marketDataAsOf"] = now.date().isoformat()
     data["marketUpdatedAt"] = now.isoformat(timespec="seconds")
     data["marketUpdateStatus"] = "ok" if ok else "stale"
@@ -175,7 +225,7 @@ def main():
     data["marketUpdateFailCodes"] = fail
     data["marketSourceLabel"] = "TWSE MIS / TPEx quote fallback"
     data["marketSourceUrl"] = MIS_URL
-    data["irrPolicy"] = "V1.3.1 修正版：除息日只用於刷新/提升 XIRR 精度；若未來除息日尚未公告，保留前次有效 XIRR，絕不因除息資料缺漏而清空。"
+    data["irrPolicy"] = "V1.3.2：可贖回日 IRR/YTC 與除息日基準 XIRR 完全分離；除息資料不足不會影響 IRR。"
     OUT.write_text(json.dumps(data, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
     print(json.dumps({"updated": ok, "failed": fail, "asof": data["marketDataAsOf"]}, ensure_ascii=False))
 
