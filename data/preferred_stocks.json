@@ -55,9 +55,9 @@
       "high": 43.15,
       "low": 43.1,
       "volume": 25.0,
-      "lastPriceBeforeUpdate": 43.4,
+      "lastPriceBeforeUpdate": 43.1,
       "changePct": -0.12,
-      "marketUpdatedAt": "2026-09-12T18:12:01+08:00"
+      "marketUpdatedAt": "2026-09-12T18:13:13+08:00"
     },
     {
       "code": "1312A",
@@ -102,9 +102,9 @@
       "high": 22.8,
       "low": 22.75,
       "volume": 15.0,
-      "lastPriceBeforeUpdate": 20.8,
+      "lastPriceBeforeUpdate": 22.8,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T18:12:01+08:00"
+      "marketUpdatedAt": "2026-09-12T18:13:13+08:00"
     },
     {
       "code": "1522A",
@@ -154,9 +154,9 @@
       "high": 51.0,
       "low": 51.0,
       "volume": 1.0,
-      "lastPriceBeforeUpdate": 49.0,
+      "lastPriceBeforeUpdate": 50.8,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T18:12:01+08:00"
+      "marketUpdatedAt": "2026-09-12T18:13:13+08:00"
     },
     {
       "code": "2002A",
@@ -204,9 +204,9 @@
       "high": 37.1,
       "low": 37.1,
       "volume": 7.0,
-      "lastPriceBeforeUpdate": 37.45,
+      "lastPriceBeforeUpdate": 37.1,
       "changePct": -0.54,
-      "marketUpdatedAt": "2026-09-12T18:12:01+08:00"
+      "marketUpdatedAt": "2026-09-12T18:13:13+08:00"
     },
     {
       "code": "2348A",
@@ -256,9 +256,9 @@
       "high": 38.55,
       "low": 38.45,
       "volume": 53.0,
-      "lastPriceBeforeUpdate": 37.15,
+      "lastPriceBeforeUpdate": 38.55,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T18:12:01+08:00"
+      "marketUpdatedAt": "2026-09-12T18:13:13+08:00"
     },
     {
       "code": "2836A",
@@ -308,9 +308,9 @@
       "high": 24.0,
       "low": 23.95,
       "volume": 7.0,
-      "lastPriceBeforeUpdate": 24.25,
+      "lastPriceBeforeUpdate": 24.0,
       "changePct": -0.21,
-      "marketUpdatedAt": "2026-09-12T18:12:01+08:00"
+      "marketUpdatedAt": "2026-09-12T18:13:13+08:00"
     },
     {
       "code": "2838A",
@@ -362,7 +362,7 @@
       "volume": 101.0,
       "lastPriceBeforeUpdate": 51.9,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T18:12:01+08:00"
+      "marketUpdatedAt": "2026-09-12T18:13:13+08:00"
     },
     {
       "code": "2881A",
@@ -412,9 +412,9 @@
       "high": 61.7,
       "low": 61.6,
       "volume": 6.0,
-      "lastPriceBeforeUpdate": 61.8,
+      "lastPriceBeforeUpdate": 61.7,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T18:12:01+08:00"
+      "marketUpdatedAt": "2026-09-12T18:13:13+08:00"
     },
     {
       "code": "2881B",
@@ -464,9 +464,9 @@
       "high": 60.9,
       "low": 60.8,
       "volume": 7.0,
-      "lastPriceBeforeUpdate": 60.6,
+      "lastPriceBeforeUpdate": 60.9,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T18:12:01+08:00"
+      "marketUpdatedAt": "2026-09-12T18:13:13+08:00"
     },
     {
       "code": "2881C",
@@ -517,9 +517,9 @@
       "high": 51.4,
       "low": 51.3,
       "volume": 39.0,
-      "lastPriceBeforeUpdate": 51.5,
+      "lastPriceBeforeUpdate": 51.4,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T18:12:01+08:00"
+      "marketUpdatedAt": "2026-09-12T18:13:13+08:00"
     },
     {
       "code": "2882A",
@@ -569,9 +569,9 @@
       "high": 60.3,
       "low": 60.2,
       "volume": 9.0,
-      "lastPriceBeforeUpdate": 60.2,
+      "lastPriceBeforeUpdate": 60.3,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T18:12:01+08:00"
+      "marketUpdatedAt": "2026-09-12T18:13:13+08:00"
     },
     {
       "code": "2882B",
@@ -621,9 +621,9 @@
       "high": 58.8,
       "low": 58.8,
       "volume": 7.0,
-      "lastPriceBeforeUpdate": 58.9,
+      "lastPriceBeforeUpdate": 58.8,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T18:12:01+08:00"
+      "marketUpdatedAt": "2026-09-12T18:13:13+08:00"
     },
     {
       "code": "2883B",
@@ -674,9 +674,9 @@
       "high": 8.23,
       "low": 8.21,
       "volume": 1892.0,
-      "lastPriceBeforeUpdate": 8.14,
+      "lastPriceBeforeUpdate": 8.23,
       "changePct": 0.24,
-      "marketUpdatedAt": "2026-09-12T18:12:01+08:00"
+      "marketUpdatedAt": "2026-09-12T18:13:13+08:00"
     },
     {
       "code": "2887E",
@@ -726,9 +726,9 @@
       "high": 48.55,
       "low": 48.5,
       "volume": 167.0,
-      "lastPriceBeforeUpdate": 48.75,
+      "lastPriceBeforeUpdate": 48.55,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T18:12:01+08:00"
+      "marketUpdatedAt": "2026-09-12T18:13:13+08:00"
     },
     {
       "code": "2887F",
@@ -778,9 +778,9 @@
       "high": 45.75,
       "low": 45.7,
       "volume": 29.0,
-      "lastPriceBeforeUpdate": 45.8,
+      "lastPriceBeforeUpdate": 45.75,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T18:12:01+08:00"
+      "marketUpdatedAt": "2026-09-12T18:13:13+08:00"
     },
     {
       "code": "2887G",
@@ -830,9 +830,9 @@
       "high": 44.2,
       "low": 44.1,
       "volume": 47.0,
-      "lastPriceBeforeUpdate": 43.75,
+      "lastPriceBeforeUpdate": 44.15,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T18:12:01+08:00"
+      "marketUpdatedAt": "2026-09-12T18:13:13+08:00"
     },
     {
       "code": "2887H",
@@ -883,9 +883,9 @@
       "high": 42.45,
       "low": 42.1,
       "volume": 138.0,
-      "lastPriceBeforeUpdate": 41.85,
+      "lastPriceBeforeUpdate": 42.1,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T18:12:01+08:00"
+      "marketUpdatedAt": "2026-09-12T18:13:13+08:00"
     },
     {
       "code": "2887I",
@@ -934,9 +934,9 @@
       "high": 9.52,
       "low": 9.51,
       "volume": 2023.0,
-      "lastPriceBeforeUpdate": 9.51,
+      "lastPriceBeforeUpdate": 9.52,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T18:12:01+08:00"
+      "marketUpdatedAt": "2026-09-12T18:13:13+08:00"
     },
     {
       "code": "2891B",
@@ -986,9 +986,9 @@
       "high": null,
       "low": null,
       "volume": 0.0,
-      "lastPriceBeforeUpdate": 62.7,
+      "lastPriceBeforeUpdate": 61.9,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T18:12:01+08:00"
+      "marketUpdatedAt": "2026-09-12T18:13:13+08:00"
     },
     {
       "code": "2891C",
@@ -1038,9 +1038,9 @@
       "high": 61.1,
       "low": 61.1,
       "volume": 3.0,
-      "lastPriceBeforeUpdate": 61.9,
+      "lastPriceBeforeUpdate": 61.1,
       "changePct": 0.33,
-      "marketUpdatedAt": "2026-09-12T18:12:01+08:00"
+      "marketUpdatedAt": "2026-09-12T18:13:13+08:00"
     },
     {
       "code": "2897B",
@@ -1092,9 +1092,9 @@
       "high": 11.8,
       "low": 11.75,
       "volume": 27.0,
-      "lastPriceBeforeUpdate": 11.45,
+      "lastPriceBeforeUpdate": 11.8,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T18:12:01+08:00"
+      "marketUpdatedAt": "2026-09-12T18:13:13+08:00"
     },
     {
       "code": "3036A",
@@ -1136,7 +1136,7 @@
       "callIrrMethod": "已進入可隨時贖回期間，無單一未來贖回日，不硬算單一 YTC",
       "xirrStatus": "estimated",
       "xirrCashflowCount": 5,
-      "marketUpdatedAt": "2026-09-12T18:12:01+08:00"
+      "marketUpdatedAt": "2026-09-12T18:13:13+08:00"
     },
     {
       "code": "5871A",
@@ -1188,7 +1188,7 @@
       "volume": 17.0,
       "lastPriceBeforeUpdate": 100.0,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T18:12:01+08:00"
+      "marketUpdatedAt": "2026-09-12T18:13:13+08:00"
     },
     {
       "code": "6592A",
@@ -1239,9 +1239,9 @@
       "high": 96.1,
       "low": 96.0,
       "volume": 5.0,
-      "lastPriceBeforeUpdate": 95.3,
+      "lastPriceBeforeUpdate": 96.0,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T18:12:01+08:00"
+      "marketUpdatedAt": "2026-09-12T18:13:13+08:00"
     },
     {
       "code": "6592B",
@@ -1292,9 +1292,9 @@
       "high": 94.9,
       "low": 94.9,
       "volume": 7.0,
-      "lastPriceBeforeUpdate": 94.7,
+      "lastPriceBeforeUpdate": 94.9,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T18:12:01+08:00"
+      "marketUpdatedAt": "2026-09-12T18:13:13+08:00"
     },
     {
       "code": "6958A",
@@ -1345,9 +1345,9 @@
       "high": 20.3,
       "low": 20.25,
       "volume": 3.0,
-      "lastPriceBeforeUpdate": 19.0,
+      "lastPriceBeforeUpdate": 20.3,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T18:12:01+08:00"
+      "marketUpdatedAt": "2026-09-12T18:13:13+08:00"
     },
     {
       "code": "8112A",
@@ -1398,9 +1398,9 @@
       "high": 45.2,
       "low": 45.2,
       "volume": 6.0,
-      "lastPriceBeforeUpdate": 45.0,
+      "lastPriceBeforeUpdate": 45.2,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T18:12:01+08:00"
+      "marketUpdatedAt": "2026-09-12T18:13:13+08:00"
     },
     {
       "code": "8349A",
@@ -1450,9 +1450,9 @@
       "high": null,
       "low": null,
       "volume": 0.0,
-      "lastPriceBeforeUpdate": 45.3,
+      "lastPriceBeforeUpdate": 45.4,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T18:12:01+08:00"
+      "marketUpdatedAt": "2026-09-12T18:13:13+08:00"
     },
     {
       "code": "9941A",
@@ -1502,9 +1502,9 @@
       "high": null,
       "low": null,
       "volume": 0.0,
-      "lastPriceBeforeUpdate": 51.1,
+      "lastPriceBeforeUpdate": 48.8,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T18:12:01+08:00"
+      "marketUpdatedAt": "2026-09-12T18:13:13+08:00"
     }
   ],
   "verifiedFormulaCount": 29,
@@ -1526,7 +1526,7 @@
     "綜合評分",
     "完整排序功能"
   ],
-  "marketUpdatedAt": "2026-09-12T18:12:01+08:00",
+  "marketUpdatedAt": "2026-09-12T18:13:13+08:00",
   "marketUpdateSuccessCount": 28,
   "marketUpdateFailCodes": [
     "3036A"
