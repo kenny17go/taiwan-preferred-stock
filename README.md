@@ -1,28 +1,24 @@
-# 台灣上市櫃特別股分析 V1.1
+# 台灣特別股分析 V1.2
 
-V1.1 延續 V1 的 GitHub Pages + GitHub Actions 架構，並把特別股資料移到 `data/preferred_stocks.json`，方便後續持續維護。
+V1.2 新增「股價＋殖利率＋IRR/YTC」自動更新，並整合專屬 App Icon。
 
-## V1.1 重點
+## 自動更新
+- TWD IRS：沿用 `.github/workflows/update-irs.yml`
+- 特別股市場資料：新增 `.github/workflows/update-market.yml`
+- 平日台灣時間約 14:45 執行市場更新
+- 股價來源：TWSE MIS，程式亦嘗試 TPEx market code 作為 fallback
+- 殖利率：年股息 ÷ 最新股價
+- IRR/YTC：只有在「未來可贖回日＋贖回價＋年股息」完整時自動估算；採年配息近似模型，不等同精確 XIRR
 
-- 載入 FindBillion「特別股詳細列表」目前列示的 29 檔特別股。
-- 保留市場總覽、完整列表、排行榜、特別股 PK、重設/IRR 試算、贖回日曆、觀察清單。
-- 重設試算器的 TWD IRS 不再人工輸入，直接讀取 `data/irs.json`。
-- 已核對的重設公式會以 `TWD IRS 7Y + X.XXXX%` 顯示並用最新 IRS 即時計算。
-- 未取得可核對契約來源的標的一律顯示「待核對」，不反推或猜測固定加碼利差。
-- FindBillion 的「預估不收回重設利率 / 股息 / 殖利率」另保留作為市場資料參考。
+## Icon / PWA
+- `icons/icon-192.png`
+- `icons/icon-512.png`
+- `icons/apple-touch-icon.png`
+- `icons/favicon-64.png`
+- `manifest.webmanifest`
 
-## GitHub Pages 更新方式
+iPhone Safari 加到主畫面後會使用新的台灣特別股圖示。
 
-若你已經有 V1 在 GitHub Pages 上運作，V1.1 最少只需要：
-
-1. 以本版 `index.html` 覆蓋 repository 根目錄的 `index.html`。
-2. 把 `data/preferred_stocks.json` 上傳到既有 `data` 資料夾。
-3. 原本 `data/irs.json`、`scripts/update_irs.py` 與 `.github/workflows/update-irs.yml` 保留即可。
-
-完整 ZIP 也包含原本 IRS 自動更新檔案，可用於全新部署。
-
-## 資料註記
-
-市場資料基準：FindBillion 特別股詳細列表（頁面標示最後更新 2026-08-08）。
-
-本網站僅供研究與資料整理，不構成投資建議。特別股發行條件、重設公式、贖回條件應以發行公司公開說明書、重大訊息與交易所公告為準。
+## 上傳 GitHub
+把本資料夾內所有檔案覆蓋/新增至 repository 根目錄。請保留 `.github` 隱藏資料夾。
+上傳後可到 Actions 手動執行一次 `Update preferred stock market data` 驗證。
