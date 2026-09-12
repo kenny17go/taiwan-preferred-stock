@@ -1,0 +1,138 @@
+{
+  "version": "1.3-exdate",
+  "updatedAt": null,
+  "sourcePolicy": "XIRR 一律以官方已公告除息日（exDate）作為股息權利取得日期；paymentDate 僅保留作參考，不參與 XIRR。",
+  "sources": [
+    {
+      "label": "TWSE OpenAPI 除權除息預告表",
+      "url": "https://openapi.twse.com.tw/v1/exchangeReport/TWT48U_ALL"
+    },
+    {
+      "label": "TWSE OpenAPI 上市公司股利分派情形",
+      "url": "https://openapi.twse.com.tw/v1/opendata/t187ap45_L"
+    },
+    {
+      "label": "公開資訊觀測站/發行公司公告",
+      "url": "https://mops.twse.com.tw/"
+    }
+  ],
+  "events": [],
+  "coverage": {
+    "1101B": {
+      "officialExDates": 0,
+      "status": "尚無已公告除息日"
+    },
+    "1312A": {
+      "officialExDates": 0,
+      "status": "尚無已公告除息日"
+    },
+    "1522A": {
+      "officialExDates": 0,
+      "status": "尚無已公告除息日"
+    },
+    "2002A": {
+      "officialExDates": 0,
+      "status": "尚無已公告除息日"
+    },
+    "2348A": {
+      "officialExDates": 0,
+      "status": "尚無已公告除息日"
+    },
+    "2836A": {
+      "officialExDates": 0,
+      "status": "尚無已公告除息日"
+    },
+    "2838A": {
+      "officialExDates": 0,
+      "status": "尚無已公告除息日"
+    },
+    "2881A": {
+      "officialExDates": 0,
+      "status": "尚無已公告除息日"
+    },
+    "2881B": {
+      "officialExDates": 0,
+      "status": "尚無已公告除息日"
+    },
+    "2881C": {
+      "officialExDates": 0,
+      "status": "尚無已公告除息日"
+    },
+    "2882A": {
+      "officialExDates": 0,
+      "status": "尚無已公告除息日"
+    },
+    "2882B": {
+      "officialExDates": 0,
+      "status": "尚無已公告除息日"
+    },
+    "2883B": {
+      "officialExDates": 0,
+      "status": "尚無已公告除息日"
+    },
+    "2887E": {
+      "officialExDates": 0,
+      "status": "尚無已公告除息日"
+    },
+    "2887F": {
+      "officialExDates": 0,
+      "status": "尚無已公告除息日"
+    },
+    "2887G": {
+      "officialExDates": 0,
+      "status": "尚無已公告除息日"
+    },
+    "2887H": {
+      "officialExDates": 0,
+      "status": "尚無已公告除息日"
+    },
+    "2887I": {
+      "officialExDates": 0,
+      "status": "尚無已公告除息日"
+    },
+    "2891B": {
+      "officialExDates": 0,
+      "status": "尚無已公告除息日"
+    },
+    "2891C": {
+      "officialExDates": 0,
+      "status": "尚無已公告除息日"
+    },
+    "2897B": {
+      "officialExDates": 0,
+      "status": "尚無已公告除息日"
+    },
+    "3036A": {
+      "officialExDates": 0,
+      "status": "尚無已公告除息日"
+    },
+    "5871A": {
+      "officialExDates": 0,
+      "status": "尚無已公告除息日"
+    },
+    "6592A": {
+      "officialExDates": 0,
+      "status": "尚無已公告除息日"
+    },
+    "6592B": {
+      "officialExDates": 0,
+      "status": "尚無已公告除息日"
+    },
+    "6958A": {
+      "officialExDates": 0,
+      "status": "尚無已公告除息日"
+    },
+    "8112A": {
+      "officialExDates": 0,
+      "status": "尚無已公告除息日"
+    },
+    "8349A": {
+      "officialExDates": 0,
+      "status": "尚無已公告除息日"
+    },
+    "9941A": {
+      "officialExDates": 0,
+      "status": "尚無已公告除息日"
+    }
+  }
+}
