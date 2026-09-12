@@ -1,6 +1,6 @@
 {
-  "name": "台灣上市櫃特別股分析 V1.3",
-  "short_name": "特別股V1.3",
+  "name": "台灣上市櫃特別股分析 V1.4",
+  "short_name": "特別股 V1.4",
   "description": "台灣上市櫃特別股：股價、殖利率、IRR、贖回與重設利率分析",
   "start_url": "./",
   "display": "standalone",
