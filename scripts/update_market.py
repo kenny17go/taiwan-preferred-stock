@@ -147,7 +147,7 @@ def main():
             s['marketUpdatedAt']=now.isoformat(timespec='seconds');time.sleep(.1)
         except Exception as exc:
             fail.append(code);s['marketUpdateError']=str(exc)[:240]
-    data['version']='1.4';data['marketDataAsOf']=now.date().isoformat();data['marketUpdatedAt']=now.isoformat(timespec='seconds')
+    data['version']='1.5';data['marketDataAsOf']=now.date().isoformat();data['marketUpdatedAt']=now.isoformat(timespec='seconds')
     data['marketUpdateStatus']='ok' if ok else 'stale';data['marketUpdateSuccessCount']=ok;data['marketUpdateFailCodes']=fail
     data['marketSourceLabel']='TWSE MIS / TPEx quote fallback';data['marketSourceUrl']=MIS_URL
     data['irrPolicy']='V1.4：首次可贖回日在未來才顯示可贖回情境 IRR；已進入可隨時贖回期間不強行指定唯一 YTC。XIRR 採除息日；未公告未來除息日採最近季節性估算並明確標示。'
