@@ -1,6 +1,6 @@
 {
-  "version": "1.5",
-  "marketDataAsOf": "2026-09-12",
+  "version": "1.5.9",
+  "marketDataAsOf": "2026-09-13",
   "generatedAt": "2026-09-12",
   "sourceLabel": "市場資料自動更新｜發行條件依公開資料核對",
   "sourceUrl": "https://openapi.twse.com.tw/",
@@ -32,7 +32,7 @@
       "resetCycleYears": 5,
       "issueBaseRate": 0.9375,
       "issueRate": 3.5,
-      "xirr": 10.98,
+      "xirr": 10.99,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -57,7 +57,92 @@
       "volume": 25.0,
       "lastPriceBeforeUpdate": 43.1,
       "changePct": -0.12,
-      "marketUpdatedAt": "2026-09-12T21:35:04+08:00"
+      "marketUpdatedAt": "2026-09-13T08:03:45+08:00",
+      "volumeHistory20": [
+        {
+          "date": "2026-08-17",
+          "volume": 14.415
+        },
+        {
+          "date": "2026-08-18",
+          "volume": 21.095
+        },
+        {
+          "date": "2026-08-19",
+          "volume": 0.0
+        },
+        {
+          "date": "2026-08-20",
+          "volume": 2.268
+        },
+        {
+          "date": "2026-08-21",
+          "volume": 7.176
+        },
+        {
+          "date": "2026-08-24",
+          "volume": 9.01
+        },
+        {
+          "date": "2026-08-25",
+          "volume": 23.8
+        },
+        {
+          "date": "2026-08-26",
+          "volume": 7.042
+        },
+        {
+          "date": "2026-08-27",
+          "volume": 6.0
+        },
+        {
+          "date": "2026-08-28",
+          "volume": 8.638
+        },
+        {
+          "date": "2026-08-31",
+          "volume": 111.0
+        },
+        {
+          "date": "2026-09-01",
+          "volume": 11.207
+        },
+        {
+          "date": "2026-09-02",
+          "volume": 81.201
+        },
+        {
+          "date": "2026-09-03",
+          "volume": 13.034
+        },
+        {
+          "date": "2026-09-04",
+          "volume": 8.289
+        },
+        {
+          "date": "2026-09-07",
+          "volume": 46.0
+        },
+        {
+          "date": "2026-09-08",
+          "volume": 81.016
+        },
+        {
+          "date": "2026-09-09",
+          "volume": 6.002
+        },
+        {
+          "date": "2026-09-10",
+          "volume": 39.1
+        },
+        {
+          "date": "2026-09-11",
+          "volume": 25.001
+        }
+      ],
+      "volumeMedian20": 12.12,
+      "volumeMedian20Samples": 20,
+      "volumeMedian20AsOf": "2026-09-11"
     },
     {
       "code": "1312A",
@@ -104,7 +189,92 @@
       "volume": 15.0,
       "lastPriceBeforeUpdate": 22.8,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T21:35:04+08:00"
+      "marketUpdatedAt": "2026-09-13T08:03:45+08:00",
+      "volumeHistory20": [
+        {
+          "date": "2026-08-17",
+          "volume": 0.0
+        },
+        {
+          "date": "2026-08-18",
+          "volume": 8.0
+        },
+        {
+          "date": "2026-08-19",
+          "volume": 1.0
+        },
+        {
+          "date": "2026-08-20",
+          "volume": 0.0
+        },
+        {
+          "date": "2026-08-21",
+          "volume": 0.0
+        },
+        {
+          "date": "2026-08-24",
+          "volume": 0.0
+        },
+        {
+          "date": "2026-08-25",
+          "volume": 0.0
+        },
+        {
+          "date": "2026-08-26",
+          "volume": 28.0
+        },
+        {
+          "date": "2026-08-27",
+          "volume": 26.0
+        },
+        {
+          "date": "2026-08-28",
+          "volume": 15.999
+        },
+        {
+          "date": "2026-08-31",
+          "volume": 21.0
+        },
+        {
+          "date": "2026-09-01",
+          "volume": 20.001
+        },
+        {
+          "date": "2026-09-02",
+          "volume": 0.0
+        },
+        {
+          "date": "2026-09-03",
+          "volume": 0.0
+        },
+        {
+          "date": "2026-09-04",
+          "volume": 0.0
+        },
+        {
+          "date": "2026-09-07",
+          "volume": 0.0
+        },
+        {
+          "date": "2026-09-08",
+          "volume": 1.248
+        },
+        {
+          "date": "2026-09-09",
+          "volume": 0.0
+        },
+        {
+          "date": "2026-09-10",
+          "volume": 0.0
+        },
+        {
+          "date": "2026-09-11",
+          "volume": 15.0
+        }
+      ],
+      "volumeMedian20": 0.0,
+      "volumeMedian20Samples": 20,
+      "volumeMedian20AsOf": "2026-09-11"
     },
     {
       "code": "1522A",
@@ -156,7 +326,92 @@
       "volume": 1.0,
       "lastPriceBeforeUpdate": 50.8,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T21:35:04+08:00"
+      "marketUpdatedAt": "2026-09-13T08:03:45+08:00",
+      "volumeHistory20": [
+        {
+          "date": "2026-08-17",
+          "volume": 17.922
+        },
+        {
+          "date": "2026-08-18",
+          "volume": 16.735
+        },
+        {
+          "date": "2026-08-19",
+          "volume": 12.119
+        },
+        {
+          "date": "2026-08-20",
+          "volume": 19.662
+        },
+        {
+          "date": "2026-08-21",
+          "volume": 53.2
+        },
+        {
+          "date": "2026-08-24",
+          "volume": 28.0
+        },
+        {
+          "date": "2026-08-25",
+          "volume": 0.0
+        },
+        {
+          "date": "2026-08-26",
+          "volume": 7.0
+        },
+        {
+          "date": "2026-08-27",
+          "volume": 7.0
+        },
+        {
+          "date": "2026-08-28",
+          "volume": 9.0
+        },
+        {
+          "date": "2026-08-31",
+          "volume": 4.0
+        },
+        {
+          "date": "2026-09-01",
+          "volume": 2.0
+        },
+        {
+          "date": "2026-09-02",
+          "volume": 2.0
+        },
+        {
+          "date": "2026-09-03",
+          "volume": 1.0
+        },
+        {
+          "date": "2026-09-04",
+          "volume": 0.0
+        },
+        {
+          "date": "2026-09-07",
+          "volume": 29.0
+        },
+        {
+          "date": "2026-09-08",
+          "volume": 4.0
+        },
+        {
+          "date": "2026-09-09",
+          "volume": 12.0
+        },
+        {
+          "date": "2026-09-10",
+          "volume": 8.0
+        },
+        {
+          "date": "2026-09-11",
+          "volume": 1.0
+        }
+      ],
+      "volumeMedian20": 7.5,
+      "volumeMedian20Samples": 20,
+      "volumeMedian20AsOf": "2026-09-11"
     },
     {
       "code": "2002A",
@@ -206,7 +461,92 @@
       "volume": 7.0,
       "lastPriceBeforeUpdate": 37.1,
       "changePct": -0.54,
-      "marketUpdatedAt": "2026-09-12T21:35:04+08:00"
+      "marketUpdatedAt": "2026-09-13T08:03:45+08:00",
+      "volumeHistory20": [
+        {
+          "date": "2026-08-17",
+          "volume": 8.237
+        },
+        {
+          "date": "2026-08-18",
+          "volume": 13.45
+        },
+        {
+          "date": "2026-08-19",
+          "volume": 9.187
+        },
+        {
+          "date": "2026-08-20",
+          "volume": 10.1
+        },
+        {
+          "date": "2026-08-21",
+          "volume": 1.005
+        },
+        {
+          "date": "2026-08-24",
+          "volume": 42.131
+        },
+        {
+          "date": "2026-08-25",
+          "volume": 6.131
+        },
+        {
+          "date": "2026-08-26",
+          "volume": 14.258
+        },
+        {
+          "date": "2026-08-27",
+          "volume": 13.653
+        },
+        {
+          "date": "2026-08-28",
+          "volume": 21.335
+        },
+        {
+          "date": "2026-08-31",
+          "volume": 26.093
+        },
+        {
+          "date": "2026-09-01",
+          "volume": 33.28
+        },
+        {
+          "date": "2026-09-02",
+          "volume": 12.0
+        },
+        {
+          "date": "2026-09-03",
+          "volume": 9.0
+        },
+        {
+          "date": "2026-09-04",
+          "volume": 7.098
+        },
+        {
+          "date": "2026-09-07",
+          "volume": 14.23
+        },
+        {
+          "date": "2026-09-08",
+          "volume": 4.16
+        },
+        {
+          "date": "2026-09-09",
+          "volume": 16.518
+        },
+        {
+          "date": "2026-09-10",
+          "volume": 32.945
+        },
+        {
+          "date": "2026-09-11",
+          "volume": 7.081
+        }
+      ],
+      "volumeMedian20": 12.72,
+      "volumeMedian20Samples": 20,
+      "volumeMedian20AsOf": "2026-09-11"
     },
     {
       "code": "2348A",
@@ -233,7 +573,7 @@
       "resetCycleYears": 5,
       "issueBaseRate": 0.62275,
       "issueRate": 4.0,
-      "xirr": 145.58,
+      "xirr": 161.86,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "官方除息日覆蓋",
       "callIrr": null,
@@ -258,7 +598,92 @@
       "volume": 53.0,
       "lastPriceBeforeUpdate": 38.55,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T21:35:04+08:00"
+      "marketUpdatedAt": "2026-09-13T08:03:45+08:00",
+      "volumeHistory20": [
+        {
+          "date": "2026-08-17",
+          "volume": 46.0
+        },
+        {
+          "date": "2026-08-18",
+          "volume": 3.0
+        },
+        {
+          "date": "2026-08-19",
+          "volume": 11.103
+        },
+        {
+          "date": "2026-08-20",
+          "volume": 12.216
+        },
+        {
+          "date": "2026-08-21",
+          "volume": 6.0
+        },
+        {
+          "date": "2026-08-24",
+          "volume": 21.772
+        },
+        {
+          "date": "2026-08-25",
+          "volume": 60.0
+        },
+        {
+          "date": "2026-08-26",
+          "volume": 32.072
+        },
+        {
+          "date": "2026-08-27",
+          "volume": 8.743
+        },
+        {
+          "date": "2026-08-28",
+          "volume": 23.84
+        },
+        {
+          "date": "2026-08-31",
+          "volume": 39.248
+        },
+        {
+          "date": "2026-09-01",
+          "volume": 15.0
+        },
+        {
+          "date": "2026-09-02",
+          "volume": 11.083
+        },
+        {
+          "date": "2026-09-03",
+          "volume": 44.834
+        },
+        {
+          "date": "2026-09-04",
+          "volume": 36.142
+        },
+        {
+          "date": "2026-09-07",
+          "volume": 41.018
+        },
+        {
+          "date": "2026-09-08",
+          "volume": 43.652
+        },
+        {
+          "date": "2026-09-09",
+          "volume": 13.529
+        },
+        {
+          "date": "2026-09-10",
+          "volume": 16.0
+        },
+        {
+          "date": "2026-09-11",
+          "volume": 53.0
+        }
+      ],
+      "volumeMedian20": 22.81,
+      "volumeMedian20Samples": 20,
+      "volumeMedian20AsOf": "2026-09-11"
     },
     {
       "code": "2836A",
@@ -310,7 +735,92 @@
       "volume": 7.0,
       "lastPriceBeforeUpdate": 24.0,
       "changePct": -0.21,
-      "marketUpdatedAt": "2026-09-12T21:35:04+08:00"
+      "marketUpdatedAt": "2026-09-13T08:03:45+08:00",
+      "volumeHistory20": [
+        {
+          "date": "2026-08-17",
+          "volume": 3.156
+        },
+        {
+          "date": "2026-08-18",
+          "volume": 1.165
+        },
+        {
+          "date": "2026-08-19",
+          "volume": 7.0
+        },
+        {
+          "date": "2026-08-20",
+          "volume": 1.189
+        },
+        {
+          "date": "2026-08-21",
+          "volume": 39.59
+        },
+        {
+          "date": "2026-08-24",
+          "volume": 8.59
+        },
+        {
+          "date": "2026-08-25",
+          "volume": 60.017
+        },
+        {
+          "date": "2026-08-26",
+          "volume": 2.0
+        },
+        {
+          "date": "2026-08-27",
+          "volume": 31.0
+        },
+        {
+          "date": "2026-08-28",
+          "volume": 12.41
+        },
+        {
+          "date": "2026-08-31",
+          "volume": 37.0
+        },
+        {
+          "date": "2026-09-01",
+          "volume": 10.0
+        },
+        {
+          "date": "2026-09-02",
+          "volume": 6.0
+        },
+        {
+          "date": "2026-09-03",
+          "volume": 13.0
+        },
+        {
+          "date": "2026-09-04",
+          "volume": 6.05
+        },
+        {
+          "date": "2026-09-07",
+          "volume": 5.0
+        },
+        {
+          "date": "2026-09-08",
+          "volume": 12.06
+        },
+        {
+          "date": "2026-09-09",
+          "volume": 1.0
+        },
+        {
+          "date": "2026-09-10",
+          "volume": 3.0
+        },
+        {
+          "date": "2026-09-11",
+          "volume": 7.0
+        }
+      ],
+      "volumeMedian20": 7.0,
+      "volumeMedian20Samples": 20,
+      "volumeMedian20AsOf": "2026-09-11"
     },
     {
       "code": "2838A",
@@ -337,7 +847,7 @@
       "resetCycleYears": 5.5,
       "issueBaseRate": 0.89125,
       "issueRate": 4.8,
-      "xirr": 3.16,
+      "xirr": 3.17,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -362,7 +872,92 @@
       "volume": 101.0,
       "lastPriceBeforeUpdate": 51.9,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T21:35:04+08:00"
+      "marketUpdatedAt": "2026-09-13T08:03:45+08:00",
+      "volumeHistory20": [
+        {
+          "date": "2026-08-17",
+          "volume": 102.2
+        },
+        {
+          "date": "2026-08-18",
+          "volume": 28.0
+        },
+        {
+          "date": "2026-08-19",
+          "volume": 7.06
+        },
+        {
+          "date": "2026-08-20",
+          "volume": 44.045
+        },
+        {
+          "date": "2026-08-21",
+          "volume": 87.004
+        },
+        {
+          "date": "2026-08-24",
+          "volume": 24.0
+        },
+        {
+          "date": "2026-08-25",
+          "volume": 49.065
+        },
+        {
+          "date": "2026-08-26",
+          "volume": 13.196
+        },
+        {
+          "date": "2026-08-27",
+          "volume": 77.0
+        },
+        {
+          "date": "2026-08-28",
+          "volume": 152.341
+        },
+        {
+          "date": "2026-08-31",
+          "volume": 29.0
+        },
+        {
+          "date": "2026-09-01",
+          "volume": 39.071
+        },
+        {
+          "date": "2026-09-02",
+          "volume": 48.05
+        },
+        {
+          "date": "2026-09-03",
+          "volume": 53.126
+        },
+        {
+          "date": "2026-09-04",
+          "volume": 39.002
+        },
+        {
+          "date": "2026-09-07",
+          "volume": 33.316
+        },
+        {
+          "date": "2026-09-08",
+          "volume": 22.0
+        },
+        {
+          "date": "2026-09-09",
+          "volume": 23.002
+        },
+        {
+          "date": "2026-09-10",
+          "volume": 124.025
+        },
+        {
+          "date": "2026-09-11",
+          "volume": 101.329
+        }
+      ],
+      "volumeMedian20": 41.56,
+      "volumeMedian20Samples": 20,
+      "volumeMedian20AsOf": "2026-09-11"
     },
     {
       "code": "2881A",
@@ -390,7 +985,7 @@
       "div": 2.72,
       "note": "市場價格由 TWSE/TPEx 自動更新；發行與重設條款以公開說明書、重大訊息與交易所公告核對。",
       "issueBaseRate": 0.885,
-      "xirr": 2.98,
+      "xirr": 2.99,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -414,7 +1009,92 @@
       "volume": 6.0,
       "lastPriceBeforeUpdate": 61.7,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T21:35:04+08:00"
+      "marketUpdatedAt": "2026-09-13T08:03:45+08:00",
+      "volumeHistory20": [
+        {
+          "date": "2026-08-17",
+          "volume": 12.784
+        },
+        {
+          "date": "2026-08-18",
+          "volume": 25.427
+        },
+        {
+          "date": "2026-08-19",
+          "volume": 51.013
+        },
+        {
+          "date": "2026-08-20",
+          "volume": 79.192
+        },
+        {
+          "date": "2026-08-21",
+          "volume": 65.651
+        },
+        {
+          "date": "2026-08-24",
+          "volume": 12.236
+        },
+        {
+          "date": "2026-08-25",
+          "volume": 40.504
+        },
+        {
+          "date": "2026-08-26",
+          "volume": 56.62
+        },
+        {
+          "date": "2026-08-27",
+          "volume": 158.422
+        },
+        {
+          "date": "2026-08-28",
+          "volume": 24.516
+        },
+        {
+          "date": "2026-08-31",
+          "volume": 58.148
+        },
+        {
+          "date": "2026-09-01",
+          "volume": 42.064
+        },
+        {
+          "date": "2026-09-02",
+          "volume": 294.483
+        },
+        {
+          "date": "2026-09-03",
+          "volume": 104.052
+        },
+        {
+          "date": "2026-09-04",
+          "volume": 45.586
+        },
+        {
+          "date": "2026-09-07",
+          "volume": 198.274
+        },
+        {
+          "date": "2026-09-08",
+          "volume": 30.985
+        },
+        {
+          "date": "2026-09-09",
+          "volume": 37.59
+        },
+        {
+          "date": "2026-09-10",
+          "volume": 73.27
+        },
+        {
+          "date": "2026-09-11",
+          "volume": 6.816
+        }
+      ],
+      "volumeMedian20": 48.3,
+      "volumeMedian20Samples": 20,
+      "volumeMedian20AsOf": "2026-09-11"
     },
     {
       "code": "2881B",
@@ -466,7 +1146,92 @@
       "volume": 7.0,
       "lastPriceBeforeUpdate": 60.9,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T21:35:04+08:00"
+      "marketUpdatedAt": "2026-09-13T08:03:45+08:00",
+      "volumeHistory20": [
+        {
+          "date": "2026-08-17",
+          "volume": 19.482
+        },
+        {
+          "date": "2026-08-18",
+          "volume": 12.596
+        },
+        {
+          "date": "2026-08-19",
+          "volume": 29.845
+        },
+        {
+          "date": "2026-08-20",
+          "volume": 5.031
+        },
+        {
+          "date": "2026-08-21",
+          "volume": 12.761
+        },
+        {
+          "date": "2026-08-24",
+          "volume": 43.184
+        },
+        {
+          "date": "2026-08-25",
+          "volume": 1.422
+        },
+        {
+          "date": "2026-08-26",
+          "volume": 2.092
+        },
+        {
+          "date": "2026-08-27",
+          "volume": 5.048
+        },
+        {
+          "date": "2026-08-28",
+          "volume": 5.372
+        },
+        {
+          "date": "2026-08-31",
+          "volume": 3.931
+        },
+        {
+          "date": "2026-09-01",
+          "volume": 50.744
+        },
+        {
+          "date": "2026-09-02",
+          "volume": 16.937
+        },
+        {
+          "date": "2026-09-03",
+          "volume": 48.266
+        },
+        {
+          "date": "2026-09-04",
+          "volume": 50.726
+        },
+        {
+          "date": "2026-09-07",
+          "volume": 43.854
+        },
+        {
+          "date": "2026-09-08",
+          "volume": 71.928
+        },
+        {
+          "date": "2026-09-09",
+          "volume": 9.113
+        },
+        {
+          "date": "2026-09-10",
+          "volume": 7.067
+        },
+        {
+          "date": "2026-09-11",
+          "volume": 7.106
+        }
+      ],
+      "volumeMedian20": 12.68,
+      "volumeMedian20Samples": 20,
+      "volumeMedian20AsOf": "2026-09-11"
     },
     {
       "code": "2881C",
@@ -474,7 +1239,7 @@
       "price": 51.4,
       "par": 60,
       "yield": 3.5,
-      "irr": 10.81,
+      "irr": 10.83,
       "call": true,
       "callDate": "2028-10-26",
       "callPrice": 60,
@@ -495,10 +1260,10 @@
       "note": "市場價格由 TWSE/TPEx 自動更新；發行與重設條款以公開說明書、重大訊息與交易所公告核對。",
       "issueBaseRate": 0.6538,
       "legacyIrr": 11.3,
-      "xirr": 10.81,
+      "xirr": 10.83,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
-      "callIrr": 10.81,
+      "callIrr": 10.83,
       "callIrrMethod": "首次可贖回情境 IRR：除息日股息 + 贖回本金，Actual/365；距可贖回日過短時不顯示年化值",
       "firstCallDate": "2028-10-26",
       "nextResetDate": "2028-10-26",
@@ -519,7 +1284,92 @@
       "volume": 39.0,
       "lastPriceBeforeUpdate": 51.4,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T21:35:04+08:00"
+      "marketUpdatedAt": "2026-09-13T08:03:45+08:00",
+      "volumeHistory20": [
+        {
+          "date": "2026-08-17",
+          "volume": 12.718
+        },
+        {
+          "date": "2026-08-18",
+          "volume": 15.819
+        },
+        {
+          "date": "2026-08-19",
+          "volume": 17.895
+        },
+        {
+          "date": "2026-08-20",
+          "volume": 121.412
+        },
+        {
+          "date": "2026-08-21",
+          "volume": 71.286
+        },
+        {
+          "date": "2026-08-24",
+          "volume": 73.926
+        },
+        {
+          "date": "2026-08-25",
+          "volume": 192.929
+        },
+        {
+          "date": "2026-08-26",
+          "volume": 19.555
+        },
+        {
+          "date": "2026-08-27",
+          "volume": 30.263
+        },
+        {
+          "date": "2026-08-28",
+          "volume": 36.335
+        },
+        {
+          "date": "2026-08-31",
+          "volume": 49.449
+        },
+        {
+          "date": "2026-09-01",
+          "volume": 42.823
+        },
+        {
+          "date": "2026-09-02",
+          "volume": 31.364
+        },
+        {
+          "date": "2026-09-03",
+          "volume": 61.862
+        },
+        {
+          "date": "2026-09-04",
+          "volume": 25.221
+        },
+        {
+          "date": "2026-09-07",
+          "volume": 56.152
+        },
+        {
+          "date": "2026-09-08",
+          "volume": 18.883
+        },
+        {
+          "date": "2026-09-09",
+          "volume": 26.412
+        },
+        {
+          "date": "2026-09-10",
+          "volume": 45.678
+        },
+        {
+          "date": "2026-09-11",
+          "volume": 40.43
+        }
+      ],
+      "volumeMedian20": 38.38,
+      "volumeMedian20Samples": 20,
+      "volumeMedian20AsOf": "2026-09-11"
     },
     {
       "code": "2882A",
@@ -571,7 +1421,92 @@
       "volume": 9.0,
       "lastPriceBeforeUpdate": 60.3,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T21:35:04+08:00"
+      "marketUpdatedAt": "2026-09-13T08:03:45+08:00",
+      "volumeHistory20": [
+        {
+          "date": "2026-08-17",
+          "volume": 23.0
+        },
+        {
+          "date": "2026-08-18",
+          "volume": 40.06
+        },
+        {
+          "date": "2026-08-19",
+          "volume": 47.708
+        },
+        {
+          "date": "2026-08-20",
+          "volume": 10.935
+        },
+        {
+          "date": "2026-08-21",
+          "volume": 12.673
+        },
+        {
+          "date": "2026-08-24",
+          "volume": 24.255
+        },
+        {
+          "date": "2026-08-25",
+          "volume": 84.935
+        },
+        {
+          "date": "2026-08-26",
+          "volume": 148.09
+        },
+        {
+          "date": "2026-08-27",
+          "volume": 39.588
+        },
+        {
+          "date": "2026-08-28",
+          "volume": 122.277
+        },
+        {
+          "date": "2026-08-31",
+          "volume": 25.51
+        },
+        {
+          "date": "2026-09-01",
+          "volume": 75.119
+        },
+        {
+          "date": "2026-09-02",
+          "volume": 304.843
+        },
+        {
+          "date": "2026-09-03",
+          "volume": 20.591
+        },
+        {
+          "date": "2026-09-04",
+          "volume": 58.405
+        },
+        {
+          "date": "2026-09-07",
+          "volume": 31.517
+        },
+        {
+          "date": "2026-09-08",
+          "volume": 71.413
+        },
+        {
+          "date": "2026-09-09",
+          "volume": 23.41
+        },
+        {
+          "date": "2026-09-10",
+          "volume": 24.424
+        },
+        {
+          "date": "2026-09-11",
+          "volume": 10.121
+        }
+      ],
+      "volumeMedian20": 35.55,
+      "volumeMedian20Samples": 20,
+      "volumeMedian20AsOf": "2026-09-11"
     },
     {
       "code": "2882B",
@@ -623,7 +1558,92 @@
       "volume": 7.0,
       "lastPriceBeforeUpdate": 58.8,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T21:35:04+08:00"
+      "marketUpdatedAt": "2026-09-13T08:03:45+08:00",
+      "volumeHistory20": [
+        {
+          "date": "2026-08-17",
+          "volume": 1.433
+        },
+        {
+          "date": "2026-08-18",
+          "volume": 10.083
+        },
+        {
+          "date": "2026-08-19",
+          "volume": 20.835
+        },
+        {
+          "date": "2026-08-20",
+          "volume": 32.388
+        },
+        {
+          "date": "2026-08-21",
+          "volume": 77.426
+        },
+        {
+          "date": "2026-08-24",
+          "volume": 38.177
+        },
+        {
+          "date": "2026-08-25",
+          "volume": 1.073
+        },
+        {
+          "date": "2026-08-26",
+          "volume": 107.027
+        },
+        {
+          "date": "2026-08-27",
+          "volume": 21.524
+        },
+        {
+          "date": "2026-08-28",
+          "volume": 15.429
+        },
+        {
+          "date": "2026-08-31",
+          "volume": 27.383
+        },
+        {
+          "date": "2026-09-01",
+          "volume": 25.96
+        },
+        {
+          "date": "2026-09-02",
+          "volume": 45.979
+        },
+        {
+          "date": "2026-09-03",
+          "volume": 19.523
+        },
+        {
+          "date": "2026-09-04",
+          "volume": 25.339
+        },
+        {
+          "date": "2026-09-07",
+          "volume": 15.274
+        },
+        {
+          "date": "2026-09-08",
+          "volume": 4.024
+        },
+        {
+          "date": "2026-09-09",
+          "volume": 15.841
+        },
+        {
+          "date": "2026-09-10",
+          "volume": 2.947
+        },
+        {
+          "date": "2026-09-11",
+          "volume": 7.45
+        }
+      ],
+      "volumeMedian20": 20.18,
+      "volumeMedian20Samples": 20,
+      "volumeMedian20AsOf": "2026-09-11"
     },
     {
       "code": "2883B",
@@ -631,7 +1651,7 @@
       "price": 8.23,
       "par": 10,
       "yield": 4.25,
-      "irr": 12.48,
+      "irr": 12.5,
       "call": true,
       "callDate": "2028-12-30",
       "callPrice": 10,
@@ -652,10 +1672,10 @@
       "resetCycleYears": 7,
       "issueBaseRate": 0.75,
       "legacyIrr": 13.9,
-      "xirr": 12.48,
+      "xirr": 12.5,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
-      "callIrr": 12.48,
+      "callIrr": 12.5,
       "callIrrMethod": "首次可贖回情境 IRR：除息日股息 + 贖回本金，Actual/365；距可贖回日過短時不顯示年化值",
       "firstCallDate": "2028-12-30",
       "nextResetDate": "2028-12-30",
@@ -676,7 +1696,92 @@
       "volume": 1892.0,
       "lastPriceBeforeUpdate": 8.23,
       "changePct": 0.24,
-      "marketUpdatedAt": "2026-09-12T21:35:04+08:00"
+      "marketUpdatedAt": "2026-09-13T08:03:45+08:00",
+      "volumeHistory20": [
+        {
+          "date": "2026-08-17",
+          "volume": 560.672
+        },
+        {
+          "date": "2026-08-18",
+          "volume": 1017.131
+        },
+        {
+          "date": "2026-08-19",
+          "volume": 529.257
+        },
+        {
+          "date": "2026-08-20",
+          "volume": 565.47
+        },
+        {
+          "date": "2026-08-21",
+          "volume": 936.71
+        },
+        {
+          "date": "2026-08-24",
+          "volume": 801.001
+        },
+        {
+          "date": "2026-08-25",
+          "volume": 435.969
+        },
+        {
+          "date": "2026-08-26",
+          "volume": 1279.782
+        },
+        {
+          "date": "2026-08-27",
+          "volume": 445.02
+        },
+        {
+          "date": "2026-08-28",
+          "volume": 713.335
+        },
+        {
+          "date": "2026-08-31",
+          "volume": 915.322
+        },
+        {
+          "date": "2026-09-01",
+          "volume": 1455.808
+        },
+        {
+          "date": "2026-09-02",
+          "volume": 815.33
+        },
+        {
+          "date": "2026-09-03",
+          "volume": 989.185
+        },
+        {
+          "date": "2026-09-04",
+          "volume": 2239.848
+        },
+        {
+          "date": "2026-09-07",
+          "volume": 1673.162
+        },
+        {
+          "date": "2026-09-08",
+          "volume": 1579.903
+        },
+        {
+          "date": "2026-09-09",
+          "volume": 964.492
+        },
+        {
+          "date": "2026-09-10",
+          "volume": 2099.8
+        },
+        {
+          "date": "2026-09-11",
+          "volume": 1906.434
+        }
+      ],
+      "volumeMedian20": 950.6,
+      "volumeMedian20Samples": 20,
+      "volumeMedian20AsOf": "2026-09-11"
     },
     {
       "code": "2887E",
@@ -728,7 +1833,92 @@
       "volume": 167.0,
       "lastPriceBeforeUpdate": 48.55,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T21:35:04+08:00"
+      "marketUpdatedAt": "2026-09-13T08:03:45+08:00",
+      "volumeHistory20": [
+        {
+          "date": "2026-08-17",
+          "volume": 40.5
+        },
+        {
+          "date": "2026-08-18",
+          "volume": 153.093
+        },
+        {
+          "date": "2026-08-19",
+          "volume": 131.062
+        },
+        {
+          "date": "2026-08-20",
+          "volume": 119.3
+        },
+        {
+          "date": "2026-08-21",
+          "volume": 122.784
+        },
+        {
+          "date": "2026-08-24",
+          "volume": 99.451
+        },
+        {
+          "date": "2026-08-25",
+          "volume": 89.359
+        },
+        {
+          "date": "2026-08-26",
+          "volume": 102.363
+        },
+        {
+          "date": "2026-08-27",
+          "volume": 126.314
+        },
+        {
+          "date": "2026-08-28",
+          "volume": 136.202
+        },
+        {
+          "date": "2026-08-31",
+          "volume": 119.991
+        },
+        {
+          "date": "2026-09-01",
+          "volume": 102.57
+        },
+        {
+          "date": "2026-09-02",
+          "volume": 31.89
+        },
+        {
+          "date": "2026-09-03",
+          "volume": 124.369
+        },
+        {
+          "date": "2026-09-04",
+          "volume": 125.14
+        },
+        {
+          "date": "2026-09-07",
+          "volume": 173.389
+        },
+        {
+          "date": "2026-09-08",
+          "volume": 107.161
+        },
+        {
+          "date": "2026-09-09",
+          "volume": 533.194
+        },
+        {
+          "date": "2026-09-10",
+          "volume": 181.965
+        },
+        {
+          "date": "2026-09-11",
+          "volume": 169.415
+        }
+      ],
+      "volumeMedian20": 123.58,
+      "volumeMedian20Samples": 20,
+      "volumeMedian20AsOf": "2026-09-11"
     },
     {
       "code": "2887F",
@@ -780,7 +1970,92 @@
       "volume": 29.0,
       "lastPriceBeforeUpdate": 45.75,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T21:35:04+08:00"
+      "marketUpdatedAt": "2026-09-13T08:03:45+08:00",
+      "volumeHistory20": [
+        {
+          "date": "2026-08-17",
+          "volume": 7.267
+        },
+        {
+          "date": "2026-08-18",
+          "volume": 20.642
+        },
+        {
+          "date": "2026-08-19",
+          "volume": 19.572
+        },
+        {
+          "date": "2026-08-20",
+          "volume": 15.148
+        },
+        {
+          "date": "2026-08-21",
+          "volume": 23.925
+        },
+        {
+          "date": "2026-08-24",
+          "volume": 24.36
+        },
+        {
+          "date": "2026-08-25",
+          "volume": 15.231
+        },
+        {
+          "date": "2026-08-26",
+          "volume": 20.248
+        },
+        {
+          "date": "2026-08-27",
+          "volume": 18.094
+        },
+        {
+          "date": "2026-08-28",
+          "volume": 17.54
+        },
+        {
+          "date": "2026-08-31",
+          "volume": 32.42
+        },
+        {
+          "date": "2026-09-01",
+          "volume": 27.327
+        },
+        {
+          "date": "2026-09-02",
+          "volume": 16.933
+        },
+        {
+          "date": "2026-09-03",
+          "volume": 41.588
+        },
+        {
+          "date": "2026-09-04",
+          "volume": 14.571
+        },
+        {
+          "date": "2026-09-07",
+          "volume": 26.145
+        },
+        {
+          "date": "2026-09-08",
+          "volume": 19.222
+        },
+        {
+          "date": "2026-09-09",
+          "volume": 44.05
+        },
+        {
+          "date": "2026-09-10",
+          "volume": 37.152
+        },
+        {
+          "date": "2026-09-11",
+          "volume": 29.969
+        }
+      ],
+      "volumeMedian20": 20.45,
+      "volumeMedian20Samples": 20,
+      "volumeMedian20AsOf": "2026-09-11"
     },
     {
       "code": "2887G",
@@ -807,7 +2082,7 @@
       "resetCycleYears": 7,
       "issueBaseRate": 0.72,
       "issueRate": 3.8,
-      "xirr": 59.05,
+      "xirr": 64.41,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "官方除息日覆蓋",
       "callIrr": null,
@@ -832,7 +2107,17 @@
       "volume": 47.0,
       "lastPriceBeforeUpdate": 44.15,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T21:35:04+08:00"
+      "marketUpdatedAt": "2026-09-13T08:03:45+08:00",
+      "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
+      "volumeHistory20": [
+        {
+          "date": "2026-09-11",
+          "volume": 47.0
+        }
+      ],
+      "volumeMedian20": 47.0,
+      "volumeMedian20Samples": 1,
+      "volumeMedian20AsOf": "2026-09-11"
     },
     {
       "code": "2887H",
@@ -840,7 +2125,7 @@
       "price": 42.1,
       "par": 45,
       "yield": 4.28,
-      "irr": 11.61,
+      "irr": 11.65,
       "call": true,
       "callDate": "2027-09-01",
       "callPrice": 45,
@@ -860,10 +2145,10 @@
       "issueBaseRate": 0.68,
       "issueRate": 4.0,
       "legacyIrr": 13.5,
-      "xirr": 11.61,
+      "xirr": 11.65,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
-      "callIrr": 11.61,
+      "callIrr": 11.65,
       "callIrrMethod": "首次可贖回情境 IRR：除息日股息 + 贖回本金，Actual/365；距可贖回日過短時不顯示年化值",
       "issueDate": "2025-07-24",
       "firstCallDate": "2027-09-01",
@@ -885,7 +2170,17 @@
       "volume": 138.0,
       "lastPriceBeforeUpdate": 42.1,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T21:35:04+08:00"
+      "marketUpdatedAt": "2026-09-13T08:03:45+08:00",
+      "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
+      "volumeHistory20": [
+        {
+          "date": "2026-09-11",
+          "volume": 138.0
+        }
+      ],
+      "volumeMedian20": 138.0,
+      "volumeMedian20Samples": 1,
+      "volumeMedian20AsOf": "2026-09-11"
     },
     {
       "code": "2887I",
@@ -893,7 +2188,7 @@
       "price": 9.52,
       "par": 10,
       "yield": 1.79,
-      "irr": 4.58,
+      "irr": 4.59,
       "call": true,
       "callDate": "2028-07-23",
       "callPrice": 10,
@@ -911,10 +2206,10 @@
       "formulaSource": "TWSE 台新新光上市股票權利義務公告",
       "issueRate": 1.665,
       "legacyIrr": 4.8,
-      "xirr": 4.58,
+      "xirr": 4.59,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
-      "callIrr": 4.58,
+      "callIrr": 4.59,
       "callIrrMethod": "首次可贖回情境 IRR：除息日股息 + 贖回本金，Actual/365；距可贖回日過短時不顯示年化值",
       "issueDate": "2025-07-24",
       "firstCallDate": "2028-07-23",
@@ -936,7 +2231,17 @@
       "volume": 2023.0,
       "lastPriceBeforeUpdate": 9.52,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T21:35:04+08:00"
+      "marketUpdatedAt": "2026-09-13T08:03:45+08:00",
+      "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
+      "volumeHistory20": [
+        {
+          "date": "2026-09-11",
+          "volume": 2023.0
+        }
+      ],
+      "volumeMedian20": 2023.0,
+      "volumeMedian20Samples": 1,
+      "volumeMedian20AsOf": "2026-09-11"
     },
     {
       "code": "2891B",
@@ -988,7 +2293,17 @@
       "volume": 0.0,
       "lastPriceBeforeUpdate": 61.9,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T21:35:04+08:00"
+      "marketUpdatedAt": "2026-09-13T08:03:45+08:00",
+      "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
+      "volumeHistory20": [
+        {
+          "date": "2026-09-11",
+          "volume": 0
+        }
+      ],
+      "volumeMedian20": 0.0,
+      "volumeMedian20Samples": 1,
+      "volumeMedian20AsOf": "2026-09-11"
     },
     {
       "code": "2891C",
@@ -1040,7 +2355,17 @@
       "volume": 3.0,
       "lastPriceBeforeUpdate": 61.1,
       "changePct": 0.33,
-      "marketUpdatedAt": "2026-09-12T21:35:04+08:00"
+      "marketUpdatedAt": "2026-09-13T08:03:45+08:00",
+      "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
+      "volumeHistory20": [
+        {
+          "date": "2026-09-11",
+          "volume": 3.0
+        }
+      ],
+      "volumeMedian20": 3.0,
+      "volumeMedian20Samples": 1,
+      "volumeMedian20AsOf": "2026-09-11"
     },
     {
       "code": "2897B",
@@ -1048,7 +2373,7 @@
       "price": 11.8,
       "par": 12,
       "yield": 4.58,
-      "irr": 4.4,
+      "irr": 4.41,
       "call": true,
       "callDate": "2030-03-26",
       "callPrice": 12,
@@ -1069,10 +2394,10 @@
       "issueBaseRate": 1.7325,
       "issueRate": 4.5,
       "legacyIrr": 6.6,
-      "xirr": 4.4,
+      "xirr": 4.41,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
-      "callIrr": 4.4,
+      "callIrr": 4.41,
       "callIrrMethod": "首次可贖回情境 IRR：除息日股息 + 贖回本金，Actual/365；距可贖回日過短時不顯示年化值",
       "issueDate": "2024-09-25",
       "firstCallDate": "2030-03-26",
@@ -1094,7 +2419,17 @@
       "volume": 27.0,
       "lastPriceBeforeUpdate": 11.8,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T21:35:04+08:00"
+      "marketUpdatedAt": "2026-09-13T08:03:45+08:00",
+      "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
+      "volumeHistory20": [
+        {
+          "date": "2026-09-11",
+          "volume": 27.0
+        }
+      ],
+      "volumeMedian20": 27.0,
+      "volumeMedian20Samples": 1,
+      "volumeMedian20AsOf": "2026-09-11"
     },
     {
       "code": "3036A",
@@ -1136,7 +2471,10 @@
       "callIrrMethod": "已進入可隨時贖回期間，無單一未來贖回日，不硬算單一 YTC",
       "xirrStatus": "estimated",
       "xirrCashflowCount": 5,
-      "marketUpdatedAt": "2026-09-12T21:35:04+08:00"
+      "marketUpdatedAt": "2026-09-13T08:03:45+08:00",
+      "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
+      "volumeMedian20": null,
+      "volumeMedian20Samples": 0
     },
     {
       "code": "5871A",
@@ -1188,7 +2526,17 @@
       "volume": 17.0,
       "lastPriceBeforeUpdate": 100.0,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T21:35:04+08:00"
+      "marketUpdatedAt": "2026-09-13T08:03:45+08:00",
+      "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
+      "volumeHistory20": [
+        {
+          "date": "2026-09-11",
+          "volume": 17.0
+        }
+      ],
+      "volumeMedian20": 17.0,
+      "volumeMedian20Samples": 1,
+      "volumeMedian20AsOf": "2026-09-11"
     },
     {
       "code": "6592A",
@@ -1196,7 +2544,7 @@
       "price": 96.0,
       "par": 100,
       "yield": 4.36,
-      "irr": 8.28,
+      "irr": 8.31,
       "call": true,
       "callDate": "2027-09-26",
       "callPrice": 100,
@@ -1217,10 +2565,10 @@
       "resetCycleYears": 5,
       "issueBaseRate": 1.1175,
       "legacyIrr": 10.8,
-      "xirr": 8.28,
+      "xirr": 8.31,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
-      "callIrr": 8.28,
+      "callIrr": 8.31,
       "callIrrMethod": "首次可贖回情境 IRR：除息日股息 + 贖回本金，Actual/365；距可贖回日過短時不顯示年化值",
       "firstCallDate": "2027-09-26",
       "nextResetDate": "2027-09-26",
@@ -1241,7 +2589,17 @@
       "volume": 5.0,
       "lastPriceBeforeUpdate": 96.0,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T21:35:04+08:00"
+      "marketUpdatedAt": "2026-09-13T08:03:45+08:00",
+      "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
+      "volumeHistory20": [
+        {
+          "date": "2026-09-11",
+          "volume": 5.0
+        }
+      ],
+      "volumeMedian20": 5.0,
+      "volumeMedian20Samples": 1,
+      "volumeMedian20AsOf": "2026-09-11"
     },
     {
       "code": "6592B",
@@ -1249,7 +2607,7 @@
       "price": 94.9,
       "par": 100,
       "yield": 4.79,
-      "irr": 7.56,
+      "irr": 7.57,
       "call": true,
       "callDate": "2028-09-01",
       "callPrice": 100,
@@ -1269,10 +2627,10 @@
       "issueBaseRate": 1.4325,
       "issueRate": 4.5,
       "legacyIrr": 8.6,
-      "xirr": 7.56,
+      "xirr": 7.57,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
-      "callIrr": 7.56,
+      "callIrr": 7.57,
       "callIrrMethod": "首次可贖回情境 IRR：除息日股息 + 贖回本金，Actual/365；距可贖回日過短時不顯示年化值",
       "issueDate": "2023-09-01",
       "firstCallDate": "2028-09-01",
@@ -1294,7 +2652,17 @@
       "volume": 7.0,
       "lastPriceBeforeUpdate": 94.9,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T21:35:04+08:00"
+      "marketUpdatedAt": "2026-09-13T08:03:45+08:00",
+      "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
+      "volumeHistory20": [
+        {
+          "date": "2026-09-11",
+          "volume": 7.0
+        }
+      ],
+      "volumeMedian20": 7.0,
+      "volumeMedian20Samples": 1,
+      "volumeMedian20AsOf": "2026-09-11"
     },
     {
       "code": "6958A",
@@ -1347,7 +2715,17 @@
       "volume": 3.0,
       "lastPriceBeforeUpdate": 20.3,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T21:35:04+08:00"
+      "marketUpdatedAt": "2026-09-13T08:03:45+08:00",
+      "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
+      "volumeHistory20": [
+        {
+          "date": "2026-09-11",
+          "volume": 3.0
+        }
+      ],
+      "volumeMedian20": 3.0,
+      "volumeMedian20Samples": 1,
+      "volumeMedian20AsOf": "2026-09-11"
     },
     {
       "code": "8112A",
@@ -1400,7 +2778,17 @@
       "volume": 6.0,
       "lastPriceBeforeUpdate": 45.2,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T21:35:04+08:00"
+      "marketUpdatedAt": "2026-09-13T08:03:45+08:00",
+      "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
+      "volumeHistory20": [
+        {
+          "date": "2026-09-11",
+          "volume": 6.0
+        }
+      ],
+      "volumeMedian20": 6.0,
+      "volumeMedian20Samples": 1,
+      "volumeMedian20AsOf": "2026-09-11"
     },
     {
       "code": "8349A",
@@ -1427,7 +2815,7 @@
       "resetCycleYears": 5,
       "issueBaseRate": 0.72875,
       "issueRate": 3.8,
-      "xirr": 7.09,
+      "xirr": 7.1,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -1452,7 +2840,17 @@
       "volume": 0.0,
       "lastPriceBeforeUpdate": 45.4,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T21:35:04+08:00"
+      "marketUpdatedAt": "2026-09-13T08:03:45+08:00",
+      "volumeHistoryError": "HTTPSConnectionPool(host='www.tpex.org.tw', port=443): Max retries exceeded with url: /web/stock/aftertrading/daily_trading_info/st43_result.php?l=zh-tw&d=115%2F09&stkno=8349A (Cau",
+      "volumeHistory20": [
+        {
+          "date": "2026-09-11",
+          "volume": 0
+        }
+      ],
+      "volumeMedian20": 0.0,
+      "volumeMedian20Samples": 1,
+      "volumeMedian20AsOf": "2026-09-11"
     },
     {
       "code": "9941A",
@@ -1479,7 +2877,7 @@
       "resetCycleYears": 5,
       "issueBaseRate": 0.93875,
       "issueRate": 4.0,
-      "xirr": 5.18,
+      "xirr": 5.19,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -1504,12 +2902,22 @@
       "volume": 0.0,
       "lastPriceBeforeUpdate": 48.8,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-12T21:35:04+08:00"
+      "marketUpdatedAt": "2026-09-13T08:03:45+08:00",
+      "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
+      "volumeHistory20": [
+        {
+          "date": "2026-09-11",
+          "volume": 0
+        }
+      ],
+      "volumeMedian20": 0.0,
+      "volumeMedian20Samples": 1,
+      "volumeMedian20AsOf": "2026-09-11"
     }
   ],
   "verifiedFormulaCount": 29,
   "marketUpdateStatus": "ok",
-  "marketSourceLabel": "TWSE MIS / TPEx quote fallback",
+  "marketSourceLabel": "TWSE MIS / TPEx quote fallback + official historical volume",
   "irrPolicy": "V1.4：首次可贖回日在未來才顯示可贖回情境 IRR；已進入可隨時贖回期間不強行指定唯一 YTC。XIRR 採除息日；未公告未來除息日採最近季節性估算並明確標示。",
   "sourcePolicy": "市場價格以 TWSE/TPEx 自動更新；發行條件以公開說明書、重大訊息與交易所公告核對；FindBillion 僅作標的清單與交叉驗證來源之一。",
   "uiFeatures": [
@@ -1526,10 +2934,11 @@
     "綜合評分",
     "完整排序功能"
   ],
-  "marketUpdatedAt": "2026-09-12T21:35:04+08:00",
+  "marketUpdatedAt": "2026-09-13T08:03:45+08:00",
   "marketUpdateSuccessCount": 28,
   "marketUpdateFailCodes": [
     "3036A"
   ],
-  "marketSourceUrl": "https://mis.twse.com.tw/stock/api/getStockInfo.jsp"
+  "marketSourceUrl": "https://mis.twse.com.tw/stock/api/getStockInfo.jsp",
+  "scorePolicy": "V1.5.9：綜合評分=80%風險調整收益率+20%近20個交易日日成交量中位數；前端收益/流動性皆做29檔相對標準化，流動性採log尺度。"
 }
