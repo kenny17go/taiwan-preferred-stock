@@ -57,7 +57,7 @@
       "volume": 16.0,
       "lastPriceBeforeUpdate": 43.1,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-18T14:55:43+08:00",
+      "marketUpdatedAt": "2026-09-18T17:03:20+08:00",
       "volumeHistory20": [
         {
           "date": "2026-08-24",
@@ -190,7 +190,7 @@
       "volume": 6.0,
       "lastPriceBeforeUpdate": 22.8,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-18T14:55:43+08:00",
+      "marketUpdatedAt": "2026-09-18T17:03:20+08:00",
       "volumeHistory20": [
         {
           "date": "2026-08-24",
@@ -328,7 +328,7 @@
       "volume": 6.0,
       "lastPriceBeforeUpdate": 51.1,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-18T14:55:43+08:00",
+      "marketUpdatedAt": "2026-09-18T17:03:20+08:00",
       "volumeHistory20": [
         {
           "date": "2026-08-24",
@@ -462,9 +462,9 @@
       "high": 37.5,
       "low": 37.15,
       "volume": 26.0,
-      "lastPriceBeforeUpdate": 37.25,
+      "lastPriceBeforeUpdate": 37.3,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-18T14:55:43+08:00",
+      "marketUpdatedAt": "2026-09-18T17:03:20+08:00",
       "volumeHistory20": [
         {
           "date": "2026-08-24",
@@ -600,9 +600,9 @@
       "high": 38.9,
       "low": 38.75,
       "volume": 25.0,
-      "lastPriceBeforeUpdate": 38.55,
+      "lastPriceBeforeUpdate": 38.75,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-18T14:55:43+08:00",
+      "marketUpdatedAt": "2026-09-18T17:03:20+08:00",
       "volumeHistory20": [
         {
           "date": "2026-08-24",
@@ -738,9 +738,9 @@
       "high": 24.05,
       "low": 24.0,
       "volume": 13.0,
-      "lastPriceBeforeUpdate": 24.0,
+      "lastPriceBeforeUpdate": 24.05,
       "changePct": 0.21,
-      "marketUpdatedAt": "2026-09-18T14:55:43+08:00",
+      "marketUpdatedAt": "2026-09-18T17:03:20+08:00",
       "volumeHistory20": [
         {
           "date": "2026-08-24",
@@ -878,7 +878,7 @@
       "volume": 18.0,
       "lastPriceBeforeUpdate": 51.9,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-18T14:55:43+08:00",
+      "marketUpdatedAt": "2026-09-18T17:03:20+08:00",
       "volumeHistory20": [
         {
           "date": "2026-08-24",
@@ -1016,7 +1016,7 @@
       "volume": 33.0,
       "lastPriceBeforeUpdate": 61.7,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-18T14:55:43+08:00",
+      "marketUpdatedAt": "2026-09-18T17:03:20+08:00",
       "volumeHistory20": [
         {
           "date": "2026-08-24",
@@ -1152,9 +1152,9 @@
       "high": 60.9,
       "low": 60.5,
       "volume": 14.0,
-      "lastPriceBeforeUpdate": 60.9,
+      "lastPriceBeforeUpdate": 60.8,
       "changePct": -0.16,
-      "marketUpdatedAt": "2026-09-18T14:55:43+08:00",
+      "marketUpdatedAt": "2026-09-18T17:03:20+08:00",
       "volumeHistory20": [
         {
           "date": "2026-08-24",
@@ -1291,9 +1291,9 @@
       "high": 51.6,
       "low": 51.5,
       "volume": 38.0,
-      "lastPriceBeforeUpdate": 51.6,
+      "lastPriceBeforeUpdate": 51.5,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-18T14:55:43+08:00",
+      "marketUpdatedAt": "2026-09-18T17:03:20+08:00",
       "volumeHistory20": [
         {
           "date": "2026-08-24",
@@ -1429,9 +1429,9 @@
       "high": 60.3,
       "low": 60.2,
       "volume": 36.0,
-      "lastPriceBeforeUpdate": 60.2,
+      "lastPriceBeforeUpdate": 60.3,
       "changePct": 0.17,
-      "marketUpdatedAt": "2026-09-18T14:55:43+08:00",
+      "marketUpdatedAt": "2026-09-18T17:03:20+08:00",
       "volumeHistory20": [
         {
           "date": "2026-08-24",
@@ -1569,7 +1569,7 @@
       "volume": 7.0,
       "lastPriceBeforeUpdate": 58.8,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-18T14:55:43+08:00",
+      "marketUpdatedAt": "2026-09-18T17:03:20+08:00",
       "volumeHistory20": [
         {
           "date": "2026-08-24",
@@ -1706,9 +1706,9 @@
       "high": 8.48,
       "low": 8.35,
       "volume": 5061.0,
-      "lastPriceBeforeUpdate": 8.35,
+      "lastPriceBeforeUpdate": 8.47,
       "changePct": 1.44,
-      "marketUpdatedAt": "2026-09-18T14:55:43+08:00",
+      "marketUpdatedAt": "2026-09-18T17:03:20+08:00",
       "volumeHistory20": [
         {
           "date": "2026-08-24",
@@ -1846,7 +1846,7 @@
       "volume": 85.0,
       "lastPriceBeforeUpdate": 48.55,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-18T14:55:43+08:00",
+      "marketUpdatedAt": "2026-09-18T17:03:20+08:00",
       "volumeHistory20": [
         {
           "date": "2026-08-24",
@@ -1982,9 +1982,9 @@
       "high": 45.75,
       "low": 45.65,
       "volume": 18.0,
-      "lastPriceBeforeUpdate": 45.7,
+      "lastPriceBeforeUpdate": 45.65,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-18T14:55:43+08:00",
+      "marketUpdatedAt": "2026-09-18T17:03:20+08:00",
       "volumeHistory20": [
         {
           "date": "2026-08-24",
@@ -2064,13 +2064,14 @@
         },
         {
           "date": "2026-09-18",
-          "volume": 18.393
+          "volume": 18.0
         }
       ],
       "volumeMedian20": 25.25,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-09-18",
-      "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2887F.tw&json=1&delay=0"
+      "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2887F.tw&json=1&delay=0",
+      "volumeHistoryError": "428 Client Error:  for url: https://www.twse.com.tw/rwd/zh/afterTrading/STOCK_DAY?response=json&date=20260701&stockNo=2887F"
     },
     {
       "code": "2887G",
@@ -2120,10 +2121,10 @@
       "high": 44.35,
       "low": 44.3,
       "volume": 58.0,
-      "lastPriceBeforeUpdate": 44.2,
+      "lastPriceBeforeUpdate": 44.35,
       "changePct": 0.34,
-      "marketUpdatedAt": "2026-09-18T14:55:43+08:00",
-      "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
+      "marketUpdatedAt": "2026-09-18T17:03:20+08:00",
+      "volumeHistoryError": "428 Client Error:  for url: https://www.twse.com.tw/rwd/zh/afterTrading/STOCK_DAY?response=json&date=20260901&stockNo=2887G",
       "volumeHistory20": [
         {
           "date": "2026-08-24",
@@ -2203,10 +2204,10 @@
         },
         {
           "date": "2026-09-18",
-          "volume": 59.535
+          "volume": 58.0
         }
       ],
-      "volumeMedian20": 56.71,
+      "volumeMedian20": 56.66,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-09-18",
       "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2887G.tw&json=1&delay=0"
@@ -2260,10 +2261,10 @@
       "high": 42.65,
       "low": 42.35,
       "volume": 234.0,
-      "lastPriceBeforeUpdate": 42.3,
+      "lastPriceBeforeUpdate": 42.55,
       "changePct": 0.59,
-      "marketUpdatedAt": "2026-09-18T14:55:43+08:00",
-      "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
+      "marketUpdatedAt": "2026-09-18T17:03:20+08:00",
+      "volumeHistoryError": "428 Client Error:  for url: https://www.twse.com.tw/rwd/zh/afterTrading/STOCK_DAY?response=json&date=20260901&stockNo=2887H",
       "volumeHistory20": [
         {
           "date": "2026-09-11",
@@ -2344,8 +2345,8 @@
       "volume": 1509.0,
       "lastPriceBeforeUpdate": 9.52,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-18T14:55:43+08:00",
-      "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
+      "marketUpdatedAt": "2026-09-18T17:03:20+08:00",
+      "volumeHistoryError": "428 Client Error:  for url: https://www.twse.com.tw/rwd/zh/afterTrading/STOCK_DAY?response=json&date=20260901&stockNo=2887I",
       "volumeHistory20": [
         {
           "date": "2026-09-11",
@@ -2427,8 +2428,8 @@
       "volume": 4.0,
       "lastPriceBeforeUpdate": 62.0,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-18T14:55:43+08:00",
-      "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
+      "marketUpdatedAt": "2026-09-18T17:03:20+08:00",
+      "volumeHistoryError": "428 Client Error:  for url: https://www.twse.com.tw/rwd/zh/afterTrading/STOCK_DAY?response=json&date=20260901&stockNo=2891B",
       "volumeHistory20": [
         {
           "date": "2026-09-11",
@@ -2510,8 +2511,8 @@
       "volume": 4.0,
       "lastPriceBeforeUpdate": 61.1,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-18T14:55:43+08:00",
-      "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
+      "marketUpdatedAt": "2026-09-18T17:03:20+08:00",
+      "volumeHistoryError": "428 Client Error:  for url: https://www.twse.com.tw/rwd/zh/afterTrading/STOCK_DAY?response=json&date=20260901&stockNo=2891C",
       "volumeHistory20": [
         {
           "date": "2026-09-11",
@@ -2595,8 +2596,8 @@
       "volume": 54.0,
       "lastPriceBeforeUpdate": 11.85,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-18T14:55:43+08:00",
-      "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
+      "marketUpdatedAt": "2026-09-18T17:03:20+08:00",
+      "volumeHistoryError": "428 Client Error:  for url: https://www.twse.com.tw/rwd/zh/afterTrading/STOCK_DAY?response=json&date=20260901&stockNo=2897B",
       "volumeHistory20": [
         {
           "date": "2026-09-11",
@@ -2668,8 +2669,8 @@
       "callIrrMethod": "已進入可隨時贖回期間，無單一未來贖回日，不硬算單一 YTC",
       "xirrStatus": "estimated",
       "xirrCashflowCount": 5,
-      "marketUpdatedAt": "2026-09-18T14:55:43+08:00",
-      "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
+      "marketUpdatedAt": "2026-09-18T17:03:20+08:00",
+      "volumeHistoryError": "428 Client Error:  for url: https://www.twse.com.tw/rwd/zh/afterTrading/STOCK_DAY?response=json&date=20260901&stockNo=3036A",
       "volumeMedian20": null,
       "volumeMedian20Samples": 0,
       "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_3036A.tw&json=1&delay=0"
@@ -2722,10 +2723,10 @@
       "high": 100.0,
       "low": 99.9,
       "volume": 20.0,
-      "lastPriceBeforeUpdate": 99.9,
+      "lastPriceBeforeUpdate": 100.0,
       "changePct": 0.1,
-      "marketUpdatedAt": "2026-09-18T14:55:43+08:00",
-      "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
+      "marketUpdatedAt": "2026-09-18T17:03:20+08:00",
+      "volumeHistoryError": "428 Client Error:  for url: https://www.twse.com.tw/rwd/zh/afterTrading/STOCK_DAY?response=json&date=20260901&stockNo=5871A",
       "volumeHistory20": [
         {
           "date": "2026-09-11",
@@ -2806,10 +2807,10 @@
       "high": 96.3,
       "low": 96.3,
       "volume": 1.0,
-      "lastPriceBeforeUpdate": 96.1,
+      "lastPriceBeforeUpdate": 96.2,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-18T14:55:43+08:00",
-      "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
+      "marketUpdatedAt": "2026-09-18T17:03:20+08:00",
+      "volumeHistoryError": "428 Client Error:  for url: https://www.twse.com.tw/rwd/zh/afterTrading/STOCK_DAY?response=json&date=20260901&stockNo=6592A",
       "volumeHistory20": [
         {
           "date": "2026-09-11",
@@ -2890,10 +2891,10 @@
       "high": 95.2,
       "low": 95.0,
       "volume": 4.0,
-      "lastPriceBeforeUpdate": 94.9,
+      "lastPriceBeforeUpdate": 95.0,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-18T14:55:43+08:00",
-      "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
+      "marketUpdatedAt": "2026-09-18T17:03:20+08:00",
+      "volumeHistoryError": "428 Client Error:  for url: https://www.twse.com.tw/rwd/zh/afterTrading/STOCK_DAY?response=json&date=20260901&stockNo=6592B",
       "volumeHistory20": [
         {
           "date": "2026-09-11",
@@ -2976,8 +2977,8 @@
       "volume": 20.0,
       "lastPriceBeforeUpdate": 21.0,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-18T14:55:43+08:00",
-      "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
+      "marketUpdatedAt": "2026-09-18T17:03:20+08:00",
+      "volumeHistoryError": "428 Client Error:  for url: https://www.twse.com.tw/rwd/zh/afterTrading/STOCK_DAY?response=json&date=20260901&stockNo=6958A",
       "volumeHistory20": [
         {
           "date": "2026-09-11",
@@ -3058,10 +3059,10 @@
       "high": 45.75,
       "low": 45.6,
       "volume": 18.0,
-      "lastPriceBeforeUpdate": 45.4,
+      "lastPriceBeforeUpdate": 45.5,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-18T14:55:43+08:00",
-      "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
+      "marketUpdatedAt": "2026-09-18T17:03:20+08:00",
+      "volumeHistoryError": "428 Client Error:  for url: https://www.twse.com.tw/rwd/zh/afterTrading/STOCK_DAY?response=json&date=20260901&stockNo=8112A",
       "volumeHistory20": [
         {
           "date": "2026-09-11",
@@ -3141,9 +3142,9 @@
       "high": 45.55,
       "low": 45.35,
       "volume": 7.0,
-      "lastPriceBeforeUpdate": 45.4,
+      "lastPriceBeforeUpdate": 45.3,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-18T14:55:43+08:00",
+      "marketUpdatedAt": "2026-09-18T17:03:20+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -3224,10 +3225,10 @@
       "high": 48.9,
       "low": 48.75,
       "volume": 9.0,
-      "lastPriceBeforeUpdate": 48.9,
+      "lastPriceBeforeUpdate": 48.8,
       "changePct": -0.2,
-      "marketUpdatedAt": "2026-09-18T14:55:43+08:00",
-      "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
+      "marketUpdatedAt": "2026-09-18T17:03:20+08:00",
+      "volumeHistoryError": "428 Client Error:  for url: https://www.twse.com.tw/rwd/zh/afterTrading/STOCK_DAY?response=json&date=20260901&stockNo=9941A",
       "volumeHistory20": [
         {
           "date": "2026-09-11",
@@ -3279,7 +3280,7 @@
     "綜合評分",
     "完整排序功能"
   ],
-  "marketUpdatedAt": "2026-09-18T14:55:43+08:00",
+  "marketUpdatedAt": "2026-09-18T17:03:20+08:00",
   "marketUpdateSuccessCount": 28,
   "marketUpdateFailCodes": [
     "3036A"
