@@ -1,6 +1,6 @@
 {
   "version": "1.4",
-  "updatedAt": "2026-09-18T17:03:20+08:00",
+  "updatedAt": "2026-09-21T23:27:37+08:00",
   "sourcePolicy": "XIRR 的股息權利日期採除息日（exDate）；官方未公告未來日期時，V1.4 前端/市場更新程式可使用最近除息季節性做「估算」並明確標示。",
   "sources": [
     {
@@ -18,27 +18,23 @@
   ],
   "events": [],
   "coverage": {
-    "1312A": {
+    "2897B": {
       "officialExDates": 0,
       "status": "尚無已收錄官方除息日"
     },
-    "2881C": {
+    "6958A": {
       "officialExDates": 0,
       "status": "尚無已收錄官方除息日"
     },
-    "6592A": {
+    "2887H": {
       "officialExDates": 0,
       "status": "尚無已收錄官方除息日"
     },
-    "2881B": {
+    "2891B": {
       "officialExDates": 0,
       "status": "尚無已收錄官方除息日"
     },
-    "9941A": {
-      "officialExDates": 0,
-      "status": "尚無已收錄官方除息日"
-    },
-    "2882A": {
+    "5871A": {
       "officialExDates": 0,
       "status": "尚無已收錄官方除息日"
     },
@@ -50,35 +46,15 @@
       "officialExDates": 0,
       "status": "尚無已收錄官方除息日"
     },
-    "2891C": {
+    "2883B": {
       "officialExDates": 0,
       "status": "尚無已收錄官方除息日"
     },
-    "6592B": {
+    "2887G": {
       "officialExDates": 0,
       "status": "尚無已收錄官方除息日"
     },
-    "2348A": {
-      "officialExDates": 0,
-      "status": "尚無已收錄官方除息日"
-    },
-    "2897B": {
-      "officialExDates": 0,
-      "status": "尚無已收錄官方除息日"
-    },
-    "2838A": {
-      "officialExDates": 0,
-      "status": "尚無已收錄官方除息日"
-    },
-    "6958A": {
-      "officialExDates": 0,
-      "status": "尚無已收錄官方除息日"
-    },
-    "2891B": {
-      "officialExDates": 0,
-      "status": "尚無已收錄官方除息日"
-    },
-    "2887F": {
+    "6592A": {
       "officialExDates": 0,
       "status": "尚無已收錄官方除息日"
     },
@@ -86,39 +62,19 @@
       "officialExDates": 0,
       "status": "尚無已收錄官方除息日"
     },
-    "2887E": {
-      "officialExDates": 0,
-      "status": "尚無已收錄官方除息日"
-    },
-    "8349A": {
-      "officialExDates": 0,
-      "status": "尚無已收錄官方除息日"
-    },
-    "2881A": {
-      "officialExDates": 0,
-      "status": "尚無已收錄官方除息日"
-    },
-    "2883B": {
-      "officialExDates": 0,
-      "status": "尚無已收錄官方除息日"
-    },
-    "5871A": {
-      "officialExDates": 0,
-      "status": "尚無已收錄官方除息日"
-    },
-    "2887H": {
-      "officialExDates": 0,
-      "status": "尚無已收錄官方除息日"
-    },
     "3036A": {
       "officialExDates": 0,
       "status": "尚無已收錄官方除息日"
     },
-    "2887I": {
+    "2891C": {
       "officialExDates": 0,
       "status": "尚無已收錄官方除息日"
     },
-    "1101B": {
+    "1312A": {
+      "officialExDates": 0,
+      "status": "尚無已收錄官方除息日"
+    },
+    "2838A": {
       "officialExDates": 0,
       "status": "尚無已收錄官方除息日"
     },
@@ -130,7 +86,51 @@
       "officialExDates": 0,
       "status": "尚無已收錄官方除息日"
     },
-    "2887G": {
+    "2881A": {
+      "officialExDates": 0,
+      "status": "尚無已收錄官方除息日"
+    },
+    "1101B": {
+      "officialExDates": 0,
+      "status": "尚無已收錄官方除息日"
+    },
+    "8349A": {
+      "officialExDates": 0,
+      "status": "尚無已收錄官方除息日"
+    },
+    "9941A": {
+      "officialExDates": 0,
+      "status": "尚無已收錄官方除息日"
+    },
+    "2881B": {
+      "officialExDates": 0,
+      "status": "尚無已收錄官方除息日"
+    },
+    "6592B": {
+      "officialExDates": 0,
+      "status": "尚無已收錄官方除息日"
+    },
+    "2881C": {
+      "officialExDates": 0,
+      "status": "尚無已收錄官方除息日"
+    },
+    "2887F": {
+      "officialExDates": 0,
+      "status": "尚無已收錄官方除息日"
+    },
+    "2887I": {
+      "officialExDates": 0,
+      "status": "尚無已收錄官方除息日"
+    },
+    "2882A": {
+      "officialExDates": 0,
+      "status": "尚無已收錄官方除息日"
+    },
+    "2887E": {
+      "officialExDates": 0,
+      "status": "尚無已收錄官方除息日"
+    },
+    "2348A": {
       "officialExDates": 0,
       "status": "尚無已收錄官方除息日"
     }

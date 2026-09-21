@@ -55,9 +55,9 @@
       "high": 43.1,
       "low": 43.05,
       "volume": 62.0,
-      "lastPriceBeforeUpdate": 43.1,
+      "lastPriceBeforeUpdate": 43.05,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-21T21:22:15+08:00",
+      "marketUpdatedAt": "2026-09-21T23:27:38+08:00",
       "volumeHistory20": [
         {
           "date": "2026-08-25",
@@ -188,9 +188,9 @@
       "high": 22.7,
       "low": 22.65,
       "volume": 13.0,
-      "lastPriceBeforeUpdate": 22.8,
+      "lastPriceBeforeUpdate": 22.65,
       "changePct": 0.22,
-      "marketUpdatedAt": "2026-09-21T21:22:15+08:00",
+      "marketUpdatedAt": "2026-09-21T23:27:38+08:00",
       "volumeHistory20": [
         {
           "date": "2026-08-25",
@@ -328,7 +328,7 @@
       "volume": 5.0,
       "lastPriceBeforeUpdate": 51.1,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-21T21:22:15+08:00",
+      "marketUpdatedAt": "2026-09-21T23:27:38+08:00",
       "volumeHistory20": [
         {
           "date": "2026-08-25",
@@ -462,9 +462,9 @@
       "high": 37.4,
       "low": 37.15,
       "volume": 21.0,
-      "lastPriceBeforeUpdate": 37.3,
+      "lastPriceBeforeUpdate": 37.15,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-21T21:22:15+08:00",
+      "marketUpdatedAt": "2026-09-21T23:27:38+08:00",
       "volumeHistory20": [
         {
           "date": "2026-08-25",
@@ -600,9 +600,9 @@
       "high": 38.95,
       "low": 38.9,
       "volume": 2.0,
-      "lastPriceBeforeUpdate": 38.75,
+      "lastPriceBeforeUpdate": 38.8,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-21T21:22:15+08:00",
+      "marketUpdatedAt": "2026-09-21T23:27:38+08:00",
       "volumeHistory20": [
         {
           "date": "2026-08-25",
@@ -740,7 +740,7 @@
       "volume": 11.0,
       "lastPriceBeforeUpdate": 24.05,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-21T21:22:15+08:00",
+      "marketUpdatedAt": "2026-09-21T23:27:38+08:00",
       "volumeHistory20": [
         {
           "date": "2026-08-25",
@@ -878,7 +878,7 @@
       "volume": 77.0,
       "lastPriceBeforeUpdate": 51.9,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-21T21:22:15+08:00",
+      "marketUpdatedAt": "2026-09-21T23:27:38+08:00",
       "volumeHistory20": [
         {
           "date": "2026-08-25",
@@ -1016,7 +1016,7 @@
       "volume": 62.0,
       "lastPriceBeforeUpdate": 61.7,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-21T21:22:15+08:00",
+      "marketUpdatedAt": "2026-09-21T23:27:38+08:00",
       "volumeHistory20": [
         {
           "date": "2026-08-25",
@@ -1154,7 +1154,7 @@
       "volume": 2.0,
       "lastPriceBeforeUpdate": 60.8,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-21T21:22:15+08:00",
+      "marketUpdatedAt": "2026-09-21T23:27:38+08:00",
       "volumeHistory20": [
         {
           "date": "2026-08-25",
@@ -1291,9 +1291,9 @@
       "high": 51.8,
       "low": 51.7,
       "volume": 80.0,
-      "lastPriceBeforeUpdate": 51.5,
+      "lastPriceBeforeUpdate": 51.8,
       "changePct": 0.39,
-      "marketUpdatedAt": "2026-09-21T21:22:15+08:00",
+      "marketUpdatedAt": "2026-09-21T23:27:38+08:00",
       "volumeHistory20": [
         {
           "date": "2026-08-25",
@@ -1429,9 +1429,9 @@
       "high": 60.2,
       "low": 60.1,
       "volume": 28.0,
-      "lastPriceBeforeUpdate": 60.3,
+      "lastPriceBeforeUpdate": 60.2,
       "changePct": -0.17,
-      "marketUpdatedAt": "2026-09-21T21:22:15+08:00",
+      "marketUpdatedAt": "2026-09-21T23:27:38+08:00",
       "volumeHistory20": [
         {
           "date": "2026-08-25",
@@ -1569,7 +1569,7 @@
       "volume": 20.0,
       "lastPriceBeforeUpdate": 58.8,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-21T21:22:15+08:00",
+      "marketUpdatedAt": "2026-09-21T23:27:38+08:00",
       "volumeHistory20": [
         {
           "date": "2026-08-25",
@@ -1706,9 +1706,9 @@
       "high": 8.54,
       "low": 8.48,
       "volume": 3450.0,
-      "lastPriceBeforeUpdate": 8.47,
+      "lastPriceBeforeUpdate": 8.53,
       "changePct": 0.71,
-      "marketUpdatedAt": "2026-09-21T21:22:15+08:00",
+      "marketUpdatedAt": "2026-09-21T23:27:38+08:00",
       "volumeHistory20": [
         {
           "date": "2026-08-25",
@@ -1844,9 +1844,9 @@
       "high": 48.55,
       "low": 48.45,
       "volume": 142.0,
-      "lastPriceBeforeUpdate": 48.55,
+      "lastPriceBeforeUpdate": 48.5,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-21T21:22:15+08:00",
+      "marketUpdatedAt": "2026-09-21T23:27:38+08:00",
       "volumeHistory20": [
         {
           "date": "2026-08-25",
@@ -1984,7 +1984,7 @@
       "volume": 20.0,
       "lastPriceBeforeUpdate": 45.65,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-21T21:22:15+08:00",
+      "marketUpdatedAt": "2026-09-21T23:27:38+08:00",
       "volumeHistory20": [
         {
           "date": "2026-08-25",
@@ -2123,7 +2123,7 @@
       "volume": 51.0,
       "lastPriceBeforeUpdate": 44.35,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-21T21:22:15+08:00",
+      "marketUpdatedAt": "2026-09-21T23:27:38+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -2263,7 +2263,7 @@
       "volume": 98.0,
       "lastPriceBeforeUpdate": 42.55,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-21T21:22:15+08:00",
+      "marketUpdatedAt": "2026-09-21T23:27:38+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -2347,9 +2347,9 @@
       "high": 9.53,
       "low": 9.51,
       "volume": 1786.0,
-      "lastPriceBeforeUpdate": 9.52,
+      "lastPriceBeforeUpdate": 9.51,
       "changePct": -0.11,
-      "marketUpdatedAt": "2026-09-21T21:22:15+08:00",
+      "marketUpdatedAt": "2026-09-21T23:27:38+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -2436,7 +2436,7 @@
       "volume": 4.0,
       "lastPriceBeforeUpdate": 62.0,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-21T21:22:15+08:00",
+      "marketUpdatedAt": "2026-09-21T23:27:38+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -2523,7 +2523,7 @@
       "volume": 2.0,
       "lastPriceBeforeUpdate": 61.1,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-21T21:22:15+08:00",
+      "marketUpdatedAt": "2026-09-21T23:27:38+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -2612,7 +2612,7 @@
       "volume": 110.0,
       "lastPriceBeforeUpdate": 11.85,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-21T21:22:15+08:00",
+      "marketUpdatedAt": "2026-09-21T23:27:38+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -2689,7 +2689,7 @@
       "callIrrMethod": "已進入可隨時贖回期間，無單一未來贖回日，不硬算單一 YTC",
       "xirrStatus": "estimated",
       "xirrCashflowCount": 5,
-      "marketUpdatedAt": "2026-09-21T21:22:15+08:00",
+      "marketUpdatedAt": "2026-09-21T23:27:38+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeMedian20": null,
       "volumeMedian20Samples": 0,
@@ -2743,9 +2743,9 @@
       "high": 100.0,
       "low": 99.9,
       "volume": 143.0,
-      "lastPriceBeforeUpdate": 100.0,
+      "lastPriceBeforeUpdate": 99.9,
       "changePct": -0.1,
-      "marketUpdatedAt": "2026-09-21T21:22:15+08:00",
+      "marketUpdatedAt": "2026-09-21T23:27:38+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -2831,9 +2831,9 @@
       "high": null,
       "low": null,
       "volume": 0.0,
-      "lastPriceBeforeUpdate": 96.2,
+      "lastPriceBeforeUpdate": 96.3,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-21T21:22:15+08:00",
+      "marketUpdatedAt": "2026-09-21T23:27:38+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -2919,9 +2919,9 @@
       "high": 95.2,
       "low": 94.9,
       "volume": 2.0,
-      "lastPriceBeforeUpdate": 95.0,
+      "lastPriceBeforeUpdate": 95.2,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-21T21:22:15+08:00",
+      "marketUpdatedAt": "2026-09-21T23:27:38+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -3009,7 +3009,7 @@
       "volume": 6.0,
       "lastPriceBeforeUpdate": 21.0,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-21T21:22:15+08:00",
+      "marketUpdatedAt": "2026-09-21T23:27:38+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -3095,9 +3095,9 @@
       "high": 45.75,
       "low": 45.7,
       "volume": 8.0,
-      "lastPriceBeforeUpdate": 45.5,
+      "lastPriceBeforeUpdate": 45.75,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-21T21:22:15+08:00",
+      "marketUpdatedAt": "2026-09-21T23:27:38+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -3182,9 +3182,9 @@
       "high": 45.45,
       "low": 45.45,
       "volume": 1.0,
-      "lastPriceBeforeUpdate": 45.3,
+      "lastPriceBeforeUpdate": 45.45,
       "changePct": -0.22,
-      "marketUpdatedAt": "2026-09-21T21:22:15+08:00",
+      "marketUpdatedAt": "2026-09-21T23:27:38+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -3271,7 +3271,7 @@
       "volume": 1.0,
       "lastPriceBeforeUpdate": 48.8,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-21T21:22:15+08:00",
+      "marketUpdatedAt": "2026-09-21T23:27:38+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -3328,7 +3328,7 @@
     "綜合評分",
     "完整排序功能"
   ],
-  "marketUpdatedAt": "2026-09-21T21:22:15+08:00",
+  "marketUpdatedAt": "2026-09-21T23:27:38+08:00",
   "marketUpdateSuccessCount": 28,
   "marketUpdateFailCodes": [
     "3036A"
