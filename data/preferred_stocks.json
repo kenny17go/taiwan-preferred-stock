@@ -1,6 +1,6 @@
 {
   "version": "1.5.9",
-  "marketDataAsOf": "2026-09-23",
+  "marketDataAsOf": "2026-09-24",
   "generatedAt": "2026-09-12",
   "sourceLabel": "市場資料自動更新｜發行條件依公開資料核對",
   "sourceUrl": "https://openapi.twse.com.tw/",
@@ -32,7 +32,7 @@
       "resetCycleYears": 5,
       "issueBaseRate": 0.9375,
       "issueRate": 3.5,
-      "xirr": 10.9,
+      "xirr": 10.92,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -48,21 +48,17 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 3,
       "market": "tse",
-      "quoteDate": "20260923",
+      "quoteDate": "20260924",
       "quoteTime": "13:30:00",
       "previousClose": 43.3,
       "open": 43.3,
       "high": 43.3,
-      "low": 43.3,
-      "volume": 10.0,
+      "low": 43.25,
+      "volume": 8.0,
       "lastPriceBeforeUpdate": 43.3,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-23T21:57:01+08:00",
+      "marketUpdatedAt": "2026-09-24T20:13:41+08:00",
       "volumeHistory20": [
-        {
-          "date": "2026-08-27",
-          "volume": 6.0
-        },
         {
           "date": "2026-08-28",
           "volume": 8.638
@@ -138,19 +134,23 @@
         {
           "date": "2026-09-23",
           "volume": 10.01
+        },
+        {
+          "date": "2026-09-24",
+          "volume": 8.0
         }
       ],
       "volumeMedian20": 12.12,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-09-23",
+      "volumeMedian20AsOf": "2026-09-24",
       "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_1101B.tw&json=1&delay=0"
     },
     {
       "code": "1312A",
       "name": "國喬特",
-      "price": 22.75,
+      "price": 22.8,
       "par": 10,
-      "yield": 2.64,
+      "yield": 2.63,
       "irr": null,
       "call": false,
       "callDate": "-",
@@ -181,21 +181,17 @@
       "callIrrMethod": "不可贖回或缺少明確未來首次可贖回日",
       "xirrStatus": "unavailable",
       "market": "tse",
-      "quoteDate": "20260923",
+      "quoteDate": "20260924",
       "quoteTime": "13:30:00",
-      "previousClose": 22.75,
-      "open": 22.75,
-      "high": 22.8,
-      "low": 22.75,
-      "volume": 7.0,
+      "previousClose": 22.8,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": 0.0,
       "lastPriceBeforeUpdate": 22.75,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-23T21:57:01+08:00",
+      "marketUpdatedAt": "2026-09-24T20:13:41+08:00",
       "volumeHistory20": [
-        {
-          "date": "2026-08-27",
-          "volume": 26.0
-        },
         {
           "date": "2026-08-28",
           "volume": 15.999
@@ -271,19 +267,23 @@
         {
           "date": "2026-09-23",
           "volume": 7.274
+        },
+        {
+          "date": "2026-09-24",
+          "volume": 0.126
         }
       ],
-      "volumeMedian20": 0.62,
+      "volumeMedian20": 0.06,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-09-23",
+      "volumeMedian20AsOf": "2026-09-24",
       "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_1312A.tw&json=1&delay=0"
     },
     {
       "code": "1522A",
       "name": "堤維西甲特",
-      "price": 51.1,
+      "price": 50.9,
       "par": 50,
-      "yield": 3.93,
+      "yield": 3.95,
       "irr": null,
       "call": true,
       "callDate": "2026-08-10",
@@ -303,7 +303,7 @@
       "resetCycleYears": 5,
       "issueBaseRate": 0.64275,
       "issueRate": 4.0,
-      "xirr": 3.64,
+      "xirr": 3.73,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -319,21 +319,17 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 6,
       "market": "tse",
-      "quoteDate": "20260923",
+      "quoteDate": "20260924",
       "quoteTime": "13:30:00",
-      "previousClose": 51.1,
+      "previousClose": 50.9,
       "open": 51.0,
-      "high": 51.1,
-      "low": 50.9,
-      "volume": 55.0,
+      "high": 51.2,
+      "low": 51.0,
+      "volume": 67.0,
       "lastPriceBeforeUpdate": 51.1,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-23T21:57:01+08:00",
+      "marketUpdatedAt": "2026-09-24T20:13:41+08:00",
       "volumeHistory20": [
-        {
-          "date": "2026-08-27",
-          "volume": 7.0
-        },
         {
           "date": "2026-08-28",
           "volume": 9.0
@@ -409,11 +405,15 @@
         {
           "date": "2026-09-23",
           "volume": 55.0
+        },
+        {
+          "date": "2026-09-24",
+          "volume": 67.0
         }
       ],
-      "volumeMedian20": 7.26,
+      "volumeMedian20": 7.76,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-09-23",
+      "volumeMedian20AsOf": "2026-09-24",
       "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_1522A.tw&json=1&delay=0"
     },
     {
@@ -455,21 +455,17 @@
       "callIrrMethod": "不可贖回或缺少明確未來首次可贖回日",
       "xirrStatus": "unavailable",
       "market": "tse",
-      "quoteDate": "20260923",
+      "quoteDate": "20260924",
       "quoteTime": "13:30:00",
       "previousClose": 37.4,
       "open": 37.4,
-      "high": 37.4,
-      "low": 37.4,
-      "volume": 41.0,
+      "high": 37.5,
+      "low": 37.35,
+      "volume": 6.0,
       "lastPriceBeforeUpdate": 37.4,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-23T21:57:01+08:00",
+      "marketUpdatedAt": "2026-09-24T20:13:41+08:00",
       "volumeHistory20": [
-        {
-          "date": "2026-08-27",
-          "volume": 13.653
-        },
         {
           "date": "2026-08-28",
           "volume": 21.335
@@ -545,11 +541,15 @@
         {
           "date": "2026-09-23",
           "volume": 41.214
+        },
+        {
+          "date": "2026-09-24",
+          "volume": 6.05
         }
       ],
       "volumeMedian20": 15.37,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-09-23",
+      "volumeMedian20AsOf": "2026-09-24",
       "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2002A.tw&json=1&delay=0"
     },
     {
@@ -577,7 +577,7 @@
       "resetCycleYears": 5,
       "issueBaseRate": 0.62275,
       "issueRate": 4.0,
-      "xirr": 462.48,
+      "xirr": 900.32,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "官方除息日覆蓋",
       "callIrr": null,
@@ -593,21 +593,17 @@
       "xirrStatus": "official-dates",
       "xirrCashflowCount": 1,
       "market": "tse",
-      "quoteDate": "20260923",
+      "quoteDate": "20260924",
       "quoteTime": "13:30:00",
-      "previousClose": 39.2,
-      "open": 39.2,
-      "high": 39.25,
-      "low": 39.15,
-      "volume": 37.0,
+      "previousClose": 39.25,
+      "open": 38.8,
+      "high": 39.05,
+      "low": 38.75,
+      "volume": 83.0,
       "lastPriceBeforeUpdate": 39.25,
-      "changePct": 0.13,
-      "marketUpdatedAt": "2026-09-23T21:57:01+08:00",
+      "changePct": 0.0,
+      "marketUpdatedAt": "2026-09-24T20:13:41+08:00",
       "volumeHistory20": [
-        {
-          "date": "2026-08-27",
-          "volume": 8.743
-        },
         {
           "date": "2026-08-28",
           "volume": 23.84
@@ -683,11 +679,15 @@
         {
           "date": "2026-09-23",
           "volume": 37.0
+        },
+        {
+          "date": "2026-09-24",
+          "volume": 83.004
         }
       ],
-      "volumeMedian20": 19.11,
+      "volumeMedian20": 21.53,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-09-23",
+      "volumeMedian20AsOf": "2026-09-24",
       "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2348A.tw&json=1&delay=0"
     },
     {
@@ -731,21 +731,17 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 6,
       "market": "tse",
-      "quoteDate": "20260923",
+      "quoteDate": "20260924",
       "quoteTime": "13:30:00",
       "previousClose": 24.05,
       "open": 24.0,
-      "high": 24.05,
-      "low": 23.95,
-      "volume": 24.0,
+      "high": 24.0,
+      "low": 24.0,
+      "volume": 3.0,
       "lastPriceBeforeUpdate": 24.05,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-23T21:57:01+08:00",
+      "marketUpdatedAt": "2026-09-24T20:13:41+08:00",
       "volumeHistory20": [
-        {
-          "date": "2026-08-27",
-          "volume": 31.0
-        },
         {
           "date": "2026-08-28",
           "volume": 12.41
@@ -821,19 +817,23 @@
         {
           "date": "2026-09-23",
           "volume": 24.0
+        },
+        {
+          "date": "2026-09-24",
+          "volume": 3.0
         }
       ],
-      "volumeMedian20": 10.5,
+      "volumeMedian20": 9.25,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-09-23",
+      "volumeMedian20AsOf": "2026-09-24",
       "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2836A.tw&json=1&delay=0"
     },
     {
       "code": "2838A",
       "name": "聯邦銀甲特",
-      "price": 51.9,
+      "price": 52.0,
       "par": 50,
-      "yield": 5.11,
+      "yield": 5.1,
       "irr": null,
       "call": true,
       "callDate": "2023-04-24",
@@ -853,7 +853,7 @@
       "resetCycleYears": 5.5,
       "issueBaseRate": 0.89125,
       "issueRate": 4.8,
-      "xirr": 3.21,
+      "xirr": 3.11,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -869,21 +869,17 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 3,
       "market": "tse",
-      "quoteDate": "20260923",
+      "quoteDate": "20260924",
       "quoteTime": "13:30:00",
       "previousClose": 51.9,
       "open": 51.9,
-      "high": 51.9,
+      "high": 52.0,
       "low": 51.9,
-      "volume": 38.0,
+      "volume": 28.0,
       "lastPriceBeforeUpdate": 51.9,
-      "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-23T21:57:01+08:00",
+      "changePct": 0.19,
+      "marketUpdatedAt": "2026-09-24T20:13:41+08:00",
       "volumeHistory20": [
-        {
-          "date": "2026-08-27",
-          "volume": 77.0
-        },
         {
           "date": "2026-08-28",
           "volume": 152.341
@@ -959,11 +955,15 @@
         {
           "date": "2026-09-23",
           "volume": 38.023
+        },
+        {
+          "date": "2026-09-24",
+          "volume": 28.043
         }
       ],
-      "volumeMedian20": 41.59,
+      "volumeMedian20": 39.04,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-09-23",
+      "volumeMedian20AsOf": "2026-09-24",
       "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2838A.tw&json=1&delay=0"
     },
     {
@@ -1007,21 +1007,17 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 4,
       "market": "tse",
-      "quoteDate": "20260923",
+      "quoteDate": "20260924",
       "quoteTime": "13:30:00",
-      "previousClose": 61.7,
-      "open": 61.7,
-      "high": 61.7,
-      "low": 61.6,
-      "volume": 71.0,
+      "previousClose": 61.6,
+      "open": 61.6,
+      "high": 61.6,
+      "low": 61.5,
+      "volume": 65.0,
       "lastPriceBeforeUpdate": 61.6,
-      "changePct": -0.16,
-      "marketUpdatedAt": "2026-09-23T21:57:01+08:00",
+      "changePct": 0.0,
+      "marketUpdatedAt": "2026-09-24T20:13:41+08:00",
       "volumeHistory20": [
-        {
-          "date": "2026-08-27",
-          "volume": 158.422
-        },
         {
           "date": "2026-08-28",
           "volume": 24.516
@@ -1097,11 +1093,15 @@
         {
           "date": "2026-09-23",
           "volume": 72.461
+        },
+        {
+          "date": "2026-09-24",
+          "volume": 67.004
         }
       ],
       "volumeMedian20": 46.33,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-09-23",
+      "volumeMedian20AsOf": "2026-09-24",
       "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2881A.tw&json=1&delay=0"
     },
     {
@@ -1130,7 +1130,7 @@
       "formulaSource": "富邦金乙特上市公告",
       "resetCycleYears": 7,
       "issueBaseRate": 1.17,
-      "xirr": 3.63,
+      "xirr": 3.64,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -1145,21 +1145,17 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 6,
       "market": "tse",
-      "quoteDate": "20260923",
+      "quoteDate": "20260924",
       "quoteTime": "13:30:00",
       "previousClose": 60.9,
-      "open": 60.6,
+      "open": 60.5,
       "high": 60.9,
-      "low": 60.6,
-      "volume": 5.0,
+      "low": 60.5,
+      "volume": 59.0,
       "lastPriceBeforeUpdate": 60.9,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-23T21:57:01+08:00",
+      "marketUpdatedAt": "2026-09-24T20:13:41+08:00",
       "volumeHistory20": [
-        {
-          "date": "2026-08-27",
-          "volume": 5.048
-        },
         {
           "date": "2026-08-28",
           "volume": 5.372
@@ -1235,20 +1231,24 @@
         {
           "date": "2026-09-23",
           "volume": 5.744
+        },
+        {
+          "date": "2026-09-24",
+          "volume": 60.196
         }
       ],
-      "volumeMedian20": 7.09,
+      "volumeMedian20": 8.11,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-09-23",
+      "volumeMedian20AsOf": "2026-09-24",
       "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2881B.tw&json=1&delay=0"
     },
     {
       "code": "2881C",
       "name": "富邦金丙特",
-      "price": 51.8,
+      "price": 51.7,
       "par": 60,
-      "yield": 3.47,
-      "irr": 10.56,
+      "yield": 3.48,
+      "irr": 10.68,
       "call": true,
       "callDate": "2028-10-26",
       "callPrice": 60,
@@ -1269,10 +1269,10 @@
       "note": "市場價格由 TWSE/TPEx 自動更新；發行與重設條款以公開說明書、重大訊息與交易所公告核對。",
       "issueBaseRate": 0.6538,
       "legacyIrr": 11.3,
-      "xirr": 10.56,
+      "xirr": 10.68,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
-      "callIrr": 10.56,
+      "callIrr": 10.68,
       "callIrrMethod": "首次可贖回情境 IRR：除息日股息 + 贖回本金，Actual/365；距可贖回日過短時不顯示年化值",
       "firstCallDate": "2028-10-26",
       "nextResetDate": "2028-10-26",
@@ -1284,21 +1284,17 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 3,
       "market": "tse",
-      "quoteDate": "20260923",
+      "quoteDate": "20260924",
       "quoteTime": "13:30:00",
-      "previousClose": 51.8,
+      "previousClose": 51.7,
       "open": 51.8,
       "high": 51.8,
       "low": 51.7,
-      "volume": 66.0,
+      "volume": 17.0,
       "lastPriceBeforeUpdate": 51.8,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-23T21:57:01+08:00",
+      "marketUpdatedAt": "2026-09-24T20:13:41+08:00",
       "volumeHistory20": [
-        {
-          "date": "2026-08-27",
-          "volume": 30.263
-        },
         {
           "date": "2026-08-28",
           "volume": 36.335
@@ -1374,19 +1370,23 @@
         {
           "date": "2026-09-23",
           "volume": 68.428
+        },
+        {
+          "date": "2026-09-24",
+          "volume": 18.875
         }
       ],
       "volumeMedian20": 33.85,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-09-23",
+      "volumeMedian20AsOf": "2026-09-24",
       "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2881C.tw&json=1&delay=0"
     },
     {
       "code": "2882A",
       "name": "國泰特",
-      "price": 60.3,
+      "price": 60.1,
       "par": 60,
-      "yield": 4.2,
+      "yield": 4.21,
       "irr": null,
       "call": true,
       "callDate": "2023-12-08",
@@ -1407,7 +1407,7 @@
       "formulaSource": "國泰金甲特發行條件／重設公告",
       "resetCycleYears": 7,
       "issueBaseRate": 1.06,
-      "xirr": 3.93,
+      "xirr": 4.02,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -1422,21 +1422,17 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 5,
       "market": "tse",
-      "quoteDate": "20260923",
+      "quoteDate": "20260924",
       "quoteTime": "13:30:00",
       "previousClose": 60.3,
       "open": 60.2,
-      "high": 60.3,
-      "low": 60.2,
-      "volume": 23.0,
+      "high": 60.2,
+      "low": 60.1,
+      "volume": 71.0,
       "lastPriceBeforeUpdate": 60.3,
-      "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-23T21:57:01+08:00",
+      "changePct": -0.33,
+      "marketUpdatedAt": "2026-09-24T20:13:41+08:00",
       "volumeHistory20": [
-        {
-          "date": "2026-08-27",
-          "volume": 39.588
-        },
         {
           "date": "2026-08-28",
           "volume": 122.277
@@ -1512,11 +1508,15 @@
         {
           "date": "2026-09-23",
           "volume": 23.911
+        },
+        {
+          "date": "2026-09-24",
+          "volume": 71.458
         }
       ],
       "volumeMedian20": 32.63,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-09-23",
+      "volumeMedian20AsOf": "2026-09-24",
       "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2882A.tw&json=1&delay=0"
     },
     {
@@ -1545,7 +1545,7 @@
       "formulaSource": "國泰金乙特上市公告",
       "resetCycleYears": 7,
       "issueBaseRate": 1.1675,
-      "xirr": 4.14,
+      "xirr": 4.15,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -1560,21 +1560,17 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 6,
       "market": "tse",
-      "quoteDate": "20260923",
+      "quoteDate": "20260924",
       "quoteTime": "13:30:00",
       "previousClose": 58.8,
       "open": 58.7,
       "high": 58.8,
-      "low": 58.7,
-      "volume": 2.0,
+      "low": 58.6,
+      "volume": 31.0,
       "lastPriceBeforeUpdate": 58.8,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-23T21:57:01+08:00",
+      "marketUpdatedAt": "2026-09-24T20:13:41+08:00",
       "volumeHistory20": [
-        {
-          "date": "2026-08-27",
-          "volume": 21.524
-        },
         {
           "date": "2026-08-28",
           "volume": 15.429
@@ -1650,20 +1646,24 @@
         {
           "date": "2026-09-23",
           "volume": 2.249
+        },
+        {
+          "date": "2026-09-24",
+          "volume": 31.106
         }
       ],
       "volumeMedian20": 15.63,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-09-23",
+      "volumeMedian20AsOf": "2026-09-24",
       "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2882B.tw&json=1&delay=0"
     },
     {
       "code": "2883B",
       "name": "開發金乙特",
-      "price": 8.5,
+      "price": 8.52,
       "par": 10,
-      "yield": 4.12,
-      "irr": 11.02,
+      "yield": 4.11,
+      "irr": 10.92,
       "call": true,
       "callDate": "2028-12-30",
       "callPrice": 10,
@@ -1684,10 +1684,10 @@
       "resetCycleYears": 7,
       "issueBaseRate": 0.75,
       "legacyIrr": 13.9,
-      "xirr": 11.02,
+      "xirr": 10.92,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
-      "callIrr": 11.02,
+      "callIrr": 10.92,
       "callIrrMethod": "首次可贖回情境 IRR：除息日股息 + 贖回本金，Actual/365；距可贖回日過短時不顯示年化值",
       "firstCallDate": "2028-12-30",
       "nextResetDate": "2028-12-30",
@@ -1699,21 +1699,17 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 3,
       "market": "tse",
-      "quoteDate": "20260923",
+      "quoteDate": "20260924",
       "quoteTime": "13:30:00",
-      "previousClose": 8.47,
-      "open": 8.47,
-      "high": 8.5,
-      "low": 8.45,
-      "volume": 1140.0,
+      "previousClose": 8.5,
+      "open": 8.49,
+      "high": 8.52,
+      "low": 8.47,
+      "volume": 1565.0,
       "lastPriceBeforeUpdate": 8.5,
-      "changePct": 0.35,
-      "marketUpdatedAt": "2026-09-23T21:57:01+08:00",
+      "changePct": 0.24,
+      "marketUpdatedAt": "2026-09-24T20:13:41+08:00",
       "volumeHistory20": [
-        {
-          "date": "2026-08-27",
-          "volume": 445.02
-        },
         {
           "date": "2026-08-28",
           "volume": 713.335
@@ -1789,19 +1785,23 @@
         {
           "date": "2026-09-23",
           "volume": 1145.658
+        },
+        {
+          "date": "2026-09-24",
+          "volume": 1572.899
         }
       ],
       "volumeMedian20": 1626.53,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-09-23",
+      "volumeMedian20AsOf": "2026-09-24",
       "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2883B.tw&json=1&delay=0"
     },
     {
       "code": "2887E",
       "name": "台新戊特",
-      "price": 48.45,
+      "price": 48.55,
       "par": 50,
-      "yield": 5.04,
+      "yield": 5.03,
       "irr": null,
       "call": true,
       "callDate": "2023-12-28",
@@ -1822,7 +1822,7 @@
       "formulaSource": "台新金永續報告／發行條件",
       "resetCycleYears": 7,
       "issueBaseRate": 1.2175,
-      "xirr": 5.5,
+      "xirr": 5.45,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -1837,21 +1837,17 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 5,
       "market": "tse",
-      "quoteDate": "20260923",
+      "quoteDate": "20260924",
       "quoteTime": "13:30:00",
       "previousClose": 48.45,
       "open": 48.45,
-      "high": 48.6,
-      "low": 48.45,
-      "volume": 102.0,
+      "high": 48.55,
+      "low": 48.4,
+      "volume": 146.0,
       "lastPriceBeforeUpdate": 48.45,
-      "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-23T21:57:01+08:00",
+      "changePct": 0.21,
+      "marketUpdatedAt": "2026-09-24T20:13:41+08:00",
       "volumeHistory20": [
-        {
-          "date": "2026-08-27",
-          "volume": 126.314
-        },
         {
           "date": "2026-08-28",
           "volume": 136.202
@@ -1927,11 +1923,15 @@
         {
           "date": "2026-09-23",
           "volume": 103.3
+        },
+        {
+          "date": "2026-09-24",
+          "volume": 146.687
         }
       ],
-      "volumeMedian20": 127.84,
+      "volumeMedian20": 130.08,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-09-23",
+      "volumeMedian20AsOf": "2026-09-24",
       "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2887E.tw&json=1&delay=0"
     },
     {
@@ -1975,21 +1975,17 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 7,
       "market": "tse",
-      "quoteDate": "20260923",
+      "quoteDate": "20260924",
       "quoteTime": "13:30:00",
       "previousClose": 45.65,
-      "open": 45.65,
+      "open": 45.6,
       "high": 45.65,
       "low": 45.6,
-      "volume": 50.0,
+      "volume": 20.0,
       "lastPriceBeforeUpdate": 45.65,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-23T21:57:01+08:00",
+      "marketUpdatedAt": "2026-09-24T20:13:41+08:00",
       "volumeHistory20": [
-        {
-          "date": "2026-08-27",
-          "volume": 18.094
-        },
         {
           "date": "2026-08-28",
           "volume": 17.54
@@ -2065,20 +2061,24 @@
         {
           "date": "2026-09-23",
           "volume": 51.033
+        },
+        {
+          "date": "2026-09-24",
+          "volume": 20.879
         }
       ],
       "volumeMedian20": 27.87,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-09-23",
+      "volumeMedian20AsOf": "2026-09-24",
       "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2887F.tw&json=1&delay=0",
       "volumeHistoryError": "428 Client Error:  for url: https://www.twse.com.tw/rwd/zh/afterTrading/STOCK_DAY?response=json&date=20260701&stockNo=2887F"
     },
     {
       "code": "2887G",
       "name": "台新庚特一",
-      "price": 44.5,
+      "price": 44.6,
       "par": 45,
-      "yield": 3.84,
+      "yield": 3.83,
       "irr": null,
       "call": true,
       "callDate": "2026-09-27",
@@ -2098,7 +2098,7 @@
       "resetCycleYears": 7,
       "issueBaseRate": 0.72,
       "issueRate": 3.8,
-      "xirr": 177.2,
+      "xirr": 196.33,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "官方除息日覆蓋",
       "callIrr": null,
@@ -2114,22 +2114,18 @@
       "xirrStatus": "official-dates",
       "xirrCashflowCount": 1,
       "market": "tse",
-      "quoteDate": "20260923",
+      "quoteDate": "20260924",
       "quoteTime": "13:30:00",
-      "previousClose": 44.5,
-      "open": 44.5,
-      "high": 44.5,
-      "low": 44.4,
-      "volume": 52.0,
+      "previousClose": 44.4,
+      "open": 44.55,
+      "high": 44.65,
+      "low": 44.5,
+      "volume": 267.0,
       "lastPriceBeforeUpdate": 44.5,
-      "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-23T21:57:01+08:00",
+      "changePct": 0.45,
+      "marketUpdatedAt": "2026-09-24T20:13:41+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
-        {
-          "date": "2026-08-27",
-          "volume": 10.344
-        },
         {
           "date": "2026-08-28",
           "volume": 23.387
@@ -2205,20 +2201,24 @@
         {
           "date": "2026-09-23",
           "volume": 52.0
+        },
+        {
+          "date": "2026-09-24",
+          "volume": 267.0
         }
       ],
-      "volumeMedian20": 51.5,
+      "volumeMedian20": 55.0,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-09-23",
+      "volumeMedian20AsOf": "2026-09-24",
       "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2887G.tw&json=1&delay=0"
     },
     {
       "code": "2887H",
       "name": "台新庚特二",
-      "price": 42.6,
+      "price": 43.0,
       "par": 45,
-      "yield": 4.23,
-      "irr": 10.6,
+      "yield": 4.19,
+      "irr": 9.53,
       "call": true,
       "callDate": "2027-09-01",
       "callPrice": 45,
@@ -2238,10 +2238,10 @@
       "issueBaseRate": 0.68,
       "issueRate": 4.0,
       "legacyIrr": 13.5,
-      "xirr": 10.6,
+      "xirr": 9.53,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
-      "callIrr": 10.6,
+      "callIrr": 9.53,
       "callIrrMethod": "首次可贖回情境 IRR：除息日股息 + 贖回本金，Actual/365；距可贖回日過短時不顯示年化值",
       "issueDate": "2025-07-24",
       "firstCallDate": "2027-09-01",
@@ -2254,16 +2254,16 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 2,
       "market": "tse",
-      "quoteDate": "20260923",
+      "quoteDate": "20260924",
       "quoteTime": "13:30:00",
-      "previousClose": 42.5,
-      "open": 42.5,
-      "high": 42.6,
-      "low": 42.25,
-      "volume": 122.0,
+      "previousClose": 42.6,
+      "open": 42.6,
+      "high": 43.0,
+      "low": 42.6,
+      "volume": 544.0,
       "lastPriceBeforeUpdate": 42.6,
-      "changePct": 0.24,
-      "marketUpdatedAt": "2026-09-23T21:57:01+08:00",
+      "changePct": 0.94,
+      "marketUpdatedAt": "2026-09-24T20:13:41+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -2301,11 +2301,15 @@
         {
           "date": "2026-09-23",
           "volume": 122.0
+        },
+        {
+          "date": "2026-09-24",
+          "volume": 544.0
         }
       ],
-      "volumeMedian20": 138.0,
-      "volumeMedian20Samples": 9,
-      "volumeMedian20AsOf": "2026-09-23",
+      "volumeMedian20": 186.0,
+      "volumeMedian20Samples": 10,
+      "volumeMedian20AsOf": "2026-09-24",
       "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2887H.tw&json=1&delay=0"
     },
     {
@@ -2314,7 +2318,7 @@
       "price": 9.53,
       "par": 10,
       "yield": 1.78,
-      "irr": 4.6,
+      "irr": 4.61,
       "call": true,
       "callDate": "2028-07-23",
       "callPrice": 10,
@@ -2332,10 +2336,10 @@
       "formulaSource": "TWSE 台新新光上市股票權利義務公告",
       "issueRate": 1.665,
       "legacyIrr": 4.8,
-      "xirr": 4.6,
+      "xirr": 4.61,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
-      "callIrr": 4.6,
+      "callIrr": 4.61,
       "callIrrMethod": "首次可贖回情境 IRR：除息日股息 + 贖回本金，Actual/365；距可贖回日過短時不顯示年化值",
       "issueDate": "2025-07-24",
       "firstCallDate": "2028-07-23",
@@ -2348,16 +2352,16 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 3,
       "market": "tse",
-      "quoteDate": "20260923",
+      "quoteDate": "20260924",
       "quoteTime": "13:30:00",
-      "previousClose": 9.52,
-      "open": 9.52,
+      "previousClose": 9.53,
+      "open": 9.54,
       "high": 9.54,
       "low": 9.52,
-      "volume": 1361.0,
+      "volume": 1588.0,
       "lastPriceBeforeUpdate": 9.53,
-      "changePct": 0.11,
-      "marketUpdatedAt": "2026-09-23T21:57:01+08:00",
+      "changePct": 0.0,
+      "marketUpdatedAt": "2026-09-24T20:13:41+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -2395,11 +2399,15 @@
         {
           "date": "2026-09-23",
           "volume": 1361.0
+        },
+        {
+          "date": "2026-09-24",
+          "volume": 1588.0
         }
       ],
-      "volumeMedian20": 1725.0,
-      "volumeMedian20Samples": 9,
-      "volumeMedian20AsOf": "2026-09-23",
+      "volumeMedian20": 1656.5,
+      "volumeMedian20Samples": 10,
+      "volumeMedian20AsOf": "2026-09-24",
       "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2887I.tw&json=1&delay=0"
     },
     {
@@ -2443,16 +2451,16 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 6,
       "market": "tse",
-      "quoteDate": "20260923",
+      "quoteDate": "20260924",
       "quoteTime": "13:30:00",
       "previousClose": 62.0,
       "open": 61.8,
-      "high": 62.0,
-      "low": 61.8,
-      "volume": 4.0,
+      "high": 61.8,
+      "low": 61.6,
+      "volume": 10.0,
       "lastPriceBeforeUpdate": 62.0,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-23T21:57:01+08:00",
+      "marketUpdatedAt": "2026-09-24T20:13:41+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -2490,11 +2498,15 @@
         {
           "date": "2026-09-23",
           "volume": 4.0
+        },
+        {
+          "date": "2026-09-24",
+          "volume": 10.0
         }
       ],
       "volumeMedian20": 4.0,
-      "volumeMedian20Samples": 9,
-      "volumeMedian20AsOf": "2026-09-23",
+      "volumeMedian20Samples": 10,
+      "volumeMedian20AsOf": "2026-09-24",
       "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2891B.tw&json=1&delay=0"
     },
     {
@@ -2523,7 +2535,7 @@
       "formulaSource": "中信金丙特上市公告／2026重設公告",
       "resetCycleYears": 7,
       "issueBaseRate": 0.99,
-      "xirr": 3.05,
+      "xirr": 3.06,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -2538,16 +2550,16 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 7,
       "market": "tse",
-      "quoteDate": "20260923",
+      "quoteDate": "20260924",
       "quoteTime": "13:30:00",
       "previousClose": 61.1,
-      "open": null,
-      "high": null,
-      "low": null,
-      "volume": 0.0,
+      "open": 60.6,
+      "high": 61.0,
+      "low": 60.6,
+      "volume": 2.0,
       "lastPriceBeforeUpdate": 61.1,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-23T21:57:01+08:00",
+      "marketUpdatedAt": "2026-09-24T20:13:41+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -2585,11 +2597,15 @@
         {
           "date": "2026-09-23",
           "volume": 0
+        },
+        {
+          "date": "2026-09-24",
+          "volume": 2.0
         }
       ],
       "volumeMedian20": 0.0,
-      "volumeMedian20Samples": 9,
-      "volumeMedian20AsOf": "2026-09-23",
+      "volumeMedian20Samples": 10,
+      "volumeMedian20AsOf": "2026-09-24",
       "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2891C.tw&json=1&delay=0"
     },
     {
@@ -2635,16 +2651,16 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 4,
       "market": "tse",
-      "quoteDate": "20260923",
+      "quoteDate": "20260924",
       "quoteTime": "13:30:00",
       "previousClose": 11.9,
       "open": 11.9,
       "high": 11.9,
       "low": 11.9,
-      "volume": 16.0,
+      "volume": 13.0,
       "lastPriceBeforeUpdate": 11.9,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-23T21:57:01+08:00",
+      "marketUpdatedAt": "2026-09-24T20:13:41+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -2682,11 +2698,15 @@
         {
           "date": "2026-09-23",
           "volume": 16.0
+        },
+        {
+          "date": "2026-09-24",
+          "volume": 13.0
         }
       ],
-      "volumeMedian20": 34.0,
-      "volumeMedian20Samples": 9,
-      "volumeMedian20AsOf": "2026-09-23",
+      "volumeMedian20": 30.5,
+      "volumeMedian20Samples": 10,
+      "volumeMedian20AsOf": "2026-09-24",
       "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2897B.tw&json=1&delay=0"
     },
     {
@@ -2729,7 +2749,7 @@
       "callIrrMethod": "已進入可隨時贖回期間，無單一未來贖回日，不硬算單一 YTC",
       "xirrStatus": "estimated",
       "xirrCashflowCount": 5,
-      "marketUpdatedAt": "2026-09-23T21:57:01+08:00",
+      "marketUpdatedAt": "2026-09-24T20:13:41+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeMedian20": null,
       "volumeMedian20Samples": 0,
@@ -2760,7 +2780,7 @@
       "resetCycleYears": 5,
       "issueBaseRate": 0.5625,
       "issueRate": 3.8,
-      "xirr": 4.59,
+      "xirr": 4.6,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -2776,16 +2796,16 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 5,
       "market": "tse",
-      "quoteDate": "20260923",
+      "quoteDate": "20260924",
       "quoteTime": "13:30:00",
       "previousClose": 99.9,
-      "open": 100.0,
-      "high": 100.0,
-      "low": 99.8,
-      "volume": 79.0,
+      "open": 99.9,
+      "high": 99.9,
+      "low": 99.9,
+      "volume": 27.0,
       "lastPriceBeforeUpdate": 99.9,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-23T21:57:01+08:00",
+      "marketUpdatedAt": "2026-09-24T20:13:41+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -2823,11 +2843,15 @@
         {
           "date": "2026-09-23",
           "volume": 79.0
+        },
+        {
+          "date": "2026-09-24",
+          "volume": 27.0
         }
       ],
-      "volumeMedian20": 79.0,
-      "volumeMedian20Samples": 9,
-      "volumeMedian20AsOf": "2026-09-23",
+      "volumeMedian20": 76.0,
+      "volumeMedian20Samples": 10,
+      "volumeMedian20AsOf": "2026-09-24",
       "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_5871A.tw&json=1&delay=0"
     },
     {
@@ -2836,7 +2860,7 @@
       "price": 96.7,
       "par": 100,
       "yield": 4.33,
-      "irr": 7.76,
+      "irr": 7.78,
       "call": true,
       "callDate": "2027-09-26",
       "callPrice": 100,
@@ -2857,10 +2881,10 @@
       "resetCycleYears": 5,
       "issueBaseRate": 1.1175,
       "legacyIrr": 10.8,
-      "xirr": 7.76,
+      "xirr": 7.78,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
-      "callIrr": 7.76,
+      "callIrr": 7.78,
       "callIrrMethod": "首次可贖回情境 IRR：除息日股息 + 贖回本金，Actual/365；距可贖回日過短時不顯示年化值",
       "firstCallDate": "2027-09-26",
       "nextResetDate": "2027-09-26",
@@ -2872,16 +2896,16 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 2,
       "market": "tse",
-      "quoteDate": "20260923",
+      "quoteDate": "20260924",
       "quoteTime": "13:30:00",
       "previousClose": 96.7,
-      "open": 96.7,
-      "high": 96.7,
-      "low": 96.7,
-      "volume": 1.0,
+      "open": 96.5,
+      "high": 96.8,
+      "low": 96.5,
+      "volume": 3.0,
       "lastPriceBeforeUpdate": 96.7,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-23T21:57:01+08:00",
+      "marketUpdatedAt": "2026-09-24T20:13:41+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -2919,20 +2943,24 @@
         {
           "date": "2026-09-23",
           "volume": 1.0
+        },
+        {
+          "date": "2026-09-24",
+          "volume": 3.0
         }
       ],
-      "volumeMedian20": 1.0,
-      "volumeMedian20Samples": 9,
-      "volumeMedian20AsOf": "2026-09-23",
+      "volumeMedian20": 1.5,
+      "volumeMedian20Samples": 10,
+      "volumeMedian20AsOf": "2026-09-24",
       "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_6592A.tw&json=1&delay=0"
     },
     {
       "code": "6592B",
       "name": "和潤企業乙特",
-      "price": 95.3,
+      "price": 95.4,
       "par": 100,
       "yield": 4.77,
-      "irr": 7.44,
+      "irr": 7.39,
       "call": true,
       "callDate": "2028-09-01",
       "callPrice": 100,
@@ -2952,10 +2980,10 @@
       "issueBaseRate": 1.4325,
       "issueRate": 4.5,
       "legacyIrr": 8.6,
-      "xirr": 7.44,
+      "xirr": 7.39,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
-      "callIrr": 7.44,
+      "callIrr": 7.39,
       "callIrrMethod": "首次可贖回情境 IRR：除息日股息 + 贖回本金，Actual/365；距可贖回日過短時不顯示年化值",
       "issueDate": "2023-09-01",
       "firstCallDate": "2028-09-01",
@@ -2968,16 +2996,16 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 3,
       "market": "tse",
-      "quoteDate": "20260923",
+      "quoteDate": "20260924",
       "quoteTime": "13:30:00",
-      "previousClose": 95.3,
-      "open": 95.0,
-      "high": 95.4,
-      "low": 95.0,
-      "volume": 2.0,
+      "previousClose": 95.4,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": 0.0,
       "lastPriceBeforeUpdate": 95.3,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-23T21:57:01+08:00",
+      "marketUpdatedAt": "2026-09-24T20:13:41+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -3015,20 +3043,24 @@
         {
           "date": "2026-09-23",
           "volume": 2.0
+        },
+        {
+          "date": "2026-09-24",
+          "volume": 0
         }
       ],
-      "volumeMedian20": 3.0,
-      "volumeMedian20Samples": 9,
-      "volumeMedian20AsOf": "2026-09-23",
+      "volumeMedian20": 2.5,
+      "volumeMedian20Samples": 10,
+      "volumeMedian20AsOf": "2026-09-24",
       "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_6592B.tw&json=1&delay=0"
     },
     {
       "code": "6958A",
       "name": "日盛台駿甲特",
-      "price": 21.6,
+      "price": 21.75,
       "par": 25,
-      "yield": 5.88,
-      "irr": 8.82,
+      "yield": 5.84,
+      "irr": 8.64,
       "call": true,
       "callDate": "2031-01-07",
       "callPrice": 25,
@@ -3048,10 +3080,10 @@
       "issueBaseRate": 1.689,
       "issueRate": 5.2,
       "legacyIrr": 13.2,
-      "xirr": 8.82,
+      "xirr": 8.64,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
-      "callIrr": 8.82,
+      "callIrr": 8.64,
       "callIrrMethod": "首次可贖回情境 IRR：除息日股息 + 贖回本金，Actual/365；距可贖回日過短時不顯示年化值",
       "issueDate": "2026-01-07",
       "firstCallDate": "2031-01-07",
@@ -3064,16 +3096,16 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 5,
       "market": "tse",
-      "quoteDate": "20260923",
+      "quoteDate": "20260924",
       "quoteTime": "13:30:00",
-      "previousClose": 21.25,
-      "open": 21.25,
-      "high": 21.65,
-      "low": 21.25,
-      "volume": 26.0,
+      "previousClose": 21.6,
+      "open": 21.6,
+      "high": 21.75,
+      "low": 21.6,
+      "volume": 18.0,
       "lastPriceBeforeUpdate": 21.6,
-      "changePct": 1.65,
-      "marketUpdatedAt": "2026-09-23T21:57:01+08:00",
+      "changePct": 0.69,
+      "marketUpdatedAt": "2026-09-24T20:13:41+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -3111,20 +3143,24 @@
         {
           "date": "2026-09-23",
           "volume": 26.0
+        },
+        {
+          "date": "2026-09-24",
+          "volume": 18.0
         }
       ],
       "volumeMedian20": 20.0,
-      "volumeMedian20Samples": 9,
-      "volumeMedian20AsOf": "2026-09-23",
+      "volumeMedian20Samples": 10,
+      "volumeMedian20AsOf": "2026-09-24",
       "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_6958A.tw&json=1&delay=0"
     },
     {
       "code": "8112A",
       "name": "至上甲特",
-      "price": 45.75,
+      "price": 45.85,
       "par": 45,
-      "yield": 4.42,
-      "irr": -3.59,
+      "yield": 4.41,
+      "irr": -4.08,
       "call": true,
       "callDate": "2027-03-07",
       "callPrice": 45,
@@ -3144,10 +3180,10 @@
       "issueBaseRate": 0.87,
       "issueRate": 4.5,
       "legacyIrr": 8.9,
-      "xirr": -3.59,
+      "xirr": -4.08,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "官方除息日覆蓋",
-      "callIrr": -3.59,
+      "callIrr": -4.08,
       "callIrrMethod": "首次可贖回情境 IRR：除息日股息 + 贖回本金，Actual/365；距可贖回日過短時不顯示年化值",
       "issueDate": "2022-03-07",
       "firstCallDate": "2027-03-07",
@@ -3160,16 +3196,16 @@
       "xirrStatus": "official-dates",
       "xirrCashflowCount": 1,
       "market": "tse",
-      "quoteDate": "20260923",
+      "quoteDate": "20260924",
       "quoteTime": "13:30:00",
-      "previousClose": 45.75,
-      "open": 45.85,
-      "high": 45.9,
-      "low": 45.85,
-      "volume": 15.0,
+      "previousClose": 45.85,
+      "open": 45.75,
+      "high": 45.85,
+      "low": 45.75,
+      "volume": 7.0,
       "lastPriceBeforeUpdate": 45.75,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-23T21:57:01+08:00",
+      "marketUpdatedAt": "2026-09-24T20:13:41+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -3207,11 +3243,15 @@
         {
           "date": "2026-09-23",
           "volume": 15.0
+        },
+        {
+          "date": "2026-09-24",
+          "volume": 7.0
         }
       ],
-      "volumeMedian20": 14.0,
-      "volumeMedian20Samples": 9,
-      "volumeMedian20AsOf": "2026-09-23",
+      "volumeMedian20": 12.0,
+      "volumeMedian20Samples": 10,
+      "volumeMedian20AsOf": "2026-09-24",
       "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_8112A.tw&json=1&delay=0"
     },
     {
@@ -3255,7 +3295,7 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 4,
       "market": "otc",
-      "quoteDate": "20260923",
+      "quoteDate": "20260924",
       "quoteTime": "13:30:00",
       "previousClose": 45.5,
       "open": null,
@@ -3264,7 +3304,7 @@
       "volume": 0.0,
       "lastPriceBeforeUpdate": 45.5,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-23T21:57:01+08:00",
+      "marketUpdatedAt": "2026-09-24T20:13:41+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -3302,17 +3342,21 @@
         {
           "date": "2026-09-23",
           "volume": 0
+        },
+        {
+          "date": "2026-09-24",
+          "volume": 0
         }
       ],
       "volumeMedian20": 1.0,
-      "volumeMedian20Samples": 9,
-      "volumeMedian20AsOf": "2026-09-23",
+      "volumeMedian20Samples": 10,
+      "volumeMedian20AsOf": "2026-09-24",
       "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_8349A.tw&json=1&delay=0"
     },
     {
       "code": "9941A",
       "name": "裕融企業甲種特別股",
-      "price": 48.8,
+      "price": 48.85,
       "par": 50,
       "yield": 4.18,
       "irr": null,
@@ -3334,7 +3378,7 @@
       "resetCycleYears": 5,
       "issueBaseRate": 0.93875,
       "issueRate": 4.0,
-      "xirr": 5.26,
+      "xirr": 5.21,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -3350,16 +3394,16 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 3,
       "market": "tse",
-      "quoteDate": "20260923",
+      "quoteDate": "20260924",
       "quoteTime": "13:30:00",
-      "previousClose": 48.8,
+      "previousClose": 48.85,
       "open": 48.85,
-      "high": 48.85,
-      "low": 48.8,
-      "volume": 9.0,
+      "high": 48.9,
+      "low": 48.85,
+      "volume": 8.0,
       "lastPriceBeforeUpdate": 48.8,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-09-23T21:57:01+08:00",
+      "marketUpdatedAt": "2026-09-24T20:13:41+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -3397,11 +3441,15 @@
         {
           "date": "2026-09-23",
           "volume": 9.0
+        },
+        {
+          "date": "2026-09-24",
+          "volume": 8.0
         }
       ],
-      "volumeMedian20": 2.0,
-      "volumeMedian20Samples": 9,
-      "volumeMedian20AsOf": "2026-09-23",
+      "volumeMedian20": 5.0,
+      "volumeMedian20Samples": 10,
+      "volumeMedian20AsOf": "2026-09-24",
       "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_9941A.tw&json=1&delay=0"
     }
   ],
@@ -3424,7 +3472,7 @@
     "綜合評分",
     "完整排序功能"
   ],
-  "marketUpdatedAt": "2026-09-23T21:57:01+08:00",
+  "marketUpdatedAt": "2026-09-24T20:13:41+08:00",
   "marketUpdateSuccessCount": 28,
   "marketUpdateFailCodes": [
     "3036A"
