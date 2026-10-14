@@ -2,19 +2,19 @@
   "status": "ok",
   "source": "https://cbonds.com/indexes/219623/",
   "source_label": "IRS TWD (Quarterly Money vs 3M TAIBOR)",
-  "asof": "2026-10-13",
-  "updated_at": "2026-10-14T01:39:28+08:00",
+  "asof": "2026-10-14",
+  "updated_at": "2026-10-14T23:13:17+08:00",
   "rates": {
     "6M": 1.7325,
     "1Y": 1.8542,
-    "2Y": 2.0484,
-    "3Y": 2.1784,
-    "4Y": 2.2942,
-    "5Y": 2.3792,
-    "7Y": 2.5125,
-    "10Y": 2.7175,
-    "12Y": 2.835,
-    "15Y": 3.0175
+    "2Y": 2.0609,
+    "3Y": 2.1959,
+    "4Y": 2.3042,
+    "5Y": 2.395,
+    "7Y": 2.5334,
+    "10Y": 2.74,
+    "12Y": 2.8663,
+    "15Y": 3.03
   },
   "note": "Automatically refreshed by GitHub Actions."
 }
