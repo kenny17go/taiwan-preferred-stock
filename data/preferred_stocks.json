@@ -143,7 +143,7 @@
       "volumeMedian20": 9.6,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-21",
-      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Read timed out. (read timeout=20)",
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_1101B.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)"
     },
     {
@@ -277,7 +277,7 @@
       "volumeMedian20": 4.0,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-21",
-      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Read timed out. (read timeout=20)",
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_1312A.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)"
     },
     {
@@ -416,7 +416,7 @@
       "volumeMedian20": 8.0,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-09-30",
-      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Read timed out. (read timeout=20)",
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_1522A.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)"
     },
     {
@@ -553,7 +553,7 @@
       "volumeMedian20": 15.83,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-21",
-      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Read timed out. (read timeout=20)"
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2002A.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301"
     },
     {
       "code": "2348A",
@@ -691,7 +691,7 @@
       "volumeMedian20": 33.06,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-21",
-      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Read timed out. (read timeout=20)",
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2348A.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)"
     },
     {
@@ -830,7 +830,7 @@
       "volumeMedian20": 10.15,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-21",
-      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Read timed out. (read timeout=20)",
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2836A.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)"
     },
     {
@@ -969,7 +969,7 @@
       "volumeMedian20": 32.53,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-21",
-      "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2838A.tw&json=1&delay=0",
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2838A.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)"
     },
     {
@@ -1108,7 +1108,7 @@
       "volumeMedian20": 56.71,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-21",
-      "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2881A.tw&json=1&delay=0",
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2881A.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)"
     },
     {
@@ -1247,7 +1247,7 @@
       "volumeMedian20": 9.11,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-21",
-      "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2881B.tw&json=1&delay=0",
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2881B.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)"
     },
     {
@@ -1387,7 +1387,7 @@
       "volumeMedian20": 43.2,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-21",
-      "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2881C.tw&json=1&delay=0",
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2881C.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)"
     },
     {
@@ -1526,7 +1526,7 @@
       "volumeMedian20": 52.9,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-21",
-      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Read timed out. (read timeout=20)",
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2882A.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)"
     },
     {
@@ -1665,7 +1665,7 @@
       "volumeMedian20": 20.71,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-21",
-      "marketUpdateError": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2882B.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)"
     },
     {
@@ -1805,7 +1805,7 @@
       "volumeMedian20": 1620.39,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-21",
-      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Read timed out. (read timeout=20)",
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2883B.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)"
     },
     {
@@ -1944,7 +1944,7 @@
       "volumeMedian20": 196.81,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-21",
-      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Read timed out. (read timeout=20)",
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2887E.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)"
     },
     {
@@ -2083,7 +2083,7 @@
       "volumeMedian20": 31.78,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-21",
-      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Read timed out. (read timeout=20)",
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2887F.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)"
     },
     {
@@ -2223,7 +2223,7 @@
       "volumeMedian20": 92.11,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-21",
-      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Read timed out. (read timeout=20)"
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2887G.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301"
     },
     {
       "code": "2887H",
@@ -2363,7 +2363,7 @@
       "volumeMedian20": 153.5,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-21",
-      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Read timed out. (read timeout=20)"
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2887H.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301"
     },
     {
       "code": "2887I",
@@ -2501,7 +2501,7 @@
       "volumeMedian20": 2226.05,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-21",
-      "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2887I.tw&json=1&delay=0"
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2887I.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301"
     },
     {
       "code": "2891B",
@@ -2640,7 +2640,7 @@
       "volumeMedian20": 4.0,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-21",
-      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Read timed out. (read timeout=20)"
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2891B.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301"
     },
     {
       "code": "2891C",
@@ -2779,7 +2779,7 @@
       "volumeMedian20": 3.5,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-21",
-      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Read timed out. (read timeout=20)"
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2891C.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301"
     },
     {
       "code": "2897B",
@@ -2920,7 +2920,7 @@
       "volumeMedian20": 17.5,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-21",
-      "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_2897B.tw&json=1&delay=0"
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2897B.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301"
     },
     {
       "code": "3036A",
@@ -2966,7 +2966,7 @@
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeMedian20": null,
       "volumeMedian20Samples": 0,
-      "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_3036A.tw&json=1&delay=0"
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_3036A.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301"
     },
     {
       "code": "5871A",
@@ -3105,7 +3105,7 @@
       "volumeMedian20": 42.0,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-21",
-      "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_5871A.tw&json=1&delay=0"
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_5871A.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301"
     },
     {
       "code": "6592A",
@@ -3245,7 +3245,7 @@
       "volumeMedian20": 1.0,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-21",
-      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Read timed out. (read timeout=20)"
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_6592A.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301"
     },
     {
       "code": "6592B",
@@ -3385,7 +3385,7 @@
       "volumeMedian20": 3.0,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-21",
-      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Read timed out. (read timeout=20)"
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_6592B.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301"
     },
     {
       "code": "6958A",
@@ -3525,7 +3525,7 @@
       "volumeMedian20": 4.0,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-21",
-      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Read timed out. (read timeout=20)"
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_6958A.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301"
     },
     {
       "code": "8112A",
@@ -3665,7 +3665,7 @@
       "volumeMedian20": 10.82,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-21",
-      "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_8112A.tw&json=1&delay=0"
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_8112A.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301"
     },
     {
       "code": "8349A",
@@ -3804,7 +3804,7 @@
       "volumeMedian20": 2.5,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-21",
-      "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_8349A.tw&json=1&delay=0"
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_8349A.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301"
     },
     {
       "code": "9941A",
@@ -3943,11 +3943,11 @@
       "volumeMedian20": 8.88,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-21",
-      "marketUpdateError": "502 Server Error: Bad Gateway for url: https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_9941A.tw&json=1&delay=0"
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_9941A.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301"
     }
   ],
   "verifiedFormulaCount": 29,
-  "marketUpdateStatus": "ok",
+  "marketUpdateStatus": "stale",
   "marketSourceLabel": "TWSE MIS / TPEx quote fallback + official historical volume",
   "irrPolicy": "V1.4：首次可贖回日在未來才顯示可贖回情境 IRR；已進入可隨時贖回期間不強行指定唯一 YTC。XIRR 採除息日；未公告未來除息日採最近季節性估算並明確標示。",
   "sourcePolicy": "市場價格以 TWSE/TPEx 自動更新；發行條件以公開說明書、重大訊息與交易所公告核對；FindBillion 僅作標的清單與交叉驗證來源之一。",
@@ -3965,11 +3965,38 @@
     "綜合評分",
     "完整排序功能"
   ],
-  "marketUpdatedAt": "2026-10-21T20:26:33+08:00",
-  "marketUpdateSuccessCount": 27,
+  "marketUpdatedAt": "2026-10-21T22:13:33+08:00",
+  "marketUpdateSuccessCount": 0,
   "marketUpdateFailCodes": [
+    "1101B",
+    "1312A",
     "1522A",
-    "3036A"
+    "2002A",
+    "2348A",
+    "2836A",
+    "2838A",
+    "2881A",
+    "2881B",
+    "2881C",
+    "2882A",
+    "2882B",
+    "2883B",
+    "2887E",
+    "2887F",
+    "2887G",
+    "2887H",
+    "2887I",
+    "2891B",
+    "2891C",
+    "2897B",
+    "3036A",
+    "5871A",
+    "6592A",
+    "6592B",
+    "6958A",
+    "8112A",
+    "8349A",
+    "9941A"
   ],
   "marketSourceUrl": "https://mis.twse.com.tw/stock/api/getStockInfo.jsp",
   "scorePolicy": "V1.5.9：綜合評分=80%風險調整收益率+20%近20個交易日日成交量中位數；前端收益/流動性皆做29檔相對標準化，流動性採log尺度。"
