@@ -1,6 +1,6 @@
 {
   "version": "1.5.9",
-  "marketDataAsOf": "2026-10-23",
+  "marketDataAsOf": "2026-10-26",
   "generatedAt": "2026-09-12",
   "sourceLabel": "市場資料自動更新｜發行條件依公開資料核對",
   "sourceUrl": "https://openapi.twse.com.tw/",
@@ -32,7 +32,7 @@
       "resetCycleYears": 5,
       "issueBaseRate": 0.9375,
       "issueRate": 3.5,
-      "xirr": 11.86,
+      "xirr": 11.91,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -57,7 +57,7 @@
       "volume": 20.0,
       "lastPriceBeforeUpdate": 42.9,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-23T21:55:31+08:00",
+      "marketUpdatedAt": "2026-10-26T21:36:00+08:00",
       "volumeHistory20": [
         {
           "date": "2026-09-22",
@@ -191,7 +191,7 @@
       "volume": 16.0,
       "lastPriceBeforeUpdate": 23.4,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-23T21:55:31+08:00",
+      "marketUpdatedAt": "2026-10-26T21:36:00+08:00",
       "volumeHistory20": [
         {
           "date": "2026-09-22",
@@ -305,7 +305,7 @@
       "resetCycleYears": 5,
       "issueBaseRate": 0.64275,
       "issueRate": 4.0,
-      "xirr": 3.61,
+      "xirr": 3.62,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -330,7 +330,7 @@
       "volume": 19.0,
       "lastPriceBeforeUpdate": 51.2,
       "changePct": 0.59,
-      "marketUpdatedAt": "2026-10-23T21:55:31+08:00",
+      "marketUpdatedAt": "2026-10-26T21:36:00+08:00",
       "volumeHistory20": [
         {
           "date": "2026-09-01",
@@ -467,7 +467,7 @@
       "volume": 3.0,
       "lastPriceBeforeUpdate": 37.4,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-23T21:55:31+08:00",
+      "marketUpdatedAt": "2026-10-26T21:36:00+08:00",
       "volumeHistory20": [
         {
           "date": "2026-09-22",
@@ -580,7 +580,7 @@
       "resetCycleYears": 5,
       "issueBaseRate": 0.62275,
       "issueRate": 4.0,
-      "xirr": 5.77,
+      "xirr": 5.78,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -605,7 +605,7 @@
       "volume": 20.0,
       "lastPriceBeforeUpdate": 37.2,
       "changePct": 0.54,
-      "marketUpdatedAt": "2026-10-23T21:55:31+08:00",
+      "marketUpdatedAt": "2026-10-26T21:36:00+08:00",
       "volumeHistory20": [
         {
           "date": "2026-09-22",
@@ -719,7 +719,7 @@
       "resetCycleYears": 5.5,
       "issueBaseRate": 0.609,
       "issueRate": 3.1,
-      "xirr": 4.35,
+      "xirr": 4.36,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -744,7 +744,7 @@
       "volume": 14.0,
       "lastPriceBeforeUpdate": 23.8,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-23T21:55:31+08:00",
+      "marketUpdatedAt": "2026-10-26T21:36:00+08:00",
       "volumeHistory20": [
         {
           "date": "2026-09-22",
@@ -858,7 +858,7 @@
       "resetCycleYears": 5.5,
       "issueBaseRate": 0.89125,
       "issueRate": 4.8,
-      "xirr": 3.45,
+      "xirr": 3.47,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -883,7 +883,7 @@
       "volume": 26.0,
       "lastPriceBeforeUpdate": 51.8,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-23T21:55:31+08:00",
+      "marketUpdatedAt": "2026-10-26T21:36:00+08:00",
       "volumeHistory20": [
         {
           "date": "2026-09-22",
@@ -998,7 +998,7 @@
       "div": 2.72,
       "note": "市場價格由 TWSE/TPEx 自動更新；發行與重設條款以公開說明書、重大訊息與交易所公告核對。",
       "issueBaseRate": 0.885,
-      "xirr": 3.24,
+      "xirr": 3.25,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -1022,7 +1022,7 @@
       "volume": 116.0,
       "lastPriceBeforeUpdate": 61.4,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-23T21:55:31+08:00",
+      "marketUpdatedAt": "2026-10-26T21:36:00+08:00",
       "volumeHistory20": [
         {
           "date": "2026-09-22",
@@ -1137,7 +1137,7 @@
       "formulaSource": "富邦金乙特上市公告",
       "resetCycleYears": 7,
       "issueBaseRate": 1.17,
-      "xirr": 3.73,
+      "xirr": 3.74,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -1161,7 +1161,7 @@
       "volume": 4.0,
       "lastPriceBeforeUpdate": 60.8,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-23T21:55:31+08:00",
+      "marketUpdatedAt": "2026-10-26T21:36:00+08:00",
       "volumeHistory20": [
         {
           "date": "2026-09-22",
@@ -1256,7 +1256,7 @@
       "price": 51.7,
       "par": 60,
       "yield": 3.48,
-      "irr": 11.14,
+      "irr": 11.19,
       "call": true,
       "callDate": "2028-10-26",
       "callPrice": 60,
@@ -1277,10 +1277,10 @@
       "note": "市場價格由 TWSE/TPEx 自動更新；發行與重設條款以公開說明書、重大訊息與交易所公告核對。",
       "issueBaseRate": 0.6538,
       "legacyIrr": 11.3,
-      "xirr": 11.14,
+      "xirr": 11.19,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
-      "callIrr": 11.14,
+      "callIrr": 11.19,
       "callIrrMethod": "首次可贖回情境 IRR：除息日股息 + 贖回本金，Actual/365；距可贖回日過短時不顯示年化值",
       "firstCallDate": "2028-10-26",
       "nextResetDate": "2028-10-26",
@@ -1301,7 +1301,7 @@
       "volume": 45.0,
       "lastPriceBeforeUpdate": 51.7,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-23T21:55:31+08:00",
+      "marketUpdatedAt": "2026-10-26T21:36:00+08:00",
       "volumeHistory20": [
         {
           "date": "2026-09-22",
@@ -1416,7 +1416,7 @@
       "formulaSource": "國泰金甲特發行條件／重設公告",
       "resetCycleYears": 7,
       "issueBaseRate": 1.06,
-      "xirr": 4.06,
+      "xirr": 4.07,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -1440,7 +1440,7 @@
       "volume": 13.0,
       "lastPriceBeforeUpdate": 60.2,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-23T21:55:31+08:00",
+      "marketUpdatedAt": "2026-10-26T21:36:00+08:00",
       "volumeHistory20": [
         {
           "date": "2026-09-22",
@@ -1555,7 +1555,7 @@
       "formulaSource": "國泰金乙特上市公告",
       "resetCycleYears": 7,
       "issueBaseRate": 1.1675,
-      "xirr": 4.14,
+      "xirr": 4.15,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -1579,7 +1579,7 @@
       "volume": 2.0,
       "lastPriceBeforeUpdate": 59.0,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-23T21:55:31+08:00",
+      "marketUpdatedAt": "2026-10-26T21:36:00+08:00",
       "volumeHistory20": [
         {
           "date": "2026-09-22",
@@ -1674,7 +1674,7 @@
       "price": 8.66,
       "par": 10,
       "yield": 4.04,
-      "irr": 10.5,
+      "irr": 10.54,
       "call": true,
       "callDate": "2028-12-30",
       "callPrice": 10,
@@ -1695,10 +1695,10 @@
       "resetCycleYears": 7,
       "issueBaseRate": 0.75,
       "legacyIrr": 13.9,
-      "xirr": 10.5,
+      "xirr": 10.54,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
-      "callIrr": 10.5,
+      "callIrr": 10.54,
       "callIrrMethod": "首次可贖回情境 IRR：除息日股息 + 贖回本金，Actual/365；距可贖回日過短時不顯示年化值",
       "firstCallDate": "2028-12-30",
       "nextResetDate": "2028-12-30",
@@ -1719,7 +1719,7 @@
       "volume": 561.0,
       "lastPriceBeforeUpdate": 8.66,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-23T21:55:31+08:00",
+      "marketUpdatedAt": "2026-10-26T21:36:00+08:00",
       "volumeHistory20": [
         {
           "date": "2026-09-22",
@@ -1834,7 +1834,7 @@
       "formulaSource": "台新金永續報告／發行條件",
       "resetCycleYears": 7,
       "issueBaseRate": 1.2175,
-      "xirr": 5.91,
+      "xirr": 5.92,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -1858,7 +1858,7 @@
       "volume": 304.0,
       "lastPriceBeforeUpdate": 47.95,
       "changePct": -0.21,
-      "marketUpdatedAt": "2026-10-23T21:55:31+08:00",
+      "marketUpdatedAt": "2026-10-26T21:36:00+08:00",
       "volumeHistory20": [
         {
           "date": "2026-09-22",
@@ -1973,7 +1973,7 @@
       "formulaSource": "台新戊特二上市公告",
       "resetCycleYears": 7,
       "issueBaseRate": 1.1,
-      "xirr": 6.45,
+      "xirr": 6.46,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -1997,7 +1997,7 @@
       "volume": 25.0,
       "lastPriceBeforeUpdate": 45.0,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-23T21:55:31+08:00",
+      "marketUpdatedAt": "2026-10-26T21:36:00+08:00",
       "volumeHistory20": [
         {
           "date": "2026-09-22",
@@ -2136,7 +2136,7 @@
       "volume": 127.0,
       "lastPriceBeforeUpdate": 44.0,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-23T21:55:31+08:00",
+      "marketUpdatedAt": "2026-10-26T21:36:00+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -2231,7 +2231,7 @@
       "price": 42.7,
       "par": 45,
       "yield": 4.22,
-      "irr": 11.38,
+      "irr": 11.49,
       "call": true,
       "callDate": "2027-09-01",
       "callPrice": 45,
@@ -2251,10 +2251,10 @@
       "issueBaseRate": 0.68,
       "issueRate": 4.0,
       "legacyIrr": 13.5,
-      "xirr": 11.38,
+      "xirr": 11.49,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
-      "callIrr": 11.38,
+      "callIrr": 11.49,
       "callIrrMethod": "首次可贖回情境 IRR：除息日股息 + 贖回本金，Actual/365；距可贖回日過短時不顯示年化值",
       "issueDate": "2025-07-24",
       "firstCallDate": "2027-09-01",
@@ -2276,7 +2276,7 @@
       "volume": 179.0,
       "lastPriceBeforeUpdate": 42.7,
       "changePct": 0.12,
-      "marketUpdatedAt": "2026-10-23T21:55:31+08:00",
+      "marketUpdatedAt": "2026-10-26T21:36:00+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -2371,7 +2371,7 @@
       "price": 9.53,
       "par": 10,
       "yield": 1.78,
-      "irr": 4.82,
+      "irr": 4.85,
       "call": true,
       "callDate": "2028-07-23",
       "callPrice": 10,
@@ -2389,10 +2389,10 @@
       "formulaSource": "TWSE 台新新光上市股票權利義務公告",
       "issueRate": 1.665,
       "legacyIrr": 4.8,
-      "xirr": 4.82,
+      "xirr": 4.85,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
-      "callIrr": 4.82,
+      "callIrr": 4.85,
       "callIrrMethod": "首次可贖回情境 IRR：除息日股息 + 贖回本金，Actual/365；距可贖回日過短時不顯示年化值",
       "issueDate": "2025-07-24",
       "firstCallDate": "2028-07-23",
@@ -2414,7 +2414,7 @@
       "volume": 1452.0,
       "lastPriceBeforeUpdate": 9.53,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-23T21:55:31+08:00",
+      "marketUpdatedAt": "2026-10-26T21:36:00+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -2529,7 +2529,7 @@
       "formulaSource": "中信金乙特上市公告",
       "resetCycleYears": 7,
       "issueBaseRate": 1.0825,
-      "xirr": 3.99,
+      "xirr": 4.0,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -2553,7 +2553,7 @@
       "volume": 8.0,
       "lastPriceBeforeUpdate": 61.7,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-23T21:55:31+08:00",
+      "marketUpdatedAt": "2026-10-26T21:36:00+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -2668,7 +2668,7 @@
       "formulaSource": "中信金丙特上市公告／2026重設公告",
       "resetCycleYears": 7,
       "issueBaseRate": 0.99,
-      "xirr": 3.21,
+      "xirr": 3.22,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -2692,7 +2692,7 @@
       "volume": 0.0,
       "lastPriceBeforeUpdate": 60.7,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-23T21:55:31+08:00",
+      "marketUpdatedAt": "2026-10-26T21:36:00+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -2787,7 +2787,7 @@
       "price": 11.8,
       "par": 12,
       "yield": 4.58,
-      "irr": 4.56,
+      "irr": 4.57,
       "call": true,
       "callDate": "2030-03-26",
       "callPrice": 12,
@@ -2808,10 +2808,10 @@
       "issueBaseRate": 1.7325,
       "issueRate": 4.5,
       "legacyIrr": 6.6,
-      "xirr": 4.56,
+      "xirr": 4.57,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
-      "callIrr": 4.56,
+      "callIrr": 4.57,
       "callIrrMethod": "首次可贖回情境 IRR：除息日股息 + 贖回本金，Actual/365；距可贖回日過短時不顯示年化值",
       "issueDate": "2024-09-25",
       "firstCallDate": "2030-03-26",
@@ -2833,7 +2833,7 @@
       "volume": 41.0,
       "lastPriceBeforeUpdate": 11.8,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-23T21:55:31+08:00",
+      "marketUpdatedAt": "2026-10-26T21:36:00+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -2948,7 +2948,7 @@
       "formulaSource": "文曄甲特上市公告",
       "resetCycleYears": 5,
       "issueBaseRate": 0.6125,
-      "xirr": 3.13,
+      "xirr": 3.14,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -2962,7 +2962,7 @@
       "callIrrMethod": "已進入可隨時贖回期間，無單一未來贖回日，不硬算單一 YTC",
       "xirrStatus": "estimated",
       "xirrCashflowCount": 5,
-      "marketUpdatedAt": "2026-10-23T21:55:31+08:00",
+      "marketUpdatedAt": "2026-10-26T21:36:00+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeMedian20": null,
       "volumeMedian20Samples": 0,
@@ -2993,7 +2993,7 @@
       "resetCycleYears": 5,
       "issueBaseRate": 0.5625,
       "issueRate": 3.8,
-      "xirr": 4.7,
+      "xirr": 4.71,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -3018,7 +3018,7 @@
       "volume": 21.0,
       "lastPriceBeforeUpdate": 99.9,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-23T21:55:31+08:00",
+      "marketUpdatedAt": "2026-10-26T21:36:00+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -3113,7 +3113,7 @@
       "price": 96.9,
       "par": 100,
       "yield": 4.32,
-      "irr": 8.24,
+      "irr": 8.32,
       "call": true,
       "callDate": "2027-09-26",
       "callPrice": 100,
@@ -3134,10 +3134,10 @@
       "resetCycleYears": 5,
       "issueBaseRate": 1.1175,
       "legacyIrr": 10.8,
-      "xirr": 8.24,
+      "xirr": 8.32,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
-      "callIrr": 8.24,
+      "callIrr": 8.32,
       "callIrrMethod": "首次可贖回情境 IRR：除息日股息 + 贖回本金，Actual/365；距可贖回日過短時不顯示年化值",
       "firstCallDate": "2027-09-26",
       "nextResetDate": "2027-09-26",
@@ -3158,7 +3158,7 @@
       "volume": 4.0,
       "lastPriceBeforeUpdate": 96.9,
       "changePct": 0.41,
-      "marketUpdatedAt": "2026-10-23T21:55:31+08:00",
+      "marketUpdatedAt": "2026-10-26T21:36:00+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -3253,7 +3253,7 @@
       "price": 94.9,
       "par": 100,
       "yield": 4.79,
-      "irr": 8.05,
+      "irr": 8.08,
       "call": true,
       "callDate": "2028-09-01",
       "callPrice": 100,
@@ -3273,10 +3273,10 @@
       "issueBaseRate": 1.4325,
       "issueRate": 4.5,
       "legacyIrr": 8.6,
-      "xirr": 8.05,
+      "xirr": 8.08,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
-      "callIrr": 8.05,
+      "callIrr": 8.08,
       "callIrrMethod": "首次可贖回情境 IRR：除息日股息 + 贖回本金，Actual/365；距可贖回日過短時不顯示年化值",
       "issueDate": "2023-09-01",
       "firstCallDate": "2028-09-01",
@@ -3298,7 +3298,7 @@
       "volume": 4.0,
       "lastPriceBeforeUpdate": 94.9,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-23T21:55:31+08:00",
+      "marketUpdatedAt": "2026-10-26T21:36:00+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -3393,7 +3393,7 @@
       "price": 21.1,
       "par": 25,
       "yield": 6.02,
-      "irr": 9.7,
+      "irr": 9.72,
       "call": true,
       "callDate": "2031-01-07",
       "callPrice": 25,
@@ -3413,10 +3413,10 @@
       "issueBaseRate": 1.689,
       "issueRate": 5.2,
       "legacyIrr": 13.2,
-      "xirr": 9.7,
+      "xirr": 9.72,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
-      "callIrr": 9.7,
+      "callIrr": 9.72,
       "callIrrMethod": "首次可贖回情境 IRR：除息日股息 + 贖回本金，Actual/365；距可贖回日過短時不顯示年化值",
       "issueDate": "2026-01-07",
       "firstCallDate": "2031-01-07",
@@ -3438,7 +3438,7 @@
       "volume": 4.0,
       "lastPriceBeforeUpdate": 21.1,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-23T21:55:31+08:00",
+      "marketUpdatedAt": "2026-10-26T21:36:00+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -3533,7 +3533,7 @@
       "price": 45.55,
       "par": 45,
       "yield": 4.43,
-      "irr": -3.23,
+      "irr": -3.3,
       "call": true,
       "callDate": "2027-03-07",
       "callPrice": 45,
@@ -3553,10 +3553,10 @@
       "issueBaseRate": 0.87,
       "issueRate": 4.5,
       "legacyIrr": 8.9,
-      "xirr": -3.23,
+      "xirr": -3.3,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "官方除息日覆蓋",
-      "callIrr": -3.23,
+      "callIrr": -3.3,
       "callIrrMethod": "首次可贖回情境 IRR：除息日股息 + 贖回本金，Actual/365；距可贖回日過短時不顯示年化值",
       "issueDate": "2022-03-07",
       "firstCallDate": "2027-03-07",
@@ -3578,7 +3578,7 @@
       "volume": 1.0,
       "lastPriceBeforeUpdate": 45.55,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-23T21:55:31+08:00",
+      "marketUpdatedAt": "2026-10-26T21:36:00+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -3692,7 +3692,7 @@
       "resetCycleYears": 5,
       "issueBaseRate": 0.72875,
       "issueRate": 3.8,
-      "xirr": 7.51,
+      "xirr": 7.53,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -3717,7 +3717,7 @@
       "volume": 2.0,
       "lastPriceBeforeUpdate": 45.2,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-23T21:55:31+08:00",
+      "marketUpdatedAt": "2026-10-26T21:36:00+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -3831,7 +3831,7 @@
       "resetCycleYears": 5,
       "issueBaseRate": 0.93875,
       "issueRate": 4.0,
-      "xirr": 5.77,
+      "xirr": 5.8,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -3856,7 +3856,7 @@
       "volume": 1.0,
       "lastPriceBeforeUpdate": 48.55,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-23T21:55:31+08:00",
+      "marketUpdatedAt": "2026-10-26T21:36:00+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -3965,7 +3965,7 @@
     "綜合評分",
     "完整排序功能"
   ],
-  "marketUpdatedAt": "2026-10-23T21:55:31+08:00",
+  "marketUpdatedAt": "2026-10-26T21:36:00+08:00",
   "marketUpdateSuccessCount": 27,
   "marketUpdateFailCodes": [
     "1522A",
