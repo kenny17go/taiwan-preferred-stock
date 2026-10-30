@@ -55,9 +55,9 @@
       "high": 43.05,
       "low": 42.9,
       "volume": 8.0,
-      "lastPriceBeforeUpdate": 43.1,
+      "lastPriceBeforeUpdate": 43.0,
       "changePct": -0.23,
-      "marketUpdatedAt": "2026-10-30T21:36:10+08:00",
+      "marketUpdatedAt": "2026-10-30T23:25:31+08:00",
       "volumeHistory20": [
         {
           "date": "2026-09-30",
@@ -191,7 +191,7 @@
       "volume": 2.0,
       "lastPriceBeforeUpdate": 23.0,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-30T21:36:10+08:00",
+      "marketUpdatedAt": "2026-10-30T23:25:31+08:00",
       "volumeHistory20": [
         {
           "date": "2026-09-30",
@@ -330,7 +330,7 @@
       "volume": 19.0,
       "lastPriceBeforeUpdate": 51.2,
       "changePct": 0.59,
-      "marketUpdatedAt": "2026-10-30T21:36:10+08:00",
+      "marketUpdatedAt": "2026-10-30T23:25:31+08:00",
       "volumeHistory20": [
         {
           "date": "2026-09-01",
@@ -467,7 +467,7 @@
       "volume": 51.0,
       "lastPriceBeforeUpdate": 37.45,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-30T21:36:10+08:00",
+      "marketUpdatedAt": "2026-10-30T23:25:31+08:00",
       "volumeHistory20": [
         {
           "date": "2026-09-30",
@@ -603,9 +603,9 @@
       "high": 37.4,
       "low": 37.15,
       "volume": 11.0,
-      "lastPriceBeforeUpdate": 37.4,
+      "lastPriceBeforeUpdate": 37.3,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-30T21:36:10+08:00",
+      "marketUpdatedAt": "2026-10-30T23:25:31+08:00",
       "volumeHistory20": [
         {
           "date": "2026-09-30",
@@ -744,7 +744,7 @@
       "volume": 29.0,
       "lastPriceBeforeUpdate": 23.8,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-30T21:36:10+08:00",
+      "marketUpdatedAt": "2026-10-30T23:25:31+08:00",
       "volumeHistory20": [
         {
           "date": "2026-09-30",
@@ -881,9 +881,9 @@
       "high": 52.0,
       "low": 51.8,
       "volume": 25.0,
-      "lastPriceBeforeUpdate": 52.1,
+      "lastPriceBeforeUpdate": 52.0,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-30T21:36:10+08:00",
+      "marketUpdatedAt": "2026-10-30T23:25:31+08:00",
       "volumeHistory20": [
         {
           "date": "2026-09-30",
@@ -1020,9 +1020,9 @@
       "high": 61.3,
       "low": 61.2,
       "volume": 18.0,
-      "lastPriceBeforeUpdate": 61.2,
+      "lastPriceBeforeUpdate": 61.3,
       "changePct": 0.16,
-      "marketUpdatedAt": "2026-10-30T21:36:10+08:00",
+      "marketUpdatedAt": "2026-10-30T23:25:31+08:00",
       "volumeHistory20": [
         {
           "date": "2026-09-30",
@@ -1161,7 +1161,7 @@
       "volume": 22.0,
       "lastPriceBeforeUpdate": 60.7,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-30T21:36:10+08:00",
+      "marketUpdatedAt": "2026-10-30T23:25:31+08:00",
       "volumeHistory20": [
         {
           "date": "2026-09-30",
@@ -1301,7 +1301,7 @@
       "volume": 32.0,
       "lastPriceBeforeUpdate": 51.6,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-30T21:36:10+08:00",
+      "marketUpdatedAt": "2026-10-30T23:25:31+08:00",
       "volumeHistory20": [
         {
           "date": "2026-09-30",
@@ -1440,7 +1440,7 @@
       "volume": 4.0,
       "lastPriceBeforeUpdate": 60.3,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-30T21:36:10+08:00",
+      "marketUpdatedAt": "2026-10-30T23:25:31+08:00",
       "volumeHistory20": [
         {
           "date": "2026-09-30",
@@ -1577,9 +1577,9 @@
       "high": 58.9,
       "low": 58.8,
       "volume": 17.0,
-      "lastPriceBeforeUpdate": 59.0,
+      "lastPriceBeforeUpdate": 58.9,
       "changePct": -0.17,
-      "marketUpdatedAt": "2026-10-30T21:36:10+08:00",
+      "marketUpdatedAt": "2026-10-30T23:25:31+08:00",
       "volumeHistory20": [
         {
           "date": "2026-09-30",
@@ -1717,9 +1717,9 @@
       "high": 8.69,
       "low": 8.63,
       "volume": 1047.0,
-      "lastPriceBeforeUpdate": 8.69,
+      "lastPriceBeforeUpdate": 8.68,
       "changePct": -0.12,
-      "marketUpdatedAt": "2026-10-30T21:36:10+08:00",
+      "marketUpdatedAt": "2026-10-30T23:25:31+08:00",
       "volumeHistory20": [
         {
           "date": "2026-09-30",
@@ -1856,9 +1856,9 @@
       "high": 48.05,
       "low": 47.95,
       "volume": 76.0,
-      "lastPriceBeforeUpdate": 48.05,
+      "lastPriceBeforeUpdate": 48.0,
       "changePct": -0.1,
-      "marketUpdatedAt": "2026-10-30T21:36:10+08:00",
+      "marketUpdatedAt": "2026-10-30T23:25:31+08:00",
       "volumeHistory20": [
         {
           "date": "2026-09-30",
@@ -1995,9 +1995,9 @@
       "high": 45.45,
       "low": 44.95,
       "volume": 14.0,
-      "lastPriceBeforeUpdate": 45.2,
+      "lastPriceBeforeUpdate": 45.05,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-30T21:36:10+08:00",
+      "marketUpdatedAt": "2026-10-30T23:25:31+08:00",
       "volumeHistory20": [
         {
           "date": "2026-09-30",
@@ -2136,7 +2136,7 @@
       "volume": 2370.0,
       "lastPriceBeforeUpdate": 44.15,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-30T21:36:10+08:00",
+      "marketUpdatedAt": "2026-10-30T23:25:31+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -2193,31 +2193,31 @@
         },
         {
           "date": "2026-10-20",
-          "volume": 114.0
+          "volume": 114.832
         },
         {
           "date": "2026-10-21",
-          "volume": 30.0
+          "volume": 31.323
         },
         {
           "date": "2026-10-22",
-          "volume": 127.0
+          "volume": 127.634
         },
         {
           "date": "2026-10-27",
-          "volume": 108.0
+          "volume": 108.313
         },
         {
           "date": "2026-10-28",
-          "volume": 46.0
+          "volume": 46.547
         },
         {
           "date": "2026-10-29",
-          "volume": 60.0
+          "volume": 60.029
         },
         {
           "date": "2026-10-30",
-          "volume": 2370.0
+          "volume": 2370.184
         }
       ],
       "volumeMedian20": 103.25,
@@ -2276,91 +2276,91 @@
       "volume": 346.0,
       "lastPriceBeforeUpdate": 42.65,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-30T21:36:10+08:00",
+      "marketUpdatedAt": "2026-10-30T23:25:31+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
           "date": "2026-09-30",
-          "volume": 124.0
+          "volume": 124.806
         },
         {
           "date": "2026-10-01",
-          "volume": 170.0
+          "volume": 171.206
         },
         {
           "date": "2026-10-02",
-          "volume": 356.0
+          "volume": 356.12
         },
         {
           "date": "2026-10-05",
-          "volume": 160.0
+          "volume": 160.811
         },
         {
           "date": "2026-10-06",
-          "volume": 148.0
+          "volume": 148.624
         },
         {
           "date": "2026-10-07",
-          "volume": 225.0
+          "volume": 225.247
         },
         {
           "date": "2026-10-08",
-          "volume": 179.0
+          "volume": 179.375
         },
         {
           "date": "2026-10-12",
-          "volume": 160.0
+          "volume": 160.987
         },
         {
           "date": "2026-10-13",
-          "volume": 356.0
+          "volume": 356.297
         },
         {
           "date": "2026-10-14",
-          "volume": 159.0
+          "volume": 160.962
         },
         {
           "date": "2026-10-15",
-          "volume": 239.0
+          "volume": 240.686
         },
         {
           "date": "2026-10-16",
-          "volume": 26.0
+          "volume": 27.298
         },
         {
           "date": "2026-10-19",
-          "volume": 54.0
+          "volume": 55.138
         },
         {
           "date": "2026-10-20",
-          "volume": 90.0
+          "volume": 90.31
         },
         {
           "date": "2026-10-21",
-          "volume": 43.0
+          "volume": 43.062
         },
         {
           "date": "2026-10-22",
-          "volume": 179.0
+          "volume": 180.059
         },
         {
           "date": "2026-10-27",
-          "volume": 39.0
+          "volume": 39.689
         },
         {
           "date": "2026-10-28",
-          "volume": 48.0
+          "volume": 48.709
         },
         {
           "date": "2026-10-29",
-          "volume": 70.0
+          "volume": 70.057
         },
         {
           "date": "2026-10-30",
-          "volume": 346.0
+          "volume": 347.164
         }
       ],
-      "volumeMedian20": 159.5,
+      "volumeMedian20": 160.89,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-30",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2887H.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301"
@@ -2414,7 +2414,7 @@
       "volume": 2844.0,
       "lastPriceBeforeUpdate": 9.54,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-30T21:36:10+08:00",
+      "marketUpdatedAt": "2026-10-30T23:25:31+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -2431,74 +2431,74 @@
         },
         {
           "date": "2026-10-05",
-          "volume": 4583.0
+          "volume": 4660.254
         },
         {
           "date": "2026-10-06",
-          "volume": 1981.0
+          "volume": 2033.844
         },
         {
           "date": "2026-10-07",
-          "volume": 1245.0
+          "volume": 1291.605
         },
         {
           "date": "2026-10-08",
-          "volume": 1761.0
+          "volume": 1803.275
         },
         {
           "date": "2026-10-12",
-          "volume": 695.0
+          "volume": 754.56
         },
         {
           "date": "2026-10-13",
-          "volume": 5986.0
+          "volume": 6046.935
         },
         {
           "date": "2026-10-14",
-          "volume": 4707.0
+          "volume": 4759.399
         },
         {
           "date": "2026-10-15",
-          "volume": 3966.0
+          "volume": 4005.708
         },
         {
           "date": "2026-10-16",
-          "volume": 1249.0
+          "volume": 1310.523
         },
         {
           "date": "2026-10-19",
-          "volume": 2544.0
+          "volume": 2570.918
         },
         {
           "date": "2026-10-20",
-          "volume": 3466.0
+          "volume": 3496.212
         },
         {
           "date": "2026-10-21",
-          "volume": 2148.0
+          "volume": 2173.895
         },
         {
           "date": "2026-10-22",
-          "volume": 1452.0
+          "volume": 1484.773
         },
         {
           "date": "2026-10-27",
-          "volume": 3205.0
+          "volume": 3241.843
         },
         {
           "date": "2026-10-28",
-          "volume": 2546.0
+          "volume": 2581.846
         },
         {
           "date": "2026-10-29",
-          "volume": 3259.0
+          "volume": 3296.838
         },
         {
           "date": "2026-10-30",
-          "volume": 2844.0
+          "volume": 2880.928
         }
       ],
-      "volumeMedian20": 2498.93,
+      "volumeMedian20": 2512.39,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-30",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2887I.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301"
@@ -2553,91 +2553,91 @@
       "volume": 0.0,
       "lastPriceBeforeUpdate": 61.7,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-30T21:36:10+08:00",
+      "marketUpdatedAt": "2026-10-30T23:25:31+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
           "date": "2026-09-30",
-          "volume": 2.0
+          "volume": 2.383
         },
         {
           "date": "2026-10-01",
-          "volume": 1.0
+          "volume": 1.581
         },
         {
           "date": "2026-10-02",
-          "volume": 12.0
+          "volume": 13.059
         },
         {
           "date": "2026-10-05",
-          "volume": 8.0
+          "volume": 8.496
         },
         {
           "date": "2026-10-06",
-          "volume": 22.0
+          "volume": 22.506
         },
         {
           "date": "2026-10-07",
-          "volume": 1.0
+          "volume": 1.431
         },
         {
           "date": "2026-10-08",
-          "volume": 15.0
+          "volume": 15.018
         },
         {
           "date": "2026-10-12",
-          "volume": 3.0
+          "volume": 3.62
         },
         {
           "date": "2026-10-13",
-          "volume": 6.0
+          "volume": 6.675
         },
         {
           "date": "2026-10-14",
-          "volume": 5.0
+          "volume": 6.114
         },
         {
           "date": "2026-10-15",
-          "volume": 2.0
+          "volume": 2.463
         },
         {
           "date": "2026-10-16",
-          "volume": 0
+          "volume": 0.282
         },
         {
           "date": "2026-10-19",
-          "volume": 11.0
+          "volume": 11.603
         },
         {
           "date": "2026-10-20",
-          "volume": 3.0
+          "volume": 3.147
         },
         {
           "date": "2026-10-21",
-          "volume": 0
+          "volume": 0.228
         },
         {
           "date": "2026-10-22",
-          "volume": 8.0
+          "volume": 8.757
         },
         {
           "date": "2026-10-27",
-          "volume": 2.0
+          "volume": 3.167
         },
         {
           "date": "2026-10-28",
-          "volume": 3.0
+          "volume": 3.624
         },
         {
           "date": "2026-10-29",
-          "volume": 8.0
+          "volume": 8.002
         },
         {
           "date": "2026-10-30",
-          "volume": 0
+          "volume": 0.326
         }
       ],
-      "volumeMedian20": 3.0,
+      "volumeMedian20": 3.62,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-30",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2891B.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301"
@@ -2692,7 +2692,7 @@
       "volume": 0.0,
       "lastPriceBeforeUpdate": 60.5,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-30T21:36:10+08:00",
+      "marketUpdatedAt": "2026-10-30T23:25:31+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -2831,9 +2831,9 @@
       "high": 11.75,
       "low": 11.75,
       "volume": 60.0,
-      "lastPriceBeforeUpdate": 11.8,
+      "lastPriceBeforeUpdate": 11.75,
       "changePct": -0.42,
-      "marketUpdatedAt": "2026-10-30T21:36:10+08:00",
+      "marketUpdatedAt": "2026-10-30T23:25:31+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -2962,7 +2962,7 @@
       "callIrrMethod": "已進入可隨時贖回期間，無單一未來贖回日，不硬算單一 YTC",
       "xirrStatus": "estimated",
       "xirrCashflowCount": 5,
-      "marketUpdatedAt": "2026-10-30T21:36:10+08:00",
+      "marketUpdatedAt": "2026-10-30T23:25:31+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeMedian20": null,
       "volumeMedian20Samples": 0,
@@ -3016,9 +3016,9 @@
       "high": 99.9,
       "low": 99.7,
       "volume": 163.0,
-      "lastPriceBeforeUpdate": 99.9,
+      "lastPriceBeforeUpdate": 99.8,
       "changePct": -0.1,
-      "marketUpdatedAt": "2026-10-30T21:36:10+08:00",
+      "marketUpdatedAt": "2026-10-30T23:25:31+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -3035,11 +3035,11 @@
         },
         {
           "date": "2026-10-05",
-          "volume": 116.0
+          "volume": 117.2
         },
         {
           "date": "2026-10-06",
-          "volume": 38.0
+          "volume": 38.45
         },
         {
           "date": "2026-10-07",
@@ -3047,62 +3047,62 @@
         },
         {
           "date": "2026-10-08",
-          "volume": 16.0
+          "volume": 16.368
         },
         {
           "date": "2026-10-12",
-          "volume": 78.0
+          "volume": 78.127
         },
         {
           "date": "2026-10-13",
-          "volume": 48.0
+          "volume": 49.85
         },
         {
           "date": "2026-10-14",
-          "volume": 7.0
+          "volume": 7.706
         },
         {
           "date": "2026-10-15",
-          "volume": 22.0
+          "volume": 22.813
         },
         {
           "date": "2026-10-16",
-          "volume": 21.0
+          "volume": 21.541
         },
         {
           "date": "2026-10-19",
-          "volume": 46.0
+          "volume": 46.151
         },
         {
           "date": "2026-10-20",
-          "volume": 22.0
+          "volume": 22.101
         },
         {
           "date": "2026-10-21",
-          "volume": 18.0
+          "volume": 18.708
         },
         {
           "date": "2026-10-22",
-          "volume": 21.0
+          "volume": 21.1
         },
         {
           "date": "2026-10-27",
-          "volume": 59.0
+          "volume": 59.052
         },
         {
           "date": "2026-10-28",
-          "volume": 42.0
+          "volume": 42.258
         },
         {
           "date": "2026-10-29",
-          "volume": 18.0
+          "volume": 18.592
         },
         {
           "date": "2026-10-30",
-          "volume": 163.0
+          "volume": 165.53
         }
       ],
-      "volumeMedian20": 36.0,
+      "volumeMedian20": 36.23,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-30",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Read timed out. (read timeout=20)"
@@ -3158,28 +3158,28 @@
       "volume": 0.0,
       "lastPriceBeforeUpdate": 96.4,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-30T21:36:10+08:00",
+      "marketUpdatedAt": "2026-10-30T23:25:31+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
           "date": "2026-09-30",
-          "volume": 2.0
+          "volume": 2.683
         },
         {
           "date": "2026-10-01",
-          "volume": 2.0
+          "volume": 3.153
         },
         {
           "date": "2026-10-02",
-          "volume": 0
+          "volume": 0.371
         },
         {
           "date": "2026-10-05",
-          "volume": 1.0
+          "volume": 1.417
         },
         {
           "date": "2026-10-06",
-          "volume": 0
+          "volume": 0.164
         },
         {
           "date": "2026-10-07",
@@ -3187,11 +3187,11 @@
         },
         {
           "date": "2026-10-08",
-          "volume": 5.0
+          "volume": 5.002
         },
         {
           "date": "2026-10-12",
-          "volume": 6.0
+          "volume": 6.053
         },
         {
           "date": "2026-10-13",
@@ -3199,50 +3199,50 @@
         },
         {
           "date": "2026-10-14",
-          "volume": 1.0
+          "volume": 1.001
         },
         {
           "date": "2026-10-15",
-          "volume": 0
+          "volume": 0.166
         },
         {
           "date": "2026-10-16",
-          "volume": 1.0
+          "volume": 1.07
         },
         {
           "date": "2026-10-19",
-          "volume": 0
+          "volume": 0.05
         },
         {
           "date": "2026-10-20",
-          "volume": 2.0
+          "volume": 2.231
         },
         {
           "date": "2026-10-21",
-          "volume": 5.0
+          "volume": 5.371
         },
         {
           "date": "2026-10-22",
-          "volume": 4.0
+          "volume": 4.077
         },
         {
           "date": "2026-10-27",
-          "volume": 3.0
+          "volume": 3.01
         },
         {
           "date": "2026-10-28",
-          "volume": 1.0
+          "volume": 1.077
         },
         {
           "date": "2026-10-29",
-          "volume": 0
+          "volume": 0.233
         },
         {
           "date": "2026-10-30",
-          "volume": 0
+          "volume": 0.005
         }
       ],
-      "volumeMedian20": 1.5,
+      "volumeMedian20": 1.71,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-10-30",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Read timed out. (read timeout=20)"
@@ -3296,9 +3296,9 @@
       "high": 94.5,
       "low": 94.5,
       "volume": 1.0,
-      "lastPriceBeforeUpdate": 94.7,
+      "lastPriceBeforeUpdate": 94.5,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-30T21:36:10+08:00",
+      "marketUpdatedAt": "2026-10-30T23:25:31+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -3436,9 +3436,9 @@
       "high": 20.7,
       "low": 20.5,
       "volume": 15.0,
-      "lastPriceBeforeUpdate": 20.9,
+      "lastPriceBeforeUpdate": 20.8,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-30T21:36:10+08:00",
+      "marketUpdatedAt": "2026-10-30T23:25:31+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -3576,9 +3576,9 @@
       "high": 45.65,
       "low": 45.55,
       "volume": 8.0,
-      "lastPriceBeforeUpdate": 45.65,
+      "lastPriceBeforeUpdate": 45.55,
       "changePct": -0.11,
-      "marketUpdatedAt": "2026-10-30T21:36:10+08:00",
+      "marketUpdatedAt": "2026-10-30T23:25:31+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -3715,9 +3715,9 @@
       "high": 45.1,
       "low": 45.05,
       "volume": 4.0,
-      "lastPriceBeforeUpdate": 45.2,
+      "lastPriceBeforeUpdate": 45.1,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-30T21:36:10+08:00",
+      "marketUpdatedAt": "2026-10-30T23:25:31+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -3856,7 +3856,7 @@
       "volume": 0.0,
       "lastPriceBeforeUpdate": 48.6,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-10-30T21:36:10+08:00",
+      "marketUpdatedAt": "2026-10-30T23:25:31+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
         {
@@ -3965,7 +3965,7 @@
     "綜合評分",
     "完整排序功能"
   ],
-  "marketUpdatedAt": "2026-10-30T21:36:10+08:00",
+  "marketUpdatedAt": "2026-10-30T23:25:31+08:00",
   "marketUpdateSuccessCount": 27,
   "marketUpdateFailCodes": [
     "1522A",
