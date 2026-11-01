@@ -15,7 +15,12 @@ for i,series in enumerate((3,4,10,11)):
             data=json.load(response)
         if not isinstance(data,list) or not data or not isinstance(data[0],dict) or "BondCode" not in data[0]:
             raise ValueError("Unexpected API schema / empty result; preserving prior snapshot")
-        # Currency-code sanity check: ISSBD4 is expected to be TWD-only (code 1).\n        # Abort instead of silently mislabeling amounts if TPEx changes the feed.\n        currencies=sorted({str(row.get("Currency","")) for row in data})\n        if series == 4 and currencies != ["1"]:\n            raise ValueError(f"ISSBD4 currency mismatch: {currencies}; preserving prior snapshot")\n        # Preserve raw API records: some endpoints contain duplicate rows. Deduplicate only in UI.
+        # Currency-code sanity check: ISSBD4 is expected to be TWD-only (code 1). 
+        # Abort instead of silently mislabeling amounts if TPEx changes the feed.
+        currencies=sorted({str(row.get("Currency","")) for row in data})
+        if series == 4 and currencies != ["1"]:
+            raise ValueError(f"ISSBD4 currency mismatch: {currencies}; preserving prior snapshot") 
+        # Preserve raw API records: some endpoints contain duplicate rows. Deduplicate only in UI.
         target=ROOT/f"ISSBD{series}.json"
         new=json.dumps(data,ensure_ascii=False,separators=(",",":"),sort_keys=True)+"\n"
         if not target.exists() or target.read_text(encoding="utf-8")!=new:
