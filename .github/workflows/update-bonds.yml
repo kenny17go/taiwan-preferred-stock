@@ -30,5 +30,7 @@ jobs:
             echo "No changes to bond data."
           else
             git commit -m "data: refresh TPEx bond snapshots"
-            git push
+            git fetch origin "${GITHUB_REF_NAME}"
+            git rebase "origin/${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
           fi
