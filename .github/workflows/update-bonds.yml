@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '0 12 * * *' # 20:00 Asia/Taipei (UTC+8)
   push:
-    branches: [feature/bond-statistics-v01]
+    branches: [main, feature/bond-statistics-v01]
     paths: ['scripts/fetch_bonds.py', '.github/workflows/update-bonds.yml']
 permissions:
   contents: write
