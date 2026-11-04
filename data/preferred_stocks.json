@@ -143,7 +143,7 @@
       "volumeMedian20": 9.61,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-11-03",
-      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_1101B.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301",
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Read timed out. (read timeout=20)",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)"
     },
     {
@@ -182,7 +182,7 @@
       "callIrrMethod": "不可贖回或缺少明確未來首次可贖回日",
       "xirrStatus": "unavailable",
       "market": "tse",
-      "quoteDate": "20261103",
+      "quoteDate": "20261104",
       "quoteTime": "13:30:00",
       "previousClose": 22.9,
       "open": null,
@@ -191,12 +191,8 @@
       "volume": 0.0,
       "lastPriceBeforeUpdate": 22.9,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-11-04T00:42:45+08:00",
+      "marketUpdatedAt": "2026-11-04T22:53:03+08:00",
       "volumeHistory20": [
-        {
-          "date": "2026-10-02",
-          "volume": 1.0
-        },
         {
           "date": "2026-10-05",
           "volume": 1.0
@@ -272,11 +268,15 @@
         {
           "date": "2026-11-03",
           "volume": 0.0
+        },
+        {
+          "date": "2026-11-04",
+          "volume": 0.0
         }
       ],
       "volumeMedian20": 2.5,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-11-03",
+      "volumeMedian20AsOf": "2026-11-04",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_1312A.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)"
     },
@@ -416,15 +416,15 @@
       "volumeMedian20": 8.0,
       "volumeMedian20Samples": 20,
       "volumeMedian20AsOf": "2026-09-30",
-      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_1522A.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301",
+      "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Read timed out. (read timeout=20)",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "code": "2002A",
       "name": "中鋼特別股",
-      "price": 37.4,
+      "price": 37.2,
       "par": 10,
-      "yield": 3.72,
+      "yield": 3.74,
       "irr": null,
       "call": false,
       "callDate": "-",
@@ -458,21 +458,17 @@
       "callIrrMethod": "不可贖回或缺少明確未來首次可贖回日",
       "xirrStatus": "unavailable",
       "market": "tse",
-      "quoteDate": "20261103",
+      "quoteDate": "20261104",
       "quoteTime": "13:30:00",
-      "previousClose": 37.4,
-      "open": 37.15,
+      "previousClose": 37.2,
+      "open": 37.2,
       "high": 37.35,
-      "low": 37.05,
-      "volume": 29.0,
+      "low": 37.0,
+      "volume": 18.0,
       "lastPriceBeforeUpdate": 37.4,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-11-04T00:42:45+08:00",
+      "marketUpdatedAt": "2026-11-04T22:53:03+08:00",
       "volumeHistory20": [
-        {
-          "date": "2026-10-02",
-          "volume": 1.355
-        },
         {
           "date": "2026-10-05",
           "volume": 7.14
@@ -548,19 +544,23 @@
         {
           "date": "2026-11-03",
           "volume": 29.198
+        },
+        {
+          "date": "2026-11-04",
+          "volume": 18.292
         }
       ],
-      "volumeMedian20": 7.93,
+      "volumeMedian20": 9.76,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-11-03",
+      "volumeMedian20AsOf": "2026-11-04",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2002A.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301"
     },
     {
       "code": "2348A",
       "name": "海悅特甲",
-      "price": 37.25,
+      "price": 37.15,
       "par": 40,
-      "yield": 4.3,
+      "yield": 4.31,
       "irr": null,
       "call": true,
       "callDate": "2026-09-27",
@@ -580,7 +580,7 @@
       "resetCycleYears": 5,
       "issueBaseRate": 0.62275,
       "issueRate": 4.0,
-      "xirr": 5.78,
+      "xirr": 5.84,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -596,21 +596,17 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 6,
       "market": "tse",
-      "quoteDate": "20261103",
+      "quoteDate": "20261104",
       "quoteTime": "13:30:00",
-      "previousClose": 37.25,
-      "open": 36.8,
-      "high": 37.15,
-      "low": 36.8,
-      "volume": 3.0,
+      "previousClose": 37.15,
+      "open": 36.9,
+      "high": 37.3,
+      "low": 36.9,
+      "volume": 6.0,
       "lastPriceBeforeUpdate": 37.25,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-11-04T00:42:45+08:00",
+      "marketUpdatedAt": "2026-11-04T22:53:03+08:00",
       "volumeHistory20": [
-        {
-          "date": "2026-10-02",
-          "volume": 14.525
-        },
         {
           "date": "2026-10-05",
           "volume": 32.2
@@ -686,20 +682,24 @@
         {
           "date": "2026-11-03",
           "volume": 3.0
+        },
+        {
+          "date": "2026-11-04",
+          "volume": 6.0
         }
       ],
       "volumeMedian20": 20.12,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-11-03",
+      "volumeMedian20AsOf": "2026-11-04",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2348A.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "code": "2836A",
       "name": "高雄銀甲特",
-      "price": 23.75,
+      "price": 23.7,
       "par": 25,
-      "yield": 3.58,
+      "yield": 3.59,
       "irr": null,
       "call": true,
       "callDate": "2026-07-12",
@@ -719,7 +719,7 @@
       "resetCycleYears": 5.5,
       "issueBaseRate": 0.609,
       "issueRate": 3.1,
-      "xirr": 4.43,
+      "xirr": 4.48,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -735,21 +735,17 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 6,
       "market": "tse",
-      "quoteDate": "20261103",
+      "quoteDate": "20261104",
       "quoteTime": "13:30:00",
-      "previousClose": 23.8,
+      "previousClose": 23.75,
       "open": 23.65,
-      "high": 23.75,
-      "low": 23.6,
-      "volume": 11.0,
+      "high": 23.7,
+      "low": 23.4,
+      "volume": 12.0,
       "lastPriceBeforeUpdate": 23.75,
       "changePct": -0.21,
-      "marketUpdatedAt": "2026-11-04T00:42:45+08:00",
+      "marketUpdatedAt": "2026-11-04T22:53:03+08:00",
       "volumeHistory20": [
-        {
-          "date": "2026-10-02",
-          "volume": 1.06
-        },
         {
           "date": "2026-10-05",
           "volume": 16.519
@@ -825,11 +821,15 @@
         {
           "date": "2026-11-03",
           "volume": 11.2
+        },
+        {
+          "date": "2026-11-04",
+          "volume": 12.0
         }
       ],
-      "volumeMedian20": 12.86,
+      "volumeMedian20": 13.26,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-11-03",
+      "volumeMedian20AsOf": "2026-11-04",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2836A.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)"
     },
@@ -874,21 +874,17 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 3,
       "market": "tse",
-      "quoteDate": "20261103",
+      "quoteDate": "20261104",
       "quoteTime": "13:30:00",
-      "previousClose": 52.0,
-      "open": 52.0,
-      "high": 52.4,
+      "previousClose": 51.9,
+      "open": 51.9,
+      "high": 52.0,
       "low": 51.8,
-      "volume": 143.0,
+      "volume": 65.0,
       "lastPriceBeforeUpdate": 51.9,
-      "changePct": -0.19,
-      "marketUpdatedAt": "2026-11-04T00:42:45+08:00",
+      "changePct": 0.0,
+      "marketUpdatedAt": "2026-11-04T22:53:03+08:00",
       "volumeHistory20": [
-        {
-          "date": "2026-10-02",
-          "volume": 73.037
-        },
         {
           "date": "2026-10-05",
           "volume": 8.13
@@ -964,20 +960,24 @@
         {
           "date": "2026-11-03",
           "volume": 143.644
+        },
+        {
+          "date": "2026-11-04",
+          "volume": 65.2
         }
       ],
       "volumeMedian20": 30.22,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-11-03",
+      "volumeMedian20AsOf": "2026-11-04",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2838A.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "code": "2881A",
       "name": "富邦特",
-      "price": 61.3,
+      "price": 61.1,
       "par": 60,
-      "yield": 4.44,
+      "yield": 4.45,
       "irr": null,
       "call": true,
       "callDate": "2023-04-22",
@@ -998,7 +998,7 @@
       "div": 2.72,
       "note": "市場價格由 TWSE/TPEx 自動更新；發行與重設條款以公開說明書、重大訊息與交易所公告核對。",
       "issueBaseRate": 0.885,
-      "xirr": 3.33,
+      "xirr": 3.43,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -1013,21 +1013,17 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 4,
       "market": "tse",
-      "quoteDate": "20261103",
+      "quoteDate": "20261104",
       "quoteTime": "13:30:00",
       "previousClose": 61.3,
       "open": 61.2,
       "high": 61.3,
-      "low": 61.2,
-      "volume": 36.0,
+      "low": 61.1,
+      "volume": 59.0,
       "lastPriceBeforeUpdate": 61.3,
-      "changePct": 0.0,
-      "marketUpdatedAt": "2026-11-04T00:42:45+08:00",
+      "changePct": -0.33,
+      "marketUpdatedAt": "2026-11-04T22:53:03+08:00",
       "volumeHistory20": [
-        {
-          "date": "2026-10-02",
-          "volume": 36.39
-        },
         {
           "date": "2026-10-05",
           "volume": 32.035
@@ -1103,11 +1099,15 @@
         {
           "date": "2026-11-03",
           "volume": 36.974
+        },
+        {
+          "date": "2026-11-04",
+          "volume": 59.81
         }
       ],
-      "volumeMedian20": 35.1,
+      "volumeMedian20": 35.39,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-11-03",
+      "volumeMedian20AsOf": "2026-11-04",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2881A.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)"
     },
@@ -1152,21 +1152,17 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 6,
       "market": "tse",
-      "quoteDate": "20261103",
+      "quoteDate": "20261104",
       "quoteTime": "13:30:00",
       "previousClose": 60.7,
-      "open": 60.6,
+      "open": 60.5,
       "high": 60.7,
-      "low": 60.4,
-      "volume": 47.0,
+      "low": 60.5,
+      "volume": 16.0,
       "lastPriceBeforeUpdate": 60.7,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-11-04T00:42:45+08:00",
+      "marketUpdatedAt": "2026-11-04T22:53:03+08:00",
       "volumeHistory20": [
-        {
-          "date": "2026-10-02",
-          "volume": 9.432
-        },
         {
           "date": "2026-10-05",
           "volume": 3.1
@@ -1242,11 +1238,15 @@
         {
           "date": "2026-11-03",
           "volume": 47.3
+        },
+        {
+          "date": "2026-11-04",
+          "volume": 16.0
         }
       ],
-      "volumeMedian20": 9.76,
+      "volumeMedian20": 11.43,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-11-03",
+      "volumeMedian20AsOf": "2026-11-04",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2881B.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)"
     },
@@ -1292,21 +1292,17 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 3,
       "market": "tse",
-      "quoteDate": "20261103",
+      "quoteDate": "20261104",
       "quoteTime": "13:30:00",
       "previousClose": 51.6,
       "open": 51.6,
-      "high": 51.8,
-      "low": 51.6,
-      "volume": 105.0,
+      "high": 51.6,
+      "low": 51.5,
+      "volume": 80.0,
       "lastPriceBeforeUpdate": 51.6,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-11-04T00:42:45+08:00",
+      "marketUpdatedAt": "2026-11-04T22:53:03+08:00",
       "volumeHistory20": [
-        {
-          "date": "2026-10-02",
-          "volume": 74.67
-        },
         {
           "date": "2026-10-05",
           "volume": 40.046
@@ -1382,11 +1378,15 @@
         {
           "date": "2026-11-03",
           "volume": 106.578
+        },
+        {
+          "date": "2026-11-04",
+          "volume": 81.428
         }
       ],
       "volumeMedian20": 41.12,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-11-03",
+      "volumeMedian20AsOf": "2026-11-04",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2881C.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)"
     },
@@ -1431,21 +1431,17 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 5,
       "market": "tse",
-      "quoteDate": "20261103",
+      "quoteDate": "20261104",
       "quoteTime": "13:30:00",
       "previousClose": 60.2,
-      "open": 60.2,
+      "open": 60.1,
       "high": 60.2,
       "low": 60.0,
-      "volume": 144.0,
+      "volume": 40.0,
       "lastPriceBeforeUpdate": 60.2,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-11-04T00:42:45+08:00",
+      "marketUpdatedAt": "2026-11-04T22:53:03+08:00",
       "volumeHistory20": [
-        {
-          "date": "2026-10-02",
-          "volume": 52.169
-        },
         {
           "date": "2026-10-05",
           "volume": 64.564
@@ -1521,20 +1517,24 @@
         {
           "date": "2026-11-03",
           "volume": 144.741
+        },
+        {
+          "date": "2026-11-04",
+          "volume": 40.0
         }
       ],
       "volumeMedian20": 54.38,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-11-03",
+      "volumeMedian20AsOf": "2026-11-04",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2882A.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "code": "2882B",
       "name": "國泰金乙特",
-      "price": 59.0,
+      "price": 59.1,
       "par": 60,
-      "yield": 4.29,
+      "yield": 4.28,
       "irr": null,
       "call": true,
       "callDate": "2025-06-27",
@@ -1555,7 +1555,7 @@
       "formulaSource": "國泰金乙特上市公告",
       "resetCycleYears": 7,
       "issueBaseRate": 1.1675,
-      "xirr": 4.17,
+      "xirr": 4.14,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -1570,21 +1570,17 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 6,
       "market": "tse",
-      "quoteDate": "20261103",
+      "quoteDate": "20261104",
       "quoteTime": "13:30:00",
       "previousClose": 59.0,
-      "open": 58.8,
-      "high": 59.0,
-      "low": 58.8,
-      "volume": 24.0,
+      "open": 58.9,
+      "high": 59.1,
+      "low": 58.9,
+      "volume": 54.0,
       "lastPriceBeforeUpdate": 59.0,
-      "changePct": 0.0,
-      "marketUpdatedAt": "2026-11-04T00:42:45+08:00",
+      "changePct": 0.17,
+      "marketUpdatedAt": "2026-11-04T22:53:03+08:00",
       "volumeHistory20": [
-        {
-          "date": "2026-10-02",
-          "volume": 2.071
-        },
         {
           "date": "2026-10-05",
           "volume": 11.166
@@ -1660,21 +1656,25 @@
         {
           "date": "2026-11-03",
           "volume": 24.319
+        },
+        {
+          "date": "2026-11-04",
+          "volume": 54.0
         }
       ],
-      "volumeMedian20": 20.47,
+      "volumeMedian20": 21.05,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-11-03",
+      "volumeMedian20AsOf": "2026-11-04",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2882B.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "code": "2883B",
       "name": "開發金乙特",
-      "price": 8.63,
+      "price": 8.61,
       "par": 10,
-      "yield": 4.06,
-      "irr": 10.85,
+      "yield": 4.07,
+      "irr": 10.98,
       "call": true,
       "callDate": "2028-12-30",
       "callPrice": 10,
@@ -1695,10 +1695,10 @@
       "resetCycleYears": 7,
       "issueBaseRate": 0.75,
       "legacyIrr": 13.9,
-      "xirr": 10.85,
+      "xirr": 10.98,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
-      "callIrr": 10.85,
+      "callIrr": 10.98,
       "callIrrMethod": "首次可贖回情境 IRR：除息日股息 + 贖回本金，Actual/365；距可贖回日過短時不顯示年化值",
       "firstCallDate": "2028-12-30",
       "nextResetDate": "2028-12-30",
@@ -1710,21 +1710,17 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 3,
       "market": "tse",
-      "quoteDate": "20261103",
+      "quoteDate": "20261104",
       "quoteTime": "13:30:00",
-      "previousClose": 8.66,
-      "open": 8.66,
-      "high": 8.67,
-      "low": 8.6,
-      "volume": 1381.0,
+      "previousClose": 8.63,
+      "open": 8.63,
+      "high": 8.63,
+      "low": 8.56,
+      "volume": 2241.0,
       "lastPriceBeforeUpdate": 8.63,
-      "changePct": -0.35,
-      "marketUpdatedAt": "2026-11-04T00:42:45+08:00",
+      "changePct": -0.23,
+      "marketUpdatedAt": "2026-11-04T22:53:03+08:00",
       "volumeHistory20": [
-        {
-          "date": "2026-10-02",
-          "volume": 1708.082
-        },
         {
           "date": "2026-10-05",
           "volume": 1995.235
@@ -1800,11 +1796,15 @@
         {
           "date": "2026-11-03",
           "volume": 1386.113
+        },
+        {
+          "date": "2026-11-04",
+          "volume": 2253.579
         }
       ],
       "volumeMedian20": 968.88,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-11-03",
+      "volumeMedian20AsOf": "2026-11-04",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2883B.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)"
     },
@@ -1849,21 +1849,17 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 5,
       "market": "tse",
-      "quoteDate": "20261103",
+      "quoteDate": "20261104",
       "quoteTime": "13:30:00",
       "previousClose": 47.95,
-      "open": 47.9,
+      "open": 47.95,
       "high": 47.95,
       "low": 47.7,
-      "volume": 224.0,
+      "volume": 188.0,
       "lastPriceBeforeUpdate": 47.95,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-11-04T00:42:45+08:00",
+      "marketUpdatedAt": "2026-11-04T22:53:03+08:00",
       "volumeHistory20": [
-        {
-          "date": "2026-10-02",
-          "volume": 216.645
-        },
         {
           "date": "2026-10-05",
           "volume": 147.024
@@ -1939,20 +1935,24 @@
         {
           "date": "2026-11-03",
           "volume": 226.295
+        },
+        {
+          "date": "2026-11-04",
+          "volume": 188.423
         }
       ],
-      "volumeMedian20": 196.81,
+      "volumeMedian20": 191.41,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-11-03",
+      "volumeMedian20AsOf": "2026-11-04",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2887E.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "code": "2887F",
       "name": "台新戊特二",
-      "price": 45.0,
+      "price": 44.8,
       "par": 50,
-      "yield": 4.89,
+      "yield": 4.91,
       "irr": null,
       "call": true,
       "callDate": "2025-11-30",
@@ -1973,7 +1973,7 @@
       "formulaSource": "台新戊特二上市公告",
       "resetCycleYears": 7,
       "issueBaseRate": 1.1,
-      "xirr": 6.49,
+      "xirr": 6.58,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -1988,21 +1988,17 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 7,
       "market": "tse",
-      "quoteDate": "20261103",
+      "quoteDate": "20261104",
       "quoteTime": "13:30:00",
-      "previousClose": 45.0,
-      "open": 45.0,
-      "high": 45.0,
+      "previousClose": 44.8,
+      "open": 44.85,
+      "high": 44.85,
       "low": 44.8,
-      "volume": 53.0,
+      "volume": 21.0,
       "lastPriceBeforeUpdate": 45.0,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-11-04T00:42:45+08:00",
+      "marketUpdatedAt": "2026-11-04T22:53:03+08:00",
       "volumeHistory20": [
-        {
-          "date": "2026-10-02",
-          "volume": 34.28
-        },
         {
           "date": "2026-10-05",
           "volume": 50.867
@@ -2078,11 +2074,15 @@
         {
           "date": "2026-11-03",
           "volume": 53.66
+        },
+        {
+          "date": "2026-11-04",
+          "volume": 21.641
         }
       ],
-      "volumeMedian20": 26.39,
+      "volumeMedian20": 26.01,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-11-03",
+      "volumeMedian20AsOf": "2026-11-04",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2887F.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)"
     },
@@ -2127,22 +2127,18 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 8,
       "market": "tse",
-      "quoteDate": "20261103",
+      "quoteDate": "20261104",
       "quoteTime": "13:30:00",
-      "previousClose": 44.1,
+      "previousClose": 44.05,
       "open": 44.1,
-      "high": 44.1,
+      "high": 44.3,
       "low": 44.05,
-      "volume": 83.0,
+      "volume": 173.0,
       "lastPriceBeforeUpdate": 44.1,
-      "changePct": 0.0,
-      "marketUpdatedAt": "2026-11-04T00:42:45+08:00",
+      "changePct": 0.11,
+      "marketUpdatedAt": "2026-11-04T22:53:03+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
-        {
-          "date": "2026-10-02",
-          "volume": 137.016
-        },
         {
           "date": "2026-10-05",
           "volume": 280.291
@@ -2213,25 +2209,29 @@
         },
         {
           "date": "2026-11-02",
-          "volume": 20.0
+          "volume": 20.377
         },
         {
           "date": "2026-11-03",
-          "volume": 83.0
+          "volume": 83.271
+        },
+        {
+          "date": "2026-11-04",
+          "volume": 173.135
         }
       ],
-      "volumeMedian20": 91.86,
+      "volumeMedian20": 91.99,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-11-03",
+      "volumeMedian20AsOf": "2026-11-04",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2887G.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301"
     },
     {
       "code": "2887H",
       "name": "台新庚特二",
-      "price": 42.6,
+      "price": 42.45,
       "par": 45,
-      "yield": 4.23,
-      "irr": 12.18,
+      "yield": 4.24,
+      "irr": 12.67,
       "call": true,
       "callDate": "2027-09-01",
       "callPrice": 45,
@@ -2251,10 +2251,10 @@
       "issueBaseRate": 0.68,
       "issueRate": 4.0,
       "legacyIrr": 13.5,
-      "xirr": 12.18,
+      "xirr": 12.67,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
-      "callIrr": 12.18,
+      "callIrr": 12.67,
       "callIrrMethod": "首次可贖回情境 IRR：除息日股息 + 贖回本金，Actual/365；距可贖回日過短時不顯示年化值",
       "issueDate": "2025-07-24",
       "firstCallDate": "2027-09-01",
@@ -2267,22 +2267,18 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 2,
       "market": "tse",
-      "quoteDate": "20261103",
+      "quoteDate": "20261104",
       "quoteTime": "13:30:00",
-      "previousClose": 42.6,
+      "previousClose": 42.5,
       "open": 42.55,
-      "high": 42.6,
-      "low": 42.45,
-      "volume": 37.0,
+      "high": 42.55,
+      "low": 42.25,
+      "volume": 212.0,
       "lastPriceBeforeUpdate": 42.6,
-      "changePct": 0.0,
-      "marketUpdatedAt": "2026-11-04T00:42:45+08:00",
+      "changePct": -0.12,
+      "marketUpdatedAt": "2026-11-04T22:53:03+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
-        {
-          "date": "2026-10-02",
-          "volume": 356.12
-        },
         {
           "date": "2026-10-05",
           "volume": 160.811
@@ -2353,16 +2349,20 @@
         },
         {
           "date": "2026-11-02",
-          "volume": 38.0
+          "volume": 38.33
         },
         {
           "date": "2026-11-03",
-          "volume": 37.0
+          "volume": 37.284
+        },
+        {
+          "date": "2026-11-04",
+          "volume": 212.3
         }
       ],
       "volumeMedian20": 154.72,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-11-03",
+      "volumeMedian20AsOf": "2026-11-04",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2887H.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301"
     },
     {
@@ -2405,22 +2405,18 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 3,
       "market": "tse",
-      "quoteDate": "20261103",
+      "quoteDate": "20261104",
       "quoteTime": "13:30:00",
       "previousClose": 9.54,
       "open": 9.55,
       "high": 9.55,
       "low": 9.53,
-      "volume": 7298.0,
+      "volume": 6861.0,
       "lastPriceBeforeUpdate": 9.54,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-11-04T00:42:45+08:00",
+      "marketUpdatedAt": "2026-11-04T22:53:03+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
-        {
-          "date": "2026-10-02",
-          "volume": 2453.857
-        },
         {
           "date": "2026-10-05",
           "volume": 4660.254
@@ -2491,16 +2487,20 @@
         },
         {
           "date": "2026-11-02",
-          "volume": 1679.0
+          "volume": 1701.913
         },
         {
           "date": "2026-11-03",
-          "volume": 7298.0
+          "volume": 7324.411
+        },
+        {
+          "date": "2026-11-04",
+          "volume": 6886.481
         }
       ],
-      "volumeMedian20": 2576.38,
+      "volumeMedian20": 2731.39,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-11-03",
+      "volumeMedian20AsOf": "2026-11-04",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2887I.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301"
     },
     {
@@ -2544,22 +2544,18 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 6,
       "market": "tse",
-      "quoteDate": "20261103",
+      "quoteDate": "20261104",
       "quoteTime": "13:30:00",
-      "previousClose": 61.7,
-      "open": 61.6,
-      "high": 61.7,
+      "previousClose": 61.5,
+      "open": 61.5,
+      "high": 61.6,
       "low": 61.5,
-      "volume": 4.0,
+      "volume": 6.0,
       "lastPriceBeforeUpdate": 61.5,
-      "changePct": -0.32,
-      "marketUpdatedAt": "2026-11-04T00:42:45+08:00",
+      "changePct": 0.0,
+      "marketUpdatedAt": "2026-11-04T22:53:03+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
-        {
-          "date": "2026-10-02",
-          "volume": 13.059
-        },
         {
           "date": "2026-10-05",
           "volume": 8.496
@@ -2635,11 +2631,15 @@
         {
           "date": "2026-11-03",
           "volume": 4.0
+        },
+        {
+          "date": "2026-11-04",
+          "volume": 6.0
         }
       ],
-      "volumeMedian20": 5.06,
+      "volumeMedian20": 5.0,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-11-03",
+      "volumeMedian20AsOf": "2026-11-04",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_2891B.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301"
     },
     {
@@ -2683,22 +2683,18 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 7,
       "market": "tse",
-      "quoteDate": "20261103",
+      "quoteDate": "20261104",
       "quoteTime": "13:30:00",
       "previousClose": 60.5,
-      "open": 60.5,
+      "open": 60.3,
       "high": 60.5,
-      "low": 60.5,
-      "volume": 3.0,
+      "low": 60.3,
+      "volume": 2.0,
       "lastPriceBeforeUpdate": 60.5,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-11-04T00:42:45+08:00",
+      "marketUpdatedAt": "2026-11-04T22:53:03+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
-        {
-          "date": "2026-10-02",
-          "volume": 6.0
-        },
         {
           "date": "2026-10-05",
           "volume": 11.0
@@ -2774,11 +2770,15 @@
         {
           "date": "2026-11-03",
           "volume": 3.0
+        },
+        {
+          "date": "2026-11-04",
+          "volume": 2.0
         }
       ],
-      "volumeMedian20": 3.5,
+      "volumeMedian20": 3.0,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-11-03",
+      "volumeMedian20AsOf": "2026-11-04",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Read timed out. (read timeout=20)"
     },
     {
@@ -2824,22 +2824,18 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 4,
       "market": "tse",
-      "quoteDate": "20261103",
+      "quoteDate": "20261104",
       "quoteTime": "13:30:00",
       "previousClose": 11.75,
       "open": 11.75,
-      "high": 11.75,
+      "high": 11.8,
       "low": 11.75,
-      "volume": 65.0,
+      "volume": 51.0,
       "lastPriceBeforeUpdate": 11.75,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-11-04T00:42:45+08:00",
+      "marketUpdatedAt": "2026-11-04T22:53:03+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
-        {
-          "date": "2026-10-02",
-          "volume": 13.362
-        },
         {
           "date": "2026-10-05",
           "volume": 23.0
@@ -2915,11 +2911,15 @@
         {
           "date": "2026-11-03",
           "volume": 65.0
+        },
+        {
+          "date": "2026-11-04",
+          "volume": 51.0
         }
       ],
-      "volumeMedian20": 23.5,
+      "volumeMedian20": 24.5,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-11-03",
+      "volumeMedian20AsOf": "2026-11-04",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Read timed out. (read timeout=20)"
     },
     {
@@ -2962,7 +2962,7 @@
       "callIrrMethod": "已進入可隨時贖回期間，無單一未來贖回日，不硬算單一 YTC",
       "xirrStatus": "estimated",
       "xirrCashflowCount": 5,
-      "marketUpdatedAt": "2026-11-04T00:42:45+08:00",
+      "marketUpdatedAt": "2026-11-04T22:53:03+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeMedian20": null,
       "volumeMedian20Samples": 0,
@@ -3009,22 +3009,18 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 5,
       "market": "tse",
-      "quoteDate": "20261103",
+      "quoteDate": "20261104",
       "quoteTime": "13:30:00",
-      "previousClose": 99.8,
-      "open": 99.8,
-      "high": 99.8,
-      "low": 99.6,
-      "volume": 38.0,
+      "previousClose": 99.6,
+      "open": 99.6,
+      "high": 99.6,
+      "low": 99.4,
+      "volume": 107.0,
       "lastPriceBeforeUpdate": 99.6,
-      "changePct": -0.2,
-      "marketUpdatedAt": "2026-11-04T00:42:45+08:00",
+      "changePct": 0.0,
+      "marketUpdatedAt": "2026-11-04T22:53:03+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
-        {
-          "date": "2026-10-02",
-          "volume": 79.108
-        },
         {
           "date": "2026-10-05",
           "volume": 117.2
@@ -3100,11 +3096,15 @@
         {
           "date": "2026-11-03",
           "volume": 38.0
+        },
+        {
+          "date": "2026-11-04",
+          "volume": 107.0
         }
       ],
       "volumeMedian20": 38.23,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-11-03",
+      "volumeMedian20AsOf": "2026-11-04",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Read timed out. (read timeout=20)"
     },
     {
@@ -3149,22 +3149,18 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 2,
       "market": "tse",
-      "quoteDate": "20261103",
+      "quoteDate": "20261104",
       "quoteTime": "13:30:00",
       "previousClose": 97.1,
-      "open": 97.1,
-      "high": 97.1,
-      "low": 96.8,
-      "volume": 4.0,
+      "open": 97.0,
+      "high": 97.0,
+      "low": 97.0,
+      "volume": 2.0,
       "lastPriceBeforeUpdate": 97.1,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-11-04T00:42:45+08:00",
+      "marketUpdatedAt": "2026-11-04T22:53:03+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
-        {
-          "date": "2026-10-02",
-          "volume": 0.371
-        },
         {
           "date": "2026-10-05",
           "volume": 1.417
@@ -3240,11 +3236,15 @@
         {
           "date": "2026-11-03",
           "volume": 4.0
+        },
+        {
+          "date": "2026-11-04",
+          "volume": 2.0
         }
       ],
-      "volumeMedian20": 1.71,
+      "volumeMedian20": 2.0,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-11-03",
+      "volumeMedian20AsOf": "2026-11-04",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Read timed out. (read timeout=20)"
     },
     {
@@ -3289,22 +3289,18 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 3,
       "market": "tse",
-      "quoteDate": "20261103",
+      "quoteDate": "20261104",
       "quoteTime": "13:30:00",
       "previousClose": 94.8,
-      "open": 94.4,
-      "high": 94.8,
-      "low": 94.4,
-      "volume": 2.0,
+      "open": 94.6,
+      "high": 94.6,
+      "low": 94.6,
+      "volume": 1.0,
       "lastPriceBeforeUpdate": 94.8,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-11-04T00:42:45+08:00",
+      "marketUpdatedAt": "2026-11-04T22:53:03+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
-        {
-          "date": "2026-10-02",
-          "volume": 1.0
-        },
         {
           "date": "2026-10-05",
           "volume": 3.857
@@ -3380,20 +3376,24 @@
         {
           "date": "2026-11-03",
           "volume": 2.0
+        },
+        {
+          "date": "2026-11-04",
+          "volume": 1.0
         }
       ],
       "volumeMedian20": 3.04,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-11-03",
+      "volumeMedian20AsOf": "2026-11-04",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_6592B.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301"
     },
     {
       "code": "6958A",
       "name": "日盛台駿甲特",
-      "price": 21.0,
+      "price": 20.85,
       "par": 25,
-      "yield": 6.05,
-      "irr": 9.93,
+      "yield": 6.09,
+      "irr": 10.14,
       "call": true,
       "callDate": "2031-01-07",
       "callPrice": 25,
@@ -3413,10 +3413,10 @@
       "issueBaseRate": 1.689,
       "issueRate": 5.2,
       "legacyIrr": 13.2,
-      "xirr": 9.93,
+      "xirr": 10.14,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
-      "callIrr": 9.93,
+      "callIrr": 10.14,
       "callIrrMethod": "首次可贖回情境 IRR：除息日股息 + 贖回本金，Actual/365；距可贖回日過短時不顯示年化值",
       "issueDate": "2026-01-07",
       "firstCallDate": "2031-01-07",
@@ -3429,22 +3429,18 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 5,
       "market": "tse",
-      "quoteDate": "20261103",
+      "quoteDate": "20261104",
       "quoteTime": "13:30:00",
-      "previousClose": 21.0,
-      "open": 20.4,
-      "high": 20.85,
-      "low": 20.35,
-      "volume": 7.0,
+      "previousClose": 20.85,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": 0.0,
       "lastPriceBeforeUpdate": 21.0,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-11-04T00:42:45+08:00",
+      "marketUpdatedAt": "2026-11-04T22:53:03+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
-        {
-          "date": "2026-10-02",
-          "volume": 1.0
-        },
         {
           "date": "2026-10-05",
           "volume": 8.0
@@ -3520,20 +3516,24 @@
         {
           "date": "2026-11-03",
           "volume": 7.0
+        },
+        {
+          "date": "2026-11-04",
+          "volume": 0
         }
       ],
       "volumeMedian20": 4.0,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-11-03",
+      "volumeMedian20AsOf": "2026-11-04",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_6958A.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301"
     },
     {
       "code": "8112A",
       "name": "至上甲特",
-      "price": 45.55,
+      "price": 45.5,
       "par": 45,
-      "yield": 4.43,
-      "irr": -3.54,
+      "yield": 4.44,
+      "irr": -3.23,
       "call": true,
       "callDate": "2027-03-07",
       "callPrice": 45,
@@ -3553,10 +3553,10 @@
       "issueBaseRate": 0.87,
       "issueRate": 4.5,
       "legacyIrr": 8.9,
-      "xirr": -3.54,
+      "xirr": -3.23,
       "xirrMethod": "除息日基準 XIRR（未公告未來除息日採最近季節性估算）",
       "cashflowCoverage": "官方除息日覆蓋",
-      "callIrr": -3.54,
+      "callIrr": -3.23,
       "callIrrMethod": "首次可贖回情境 IRR：除息日股息 + 贖回本金，Actual/365；距可贖回日過短時不顯示年化值",
       "issueDate": "2022-03-07",
       "firstCallDate": "2027-03-07",
@@ -3569,22 +3569,18 @@
       "xirrStatus": "official-dates",
       "xirrCashflowCount": 1,
       "market": "tse",
-      "quoteDate": "20261103",
+      "quoteDate": "20261104",
       "quoteTime": "13:30:00",
-      "previousClose": 45.55,
-      "open": 45.6,
-      "high": 45.6,
-      "low": 45.5,
-      "volume": 20.0,
+      "previousClose": 45.5,
+      "open": 45.5,
+      "high": 45.5,
+      "low": 45.45,
+      "volume": 48.0,
       "lastPriceBeforeUpdate": 45.55,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-11-04T00:42:45+08:00",
+      "marketUpdatedAt": "2026-11-04T22:53:03+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
-        {
-          "date": "2026-10-02",
-          "volume": 11.73
-        },
         {
           "date": "2026-10-05",
           "volume": 21.297
@@ -3660,19 +3656,23 @@
         {
           "date": "2026-11-03",
           "volume": 20.0
+        },
+        {
+          "date": "2026-11-04",
+          "volume": 48.0
         }
       ],
       "volumeMedian20": 6.51,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-11-03",
+      "volumeMedian20AsOf": "2026-11-04",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_8112A.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301"
     },
     {
       "code": "8349A",
       "name": "恒耀國際甲特",
-      "price": 45.1,
+      "price": 45.05,
       "par": 50,
-      "yield": 4.92,
+      "yield": 4.93,
       "irr": null,
       "call": true,
       "callDate": "2025-02-19",
@@ -3692,7 +3692,7 @@
       "resetCycleYears": 5,
       "issueBaseRate": 0.72875,
       "issueRate": 3.8,
-      "xirr": 7.67,
+      "xirr": 7.71,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -3708,22 +3708,18 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 4,
       "market": "otc",
-      "quoteDate": "20261103",
+      "quoteDate": "20261104",
       "quoteTime": "13:30:00",
-      "previousClose": 45.1,
+      "previousClose": 45.05,
       "open": 45.05,
       "high": 45.05,
       "low": 45.05,
       "volume": 1.0,
       "lastPriceBeforeUpdate": 45.1,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-11-04T00:42:45+08:00",
+      "marketUpdatedAt": "2026-11-04T22:53:03+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
-        {
-          "date": "2026-10-02",
-          "volume": 1.0
-        },
         {
           "date": "2026-10-05",
           "volume": 14.0
@@ -3799,19 +3795,23 @@
         {
           "date": "2026-11-03",
           "volume": 1.0
+        },
+        {
+          "date": "2026-11-04",
+          "volume": 1.0
         }
       ],
       "volumeMedian20": 3.0,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-11-03",
+      "volumeMedian20AsOf": "2026-11-04",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_8349A.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301"
     },
     {
       "code": "9941A",
       "name": "裕融企業甲種特別股",
-      "price": 48.7,
+      "price": 48.5,
       "par": 50,
-      "yield": 4.19,
+      "yield": 4.21,
       "irr": null,
       "call": true,
       "callDate": "2023-10-16",
@@ -3831,7 +3831,7 @@
       "resetCycleYears": 5,
       "issueBaseRate": 0.93875,
       "issueRate": 4.0,
-      "xirr": 5.7,
+      "xirr": 5.93,
       "xirrMethod": "續存至下一重設日情境 XIRR（終值以贖回價/面額作比較假設）",
       "cashflowCoverage": "估算（含未公告未來除息日）",
       "callIrr": null,
@@ -3847,22 +3847,18 @@
       "xirrStatus": "estimated",
       "xirrCashflowCount": 3,
       "market": "tse",
-      "quoteDate": "20261103",
+      "quoteDate": "20261104",
       "quoteTime": "13:30:00",
-      "previousClose": 48.7,
-      "open": 48.7,
-      "high": 48.7,
-      "low": 48.5,
+      "previousClose": 48.5,
+      "open": 48.5,
+      "high": 48.5,
+      "low": 48.4,
       "volume": 6.0,
       "lastPriceBeforeUpdate": 48.7,
       "changePct": 0.0,
-      "marketUpdatedAt": "2026-11-04T00:42:45+08:00",
+      "marketUpdatedAt": "2026-11-04T22:53:03+08:00",
       "volumeHistoryError": "Expecting value: line 1 column 1 (char 0)",
       "volumeHistory20": [
-        {
-          "date": "2026-10-02",
-          "volume": 11.03
-        },
         {
           "date": "2026-10-05",
           "volume": 5.095
@@ -3938,11 +3934,15 @@
         {
           "date": "2026-11-03",
           "volume": 6.0
+        },
+        {
+          "date": "2026-11-04",
+          "volume": 6.0
         }
       ],
       "volumeMedian20": 5.55,
       "volumeMedian20Samples": 20,
-      "volumeMedian20AsOf": "2026-11-03",
+      "volumeMedian20AsOf": "2026-11-04",
       "marketUpdateError": "HTTPSConnectionPool(host='mis.twse.com.tw', port=443): Max retries exceeded with url: /stock/api/getStockInfo.jsp?ex_ch=tse_9941A.tw&json=1&delay=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mis.twse.com.tw', port=443) at 0x7f301"
     }
   ],
@@ -3965,9 +3965,10 @@
     "綜合評分",
     "完整排序功能"
   ],
-  "marketUpdatedAt": "2026-11-04T00:42:45+08:00",
-  "marketUpdateSuccessCount": 27,
+  "marketUpdatedAt": "2026-11-04T22:53:03+08:00",
+  "marketUpdateSuccessCount": 26,
   "marketUpdateFailCodes": [
+    "1101B",
     "1522A",
     "3036A"
   ],
