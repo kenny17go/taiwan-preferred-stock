@@ -1,0 +1,79 @@
+[
+  {
+    "issuerCode": "2330",
+    "issueDate": "2026-07-30",
+    "leadUnderwriter": "台新綜合證券股份有限公司",
+    "matchLevel": "issuer_date_unverified_bond",
+    "sourceUrl": "https://www.pscnet.com.tw/pscnetBond/underwrite/list.do"
+  },
+  {
+    "issuerCode": "2330",
+    "issueDate": "2026-05-22",
+    "leadUnderwriter": "凱基證券",
+    "matchLevel": "issuer_date_unverified_bond",
+    "sourceUrl": "https://www.pscnet.com.tw/pscnetBond/underwrite/list.do"
+  },
+  {
+    "issuerCode": "2317",
+    "issueDate": "2026-09-04",
+    "leadUnderwriter": "台新綜合證券股份有限公司",
+    "matchLevel": "issuer_date_unverified_bond",
+    "sourceUrl": "https://www.pscnet.com.tw/pscnetBond/underwrite/list.do"
+  },
+  {
+    "issuerCode": "9963",
+    "issueDate": "2026-08-17",
+    "leadUnderwriter": "富邦綜合證券股份有限公司",
+    "matchLevel": "issuer_date_unverified_bond",
+    "sourceUrl": "https://www.pscnet.com.tw/pscnetBond/underwrite/list.do"
+  },
+  {
+    "issuerCode": "9963",
+    "issueDate": "2026-07-15",
+    "leadUnderwriter": "元大證券股份有限公司",
+    "matchLevel": "issuer_date_unverified_bond",
+    "sourceUrl": "https://www.pscnet.com.tw/pscnetBond/underwrite/list.do"
+  },
+  {
+    "issuerCode": "1328",
+    "issueDate": "2026-01-14",
+    "leadUnderwriter": "永豐金證券",
+    "matchLevel": "issuer_date_unverified_bond",
+    "sourceUrl": "https://www.pscnet.com.tw/pscnetBond/underwrite/list.do"
+  },
+  {
+    "issuerCode": "2330",
+    "issueDate": "2026-03-31",
+    "leadUnderwriter": "元大證券",
+    "matchLevel": "issuer_date_unverified_bond",
+    "sourceUrl": "https://www.pscnet.com.tw/pscnetBond/underwrite/list.do"
+  },
+  {
+    "issuerCode": "2317",
+    "issueDate": "2026-05-20",
+    "leadUnderwriter": "台新綜合證券",
+    "matchLevel": "issuer_date_unverified_bond",
+    "sourceUrl": "https://www.pscnet.com.tw/pscnetBond/underwrite/list.do"
+  },
+  {
+    "issuerCode": "9963",
+    "issueDate": "2026-06-15",
+    "leadUnderwriter": "合作金庫證券",
+    "matchLevel": "issuer_date_unverified_bond",
+    "sourceUrl": "https://www.pscnet.com.tw/pscnetBond/underwrite/list.do"
+  },
+  {
+    "issuerCode": "9963",
+    "issueDate": "2026-04-23",
+    "leadUnderwriter": "群益金鼎證券",
+    "matchLevel": "issuer_date_unverified_bond",
+    "sourceUrl": "https://www.pscnet.com.tw/pscnetBond/underwrite/list.do"
+  },
+  {
+    "issuerCode": "9963",
+    "issueDate": "2026-01-12",
+    "leadUnderwriter": "華南永昌綜合證券",
+    "matchLevel": "issuer_date_unverified_bond",
+    "sourceUrl": "https://www.pscnet.com.tw/pscnetBond/underwrite/list.do"
+  }
+]
