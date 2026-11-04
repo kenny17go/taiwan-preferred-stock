@@ -1,0 +1,146 @@
+{
+  "issuerCode": "2330",
+  "issuerName": "台灣積體電路製造股份有限公司",
+  "issueDate": "2026-05-22",
+  "issue": "115年度第2期無擔保普通公司債",
+  "currency": "TWD",
+  "unit": "億元",
+  "tranches": [
+    {
+      "name": "甲類",
+      "tenorYears": 5,
+      "amount": 137
+    },
+    {
+      "name": "乙類",
+      "tenorYears": 10,
+      "amount": 47
+    }
+  ],
+  "totalAmount": 184,
+  "leadUnderwriter": "凱基證券股份有限公司",
+  "underwriters": [
+    {
+      "name": "凱基證券股份有限公司",
+      "alpha": 27,
+      "beta": 23,
+      "total": 50
+    },
+    {
+      "name": "元大證券股份有限公司",
+      "alpha": 21,
+      "beta": 3,
+      "total": 24
+    },
+    {
+      "name": "凱基商業銀行股份有限公司",
+      "alpha": 15,
+      "beta": 0,
+      "total": 15
+    },
+    {
+      "name": "合作金庫商業銀行股份有限公司",
+      "alpha": 5,
+      "beta": 10,
+      "total": 15
+    },
+    {
+      "name": "華南永昌綜合證券股份有限公司",
+      "alpha": 13,
+      "beta": 0,
+      "total": 13
+    },
+    {
+      "name": "富邦綜合證券股份有限公司",
+      "alpha": 7,
+      "beta": 5,
+      "total": 12
+    },
+    {
+      "name": "台新國際商業銀行股份有限公司",
+      "alpha": 8,
+      "beta": 0,
+      "total": 8
+    },
+    {
+      "name": "群益金鼎證券股份有限公司",
+      "alpha": 5,
+      "beta": 3,
+      "total": 8
+    },
+    {
+      "name": "台新綜合證券股份有限公司",
+      "alpha": 7,
+      "beta": 0,
+      "total": 7
+    },
+    {
+      "name": "永豐金證券股份有限公司",
+      "alpha": 6,
+      "beta": 0,
+      "total": 6
+    },
+    {
+      "name": "統一綜合證券股份有限公司",
+      "alpha": 4,
+      "beta": 0,
+      "total": 4
+    },
+    {
+      "name": "中國信託商業銀行股份有限公司",
+      "alpha": 4,
+      "beta": 0,
+      "total": 4
+    },
+    {
+      "name": "兆豐證券股份有限公司",
+      "alpha": 1,
+      "beta": 3,
+      "total": 4
+    },
+    {
+      "name": "國泰世華商業銀行股份有限公司",
+      "alpha": 3,
+      "beta": 0,
+      "total": 3
+    },
+    {
+      "name": "合作金庫證券股份有限公司",
+      "alpha": 3,
+      "beta": 0,
+      "total": 3
+    },
+    {
+      "name": "康和綜合證券股份有限公司",
+      "alpha": 3,
+      "beta": 0,
+      "total": 3
+    },
+    {
+      "name": "臺銀綜合證券股份有限公司",
+      "alpha": 2,
+      "beta": 0,
+      "total": 2
+    },
+    {
+      "name": "陽信商業銀行股份有限公司",
+      "alpha": 1,
+      "beta": 0,
+      "total": 1
+    },
+    {
+      "name": "亞東證券股份有限公司",
+      "alpha": 1,
+      "beta": 0,
+      "total": 1
+    },
+    {
+      "name": "第一金證券股份有限公司",
+      "alpha": 1,
+      "beta": 0,
+      "total": 1
+    }
+  ],
+  "sourceUrl": "https://www.osc.com.tw/Upload/20260521/%E5%8F%B0%E7%A9%8D%E9%9B%BB115-2%20%E6%89%BF%E9%8A%B7%E5%85%AC%E5%91%8A%E7%A8%BF.pdf",
+  "verification": "公告逐家承銷金額已核對；債券代碼尚未匹配"
+}
